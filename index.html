@@ -13,13 +13,15 @@
 </head>
 
 <body>
+    <!-- HEADER  -->
     <header>
+        <!-- large screen navigation  -->
         <nav class="navbar my-large-nav">
             <div class="container-xxl ">
-                
-                <div class="col-3 my-logo-large"><a href="#"><img src="./assets/icons/Rabbit-logo-large.svg"></a></div>
-                
-                <div class="col-9">
+
+                <div class="col-4 my-logo-large"><a href="#"><img src="./assets/icons/Rabbit-logo-large.svg"></a></div>
+
+                <div class="col-8">
                     <ul class="my-large-navbar">
                         <li class="my-large-navbar-item">
                             <a class="my-large-navbar-link active" aria-current="page" href="#">About</a>
@@ -33,56 +35,90 @@
                         <li class="my-large-navbar-item">
                             <button id="large-donate-button" href="#">Donate</button>
                         </li>
-                        
-                        
                     </ul>
-                    
                 </div>
-               
             </div>
-        </div>
         </nav>
-        <nav class="navbar bg-light my-burger-nav">
+        <!-- end of large screen navigation  -->
+
+        <!-- small screen navigation  -->
+        <nav class="navbar my-burger-nav">
             <div class="container-xxl ">
-              <a class="my-logo-small" ><img src="./assets/icons/Rabbit-logo-small.svg"></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
-                <img src="./assets/icons/burger.svg">
-              </button>
-              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
-                <div class="offcanvas-body">
-                  <ul class="my-burger-navbar justify-content-end flex-grow-1 pe-3">
-                    <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">About</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Adopt</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" aria-current="page" href="#">Contact Us</a>
-                  </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="#">Donate</a>
-                  </li>
-                  </ul>
-                  
+                <a class="my-logo-small"><img src="./assets/icons/Rabbit-logo-small.svg"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas"
+                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                    <img src="./assets/icons/burger.svg">
+                </button>
+                <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
+                    aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-body">
+                        <ul class="my-burger-navbar">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Adopt</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="#">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Donate</a>
+                            </li>
+                        </ul>
+
+                    </div>
                 </div>
-              </div>
             </div>
-          </nav>
+        </nav>
+        <!-- end of small screen navigation  -->
     </header>
-    </div>
+    <!-- end of HEADER  -->
+
+
     <main class="container-xxl">
         Main
     </main>
+
+    <!-- FOOTER  -->
     <footer class="container-xxl">
-        Footer
+        <section id="my-footer-main">
+            <div class="my-footer-item">
+                <img id="my-footer-location-img" src="./assets/icons/location.svg">
+                <address>
+                    Hopper Farm<br>Old Windsor, Berkshire<br>SL5 9YY United Kingdom
+                </address>
+            </div>
+            <div id="my-footer-item-contacts">
+                <div class="my-footer-item">
+                    <img id="my-footer-phone-img" src="./assets/icons/phone.svg">
+                    <p>+44 555 1234 678</p>
+                </div>
+                <div class="my-footer-item">
+                    <img id="my-footer-letter-img" src="./assets/icons/letter.svg">
+                    <p>getintouch@hopper.org.uk</p>
+                </div>
+            </div>
+            <div id="my-footer-item-social">
+                <p>Follow Us:</p>
+                <img id="my-footer-social-img" src="./assets/icons/social-media.svg">
+            </div>
+        </section>
+        <section class="my-footer-small-print">
+
+        </section>
     </footer>
+    <!-- end of FOOTER  -->
+
+    <!-- BOOTSTRAP scripts  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
         integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"
         integrity="sha384-cuYeSxntonz0PPNlHhBs68uyIAVpIIOZZ5JqeqvYYIcEL727kskC66kF92t6Xl2V" crossorigin="anonymous">
     </script>
+
+
 </body>
 
 </html>

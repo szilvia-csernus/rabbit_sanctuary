@@ -8,7 +8,7 @@
 
 /* --------------- RESET ------------- */
 
-html, body, header, footer, section, article, h1, h2, h3, p, a, button {
+html, body, header, footer, section, article, h1, h2, h3, p, a, button, ul, address {
     margin: 0;
     border: 0;
     padding: 0;
@@ -54,6 +54,8 @@ li {
     --my-donate-form-font-family: "Roboto";
 
     --my-body-font-size: 20px;
+
+   
 }
 
 
@@ -66,7 +68,7 @@ body {
 }
 
 header {
-    padding: .5rem 1rem;
+    padding: 1rem 2rem .5rem;
     font-family: var(--my-main-font-family);
 
 }
@@ -86,13 +88,13 @@ header {
     display: block;
     font-size: 20px;
     color: var(--my-primary-color);
-    padding: 2px 20px;
+    padding: 5px 20px;
     border: 1px solid transparent;
     border-radius: 10px;
 }
 
-.my-large-navbar a:hover {
-    border-color: var(--my-primary-color);
+.my-large-navbar a:hover:not(a.active) {
+    text-decoration: underline;
 }
 
 .my-large-navbar a.active {
@@ -109,22 +111,36 @@ header {
     background-color: var(--my-primary-dark-color);
 }
 
-.my-burger-navbar {
+.offcanvas {
+    --bs-offcanvas-width: 150px;
+    height: 180px;
+}
+
+.offcanvas.offcanvas-end {
+    top: 20px;
+}
+
+.offcanvas-body {
+    width: var(--bs-offcanvas-width);
+    height: auto;
+    padding: 0;
     
+}
+.my-burger-navbar {
+    padding: 10px 10px 10px 20px;
+    line-height: 2.5rem;
 }
 
 button.navbar-toggler {
     border: none;
 }
 
-img.my-logo-large {
-    /* justify-content: flex-start; */
-    min-width: 250px;
+.my-logo-large {
+    width: 220px;
 }
 
-img.my-logo-small {
-    /* justify-content: flex-start; */
-    width: 200px;
+.my-logo-small {
+    min-width: 180px;
 }
 
 
@@ -147,8 +163,117 @@ main {
 /* --------------- FOOTER ------------- */
 
 footer {
-    background-color: cornflowerblue;
+    background-color: var(--my-primary-color);
+    color: white;
+    height: 320px;
+    
+    font-family: var(--my-body-font-family);
+    font-size: 14px;
+    letter-spacing: .05rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
+
+#my-footer-main {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+#my-footer-small-print {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+.my-footer-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+#my-footer-item-social,
+#my-footer-item-contacts {
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#my-footer-item-contacts {
+    justify-content: space-around;
+}
+
+
+#my-footer-location-img {
+    width: 30px;
+    height: 30px;
+    margin-right: .5rem;
+}
+
+#my-footer-phone-img {
+    width: 28px;
+    height: 28px;
+    margin-right: .5rem;
+}
+
+#my-footer-letter-img {
+    width: 30px;
+    height: 20px;
+    margin-right: .5rem;
+}
+
+#my-footer-social-img {
+    width: 120px;
+}
+
+@media screen and (min-width: 768px) {
+    footer {
+        height: 240px;
+        font-size: 18px;
+    }
+    
+    #my-footer-main,
+    #my-footer-small-print {
+        flex-direction: row;
+        align-items: flex-start;
+    }
+
+    #my-footer-item-contacts {
+        order: 3;
+        align-items: flex-end;
+        height: 80px;
+    }
+
+    #my-footer-location-img {
+        width: 50px;
+        height: 50px;
+        margin-right: .5rem;
+    }
+    
+    #my-footer-phone-img {
+        width: 40px;
+        height: 40px;
+        margin-right: .5rem;
+    }
+    
+    #my-footer-letter-img {
+        width: 40px;
+        height: 30px;
+        margin-right: .5rem;
+    }
+
+    #my-footer-social-img {
+        width: 160px;
+    }
+
+}
+
 
 /* ---------------  ------------- */
 /* ---------------  ------------- */
