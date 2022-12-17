@@ -3,7 +3,7 @@
 
 /* --------------- IMPORTS ------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700&family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap');
 
 
 /* --------------- RESET ------------- */
@@ -68,7 +68,7 @@ body {
 }
 
 header {
-    padding: 1rem 2rem .5rem;
+    padding: 1rem 1rem .5rem 1rem;
     font-family: var(--my-main-font-family);
 
 }
@@ -88,23 +88,25 @@ header {
     display: block;
     font-size: 20px;
     color: var(--my-primary-color);
-    padding: 5px 20px;
+    padding: 5px 18px;
+    margin-left: 15px;
     border: 1px solid transparent;
     border-radius: 10px;
-}
-
-.my-large-navbar a:hover:not(a.active) {
-    text-decoration: underline;
 }
 
 .my-large-navbar a.active {
     border-color: var(--my-primary-color);
 }
 
+.my-large-navbar a:hover:not(a.active) {
+    border-bottom: 1px solid var(--my-primary-color);
+    border-radius: 0;
+}
+
 .my-large-navbar button {
     background-color: var(--my-primary-color);
     color: white;
-    margin-left: 5px;
+    margin-left: 15px;
 }
 
 .my-large-navbar button:hover {
@@ -112,8 +114,8 @@ header {
 }
 
 .offcanvas {
-    --bs-offcanvas-width: 150px;
-    height: 180px;
+    --bs-offcanvas-width: 160px;
+    height: 220px;
 }
 
 .offcanvas.offcanvas-end {
@@ -127,12 +129,31 @@ header {
     
 }
 .my-burger-navbar {
-    padding: 10px 10px 10px 20px;
-    line-height: 2.5rem;
+    padding: 10px 10px 10px 10px;
+    line-height: 2.6rem;
+}
+
+.nav-link {
+    display: block;
+    font-size: 1.1rem;
+    color: var(--my-primary-color);
+    padding: 0 1rem;
+    margin: .2rem 0;
+    border: 1px solid transparent;
+    border-radius: 10px;
+}
+
+.my-burger-navbar a.active {
+    border-color: var(--my-primary-color);
+}
+
+.my-burger-navbar a:hover:not(a.active) {
+    font-weight: 700;
 }
 
 button.navbar-toggler {
     border: none;
+    padding: 0;
 }
 
 .my-logo-large {
@@ -163,24 +184,49 @@ main {
 /* --------------- FOOTER ------------- */
 
 footer {
-    background-color: var(--my-primary-color);
-    color: white;
-    height: 320px;
-    
-    font-family: var(--my-body-font-family);
-    font-size: 14px;
-    letter-spacing: .05rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    background-color: var(--my-primary-color);
+    color: white;
+    font-family: var(--my-body-font-family);
+    font-size: .9rem;
+    letter-spacing: 5%;
 }
 
 #my-footer-main {
     display: flex;
-    justify-content: space-between;
-    padding: 1rem 2rem 1rem;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    padding: 1rem;
+}
+
+#my-footer-contacts {
+    align-items: flex-start;
+}
+
+.my-footer-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.my-footer-item:first-of-type {
+    align-items: flex-start;
+}
+
+#my-footer-item-social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-self: center;
+    margin-top: 1rem;
+}
+
+#my-follow-us {
+    display: none;
 }
 
 #my-footer-small-print {
@@ -188,27 +234,22 @@ footer {
     justify-content: space-between;
     flex-direction: column;
     align-items: center;
-}
-.my-footer-item {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 1rem;
+    padding: 1rem;
+    font-size: .8rem;
 }
 
-#my-footer-item-social,
-#my-footer-item-contacts {
-   
+#my-footer-small-print p:first-of-type {
+    text-align: center;
+}
+
+#my-footer-small-print > p > span {
+    font-size: 1rem;
+}
+
+#my-footer-align-box {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-
 }
-
-#my-footer-item-contacts {
-    justify-content: space-around;
-}
-
 
 #my-footer-location-img {
     width: 30px;
@@ -219,59 +260,78 @@ footer {
 #my-footer-phone-img {
     width: 28px;
     height: 28px;
-    margin-right: .5rem;
+    margin-right: 7px;
 }
 
 #my-footer-letter-img {
     width: 30px;
     height: 20px;
-    margin-right: .5rem;
+    margin-right: 5px;
 }
 
 #my-footer-social-img {
     width: 120px;
+    align-self: center;
 }
 
 @media screen and (min-width: 768px) {
     footer {
-        height: 240px;
-        font-size: 18px;
+        font-size: 1rem;
+        font-family: var(--my-main-font-family);
+        letter-spacing: .05rem;
     }
     
-    #my-footer-main,
-    #my-footer-small-print {
-        flex-direction: row;
-        align-items: flex-start;
+    #my-footer-main {
+        display: block;
+        width: 100%;
     }
 
-    #my-footer-item-contacts {
+    #my-footer-align-box {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    #my-footer-contacts {
+        display: flex;
+        flex-direction: column;
         order: 3;
+        justify-content: center;
         align-items: flex-end;
-        height: 80px;
+    }
+
+    #my-footer-item-social {
+        align-self: center;
+        padding: 0 2rem;
+        margin: 0;
     }
 
     #my-footer-location-img {
-        width: 50px;
-        height: 50px;
-        margin-right: .5rem;
-    }
-    
-    #my-footer-phone-img {
         width: 40px;
         height: 40px;
         margin-right: .5rem;
     }
     
-    #my-footer-letter-img {
-        width: 40px;
+    #my-footer-phone-img {
+        width: 30px;
         height: 30px;
         margin-right: .5rem;
     }
-
-    #my-footer-social-img {
-        width: 160px;
+    
+    #my-footer-letter-img {
+        width: 30px;
+        height: 25px;
+        margin-right: .7rem;
     }
 
+    #my-footer-social-img {
+        width: 150px;
+        margin-top: .5rem;
+    }
+
+    #my-follow-us {
+        display: block;
+        align-self: center;
+    }
 }
 
 
