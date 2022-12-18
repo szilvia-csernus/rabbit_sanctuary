@@ -88,8 +88,8 @@ header {
     display: block;
     font-size: 20px;
     color: var(--my-primary-color);
-    padding: 5px 18px;
-    margin-left: 15px;
+    padding: 5px 14px;
+    margin-left: 8px;
     border: 1px solid transparent;
     border-radius: 10px;
 }
@@ -157,15 +157,15 @@ button.navbar-toggler {
 }
 
 .my-logo-large {
-    width: 220px;
+    max-width: 250px; 
 }
 
 .my-logo-small {
-    min-width: 180px;
+    width: 220px;
 }
 
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 780px) {
     header > .my-large-nav {
         display: flex;
     }
@@ -229,6 +229,12 @@ footer {
     display: none;
 }
 
+#my-footer-social-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
 #my-footer-small-print {
     display: flex;
     justify-content: space-between;
@@ -253,25 +259,22 @@ footer {
 
 #my-footer-location-img {
     width: 30px;
-    height: 30px;
-    margin-right: .5rem;
+    margin-right: 7px;
 }
 
 #my-footer-phone-img {
-    width: 28px;
-    height: 28px;
+    width: 30px;
     margin-right: 7px;
 }
 
 #my-footer-letter-img {
     width: 30px;
-    height: 20px;
     margin-right: 5px;
 }
 
-#my-footer-social-img {
-    width: 120px;
-    align-self: center;
+.my-footer-social-img {
+    width: 40px;
+    margin: 0 8px;
 }
 
 @media screen and (min-width: 768px) {
@@ -306,31 +309,25 @@ footer {
     }
 
     #my-footer-location-img {
-        width: 40px;
-        height: 40px;
         margin-right: .5rem;
     }
     
     #my-footer-phone-img {
-        width: 30px;
-        height: 30px;
         margin-right: .5rem;
     }
     
     #my-footer-letter-img {
-        width: 30px;
-        height: 25px;
         margin-right: .7rem;
     }
 
     #my-footer-social-img {
-        width: 150px;
         margin-top: .5rem;
     }
 
     #my-follow-us {
         display: block;
         align-self: center;
+        margin-bottom: 8px;
     }
 }
 
