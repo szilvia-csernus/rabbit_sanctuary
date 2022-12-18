@@ -44,18 +44,23 @@ li {
 
 :root {
     --my-primary-color: #11644d;
-    --my-primary-dark-color: #0a4031;
+    --my-primary-hover-color: #0a4031;
+    --my-primary-text-hover-color: rgb(0, 34, 17);
+
+    --my-primary-text-color: white;
+
     --my-accent-color: #cc4b00;
-    --my-light-grey-bg: #EDEDED;
-    --my-grey-font: #616161;
+    --my-accent-hover-color: #a53e02;
+    --my-accent-text-color: white;
+
+    --my-grey-bg-color: #EDEDED;
+    --my-grey-font-color: #616161;
 
     --my-main-font-family: "Nunito";
     --my-body-font-family: "Nunito Sans";
     --my-donate-form-font-family: "Roboto";
 
-    --my-body-font-size: 20px;
-
-   
+    --my-body-font-size: 1.1rem;
 }
 
 
@@ -70,56 +75,15 @@ body {
 header {
     padding: 1rem 1rem .5rem 1rem;
     font-family: var(--my-main-font-family);
-
-}
-
-.my-large-nav {
-    display: none;
-}
-
-.my-large-navbar {
-    display: flex;
-    justify-content: flex-end;
-    margin: 0;
-}
-
-.my-large-navbar a,
-.my-large-navbar button {
-    display: block;
-    font-size: 20px;
-    color: var(--my-primary-color);
-    padding: 5px 14px;
-    margin-left: 8px;
-    border: 1px solid transparent;
-    border-radius: 10px;
-}
-
-.my-large-navbar a.active {
-    border-color: var(--my-primary-color);
-}
-
-.my-large-navbar a:hover:not(a.active) {
-    border-bottom: 1px solid var(--my-primary-color);
-    border-radius: 0;
-}
-
-.my-large-navbar button {
-    background-color: var(--my-primary-color);
-    color: white;
-    margin-left: 15px;
-}
-
-.my-large-navbar button:hover {
-    background-color: var(--my-primary-dark-color);
 }
 
 .offcanvas {
-    --bs-offcanvas-width: 160px;
-    height: 220px;
+    --bs-offcanvas-width: 10rem;
+    height: 14rem;
 }
 
 .offcanvas.offcanvas-end {
-    top: 20px;
+    top: 1.1rem;
 }
 
 .offcanvas-body {
@@ -128,8 +92,9 @@ header {
     padding: 0;
     
 }
-.my-burger-navbar {
-    padding: 10px 10px 10px 10px;
+
+.my-navbar {
+    padding: .7rem;
     line-height: 2.6rem;
 }
 
@@ -143,34 +108,52 @@ header {
     border-radius: 10px;
 }
 
-.my-burger-navbar a.active {
+.my-navbar a.active {
     border-color: var(--my-primary-color);
 }
 
-.my-burger-navbar a:hover:not(a.active) {
-    font-weight: 700;
+.nav-link:hover:not(a.active) {
+    color: var(--my-primary-text-hover-color);
+}
+
+.my-donate {
+    background-color: var(--my-primary-color);
+    color: var(--my-primary-text-color);
+}
+
+.nav-item .nav-link.my-donate:hover {
+    background-color: var(--my-primary-hover-color);
+    color: var(--my-primary-text-color);
 }
 
 button.navbar-toggler {
     border: none;
-    padding: 0;
+    width: 4rem;
 }
 
-.my-logo-large {
-    max-width: 250px; 
+button.navbar-toggler:focus {
+    box-shadow: none;
 }
 
-.my-logo-small {
-    width: 220px;
+.my-logo {
+    width: 15rem; 
 }
 
-
-@media screen and (min-width: 780px) {
-    header > .my-large-nav {
-        display: flex;
+@media screen and (min-width: 768px) {
+    
+    .offcanvas {
+        flex-direction: row;
     }
-    header > .my-burger-nav {
-        display: none;
+
+    .navbar-expand-md .offcanvas .offcanvas-body {
+        flex-grow: inherit;
+        justify-content: flex-end;
+    }
+
+    .my-navbar {
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
     }
 
 }

@@ -15,42 +15,17 @@
 <body>
     <!-- HEADER  -->
     <header>
-        <nav class="navbar my-large-nav">
+        <nav class="navbar navbar-expand-md my-nav">
             <div class="container-xxl ">
-
-                <div class="col-5 my-logo-large"><a href="./about.html"><img src="./assets/icons/rabbit-logo.svg" alt="Hopper rabbit rescue logo" width="250" height="74"></a></div>
-
-                <div class="col-7">
-                    <ul class="my-large-navbar">
-                        <li class="my-large-navbar-item">
-                            <a class="my-large-navbar-link active" aria-current="page" href="./about.html">About</a>
-                        </li>
-                        <li class="my-large-navbar-item">
-                            <a class="my-large-navbar-link" href="./adopt.html">Adopt</a>
-                        </li>
-                        <li class="my-large-navbar-item">
-                            <a class="my-large-navbar-link" href="./contact.html">Contact Us</a>
-                        </li>
-                        <li class="my-large-navbar-item">
-                            <button id="large-donate-button" href="./donate.html">Donate</button>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-        </nav>
-
-        <!-- mobile screen navigation  -->
-        <nav class="navbar my-burger-nav">
-            <div class="container-xxl ">
-                <a class="my-logo-small" href="./about.html"><img src="./assets/icons/rabbit-logo.svg" alt="Hopper rabbit rescue logo" width="250" height="74"></a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" aria-label="menu icon"
-                    data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                <a class="my-logo" href="./about.html"><img src="./assets/icons/rabbit-logo.svg" alt="Hopper rabbit rescue logo" width="250" height="74"></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" 
+                    data-bs-target="#offcanvasNavbar" aria-expanded="false" aria-controls="offcanvasNavbar" aria-label="toggle navigation">
                     <img src="./assets/icons/burger.svg" alt="menu icon" width="27" height="16">
                 </button>
                 <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                     aria-labelledby="offcanvasNavbarLabel">
                     <div class="offcanvas-body">
-                        <ul class="my-burger-navbar">
+                        <ul class="my-navbar">
                             <li class="nav-item">
                                 <a class="nav-link active" aria-current="page" href="./about.html">About</a>
                             </li>
@@ -61,7 +36,7 @@
                                 <a class="nav-link" href="./contact.html">Contact Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="donate">Donate</a>
+                                <a class="nav-link my-donate" href="./donate.html">Donate</a>
                             </li>
                         </ul>
 
@@ -69,7 +44,6 @@
                 </div>
             </div>
         </nav>
-
     </header>
     <!-- end of HEADER  -->
 
