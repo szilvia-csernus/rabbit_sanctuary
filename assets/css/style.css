@@ -3,12 +3,26 @@
 
 /* --------------- IMPORTS ------------- */
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;700&family=Nunito:wght@400;700&family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito+Sans:wght@400;700&family=Nunito:wght@400;700&display=swap');
 
 
 /* --------------- RESET ------------- */
 
-html, body, header, footer, section, article, h1, h2, h3, p, a, button, ul, address {
+html, 
+body, 
+header, 
+footer, 
+section, 
+article, 
+h1, 
+h2, 
+h3, 
+p, 
+a, 
+button, 
+ul, 
+address, 
+svg {
     margin: 0;
     border: 0;
     padding: 0;
@@ -26,6 +40,8 @@ img {
     height: auto;
 }
 
+
+
 li {
     list-style: none;
 }
@@ -40,9 +56,12 @@ li {
     width: auto;
 }
 
-/* --------------- GLOBALS ------------- */
+/* --------------- DEFAULTS ------------- */
 
 :root {
+
+    color-scheme: light dark;
+
     --my-primary-color: #11644d;
     --my-primary-hover-color: #0a4031;
     --my-primary-text-hover-color: rgb(0, 34, 17);
@@ -61,10 +80,18 @@ li {
     --my-donate-form-font-family: "Roboto";
 
     --my-body-font-size: 1.1rem;
+    --my-header-font-size: 1.3rem;
+
 }
 
-
-/* --------------- HEADER ------------- */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --my-primary-color: #03a074;
+        --my-primary-hover-color: #6cf7cf;
+        --my-primary-text-color: black;
+        --my-grey-font-color: #c6c6c6;
+    }
+}
 
 body {
     color: var(--my-primary-color);
@@ -72,9 +99,57 @@ body {
     font-size: var(--my-body-font-size);
 }
 
+svg {
+    fill: var(--my-primary-color);
+    stroke: var(--my-primary-color);
+}
+
+/* --------------- HEADER ------------- */
+
 header {
     padding: 1rem 1rem .5rem 1rem;
     font-family: var(--my-main-font-family);
+    font-size: var(--my-header-font-size);
+}
+
+#my-logo-link:hover {
+    color: inherit;
+}
+
+#my-logo-grid {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 15% 55% 30%;
+    width: 13.5rem;
+    height: 4.25rem;
+    justify-content: flex-start;
+}
+
+#my-logo-rabbit {
+    grid-area: 1 / 1 / 4 / 2;
+    display: block;
+    width: 3.8rem;
+    height: 4.2rem;
+    align-self: flex-start;
+    fill: var(--my-primary-color);
+    stroke: var(--my-primary-color);
+}
+
+#my-logo-hopper {
+    grid-area: 2 / 2 / 3 / 3;
+    font-family: 'Bubblegum Sans';
+    font-size: 2.3rem;
+    text-transform: uppercase;
+    align-self: baseline;
+}
+
+#my-logo-rabbit-rescue {
+    grid-area: 3 / 2 / 4 / 3;
+    font-family: var(--my-main-font-family);
+    font-size: 1.2rem;
+    color: var(--my-grey-font-color);
+    text-transform: uppercase;
+    align-self: baseline;
 }
 
 .offcanvas {
@@ -88,43 +163,56 @@ header {
 
 .offcanvas-body {
     width: var(--bs-offcanvas-width);
-    height: auto;
+    /* height: 15rem; */
     padding: 0;
-    
+    background-color: var(--my-primary-text-color);
+}
+
+.offcanvas-backdrop {
+    background-color: #2c3a36;
 }
 
 .my-navbar {
-    padding: .7rem;
-    line-height: 2.6rem;
+    padding: .7rem .7rem .4rem;
 }
 
 .nav-link {
     display: block;
-    font-size: 1.1rem;
+    /* font-size: 1.2rem; */
+    font-weight: bold;
     color: var(--my-primary-color);
-    padding: 0 1rem;
-    margin: .2rem 0;
-    border: 1px solid transparent;
-    border-radius: 10px;
+}
+ 
+.nav-link.active {
+    color: var(--my-primary-hover-color);
+    border-bottom: 2px solid var(--my-primary-hover-color);
 }
 
-.my-navbar a.active {
-    border-color: var(--my-primary-color);
-}
-
-.nav-link:hover:not(a.active) {
-    color: var(--my-primary-text-hover-color);
+.nav-link:hover {
+    color: var(--my-primary-hover-color);
 }
 
 .my-donate {
     background-color: var(--my-primary-color);
     color: var(--my-primary-text-color);
+    padding: .3rem 1rem;
+    margin: .2rem 0;
+    border: 1px solid var(--my-primary-color);
+    border-radius: 10px;
+}
+
+.nav-item {
+    display: inline-block;
+    align-self: center;
+    padding: .5rem 0;
+    margin: 0 0 0 1vw;
 }
 
 .nav-item .nav-link.my-donate:hover {
     background-color: var(--my-primary-hover-color);
     color: var(--my-primary-text-color);
 }
+
 
 button.navbar-toggler {
     border: none;
@@ -133,6 +221,15 @@ button.navbar-toggler {
 
 button.navbar-toggler:focus {
     box-shadow: none;
+}
+
+#my-burger-icon {
+    width: 3rem;
+    height: 3rem;
+}
+
+#my-burger-icon:hover {
+    stroke: var(--my-primary-text-hover-color);
 }
 
 .my-logo {
@@ -145,6 +242,10 @@ button.navbar-toggler:focus {
         flex-direction: row;
     }
 
+    .offcanvas-body {
+        background: transparent;
+    }
+
     .navbar-expand-md .offcanvas .offcanvas-body {
         flex-grow: inherit;
         justify-content: flex-end;
@@ -154,6 +255,11 @@ button.navbar-toggler:focus {
         display: flex;
         justify-content: flex-end;
         margin: 0;
+        padding: .7rem 0;
+    }
+
+    .nav-link {
+        margin: 0 0 0 1.5rem;
     }
 
 }
@@ -171,10 +277,15 @@ footer {
     flex-direction: column;
     justify-content: space-between;
     background-color: var(--my-primary-color);
-    color: white;
+    color: var(--my-primary-text-color);
     font-family: var(--my-body-font-family);
     font-size: .9rem;
-    letter-spacing: 5%;
+    letter-spacing: .05rem;
+}
+
+footer svg {
+    stroke: var(--my-primary-text-color);
+    stroke-width: 1.5;
 }
 
 #my-footer-main {
@@ -187,6 +298,10 @@ footer {
 
 #my-footer-contacts {
     align-items: flex-start;
+}
+
+#my-footer-contacts a:hover {
+    color: inherit;
 }
 
 .my-footer-item {
@@ -218,6 +333,11 @@ footer {
     align-items: center;
 }
 
+#my-footer-social-box {
+    width: auto;
+    height: auto;
+}
+
 #my-footer-small-print {
     display: flex;
     justify-content: space-between;
@@ -240,23 +360,31 @@ footer {
     flex-direction: column;
 }
 
-#my-footer-location-img {
-    width: 30px;
-    margin-right: 7px;
-}
-
-#my-footer-phone-img {
-    width: 30px;
-    margin-right: 7px;
-}
-
-#my-footer-letter-img {
-    width: 30px;
-    margin-right: 5px;
-}
-
-.my-footer-social-img {
+#my-footer-location-icon {
+    stroke-width: 1.5;
     width: 40px;
+    height: 40px;
+    margin-right: 7px;
+}
+
+#my-footer-phone-icon {
+    stroke-width: 2;
+    width: 30px;
+    height: 30px;
+    margin-right: 7px;  
+}
+
+#my-footer-letter-icon {
+    stroke-width: 1.5;
+    width: 40px;
+    height: 30px;
+    margin-right: 9px;
+}
+
+.my-footer-social-icon {
+    stroke-width: 1.5;
+    width: 40px;
+    height: 40px;
     margin: 0 8px;
 }
 
