@@ -3,7 +3,7 @@
 
 
 /* Google Fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito+Sans:wght@400;700&family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito+Sans:wght@300;700&family=Nunito:wght@400;700&display=swap');
 
 
 /* --------------- RESET ------------- */
@@ -62,7 +62,7 @@ li {
 
     --my-primary-color: #11644d;
     --my-primary-hover-color: #0a4031;
-    --my-primary-text-hover-color: rgb(0, 34, 17);
+    --my-primary-text-hover-color: #002211;
 
     --my-primary-text-color: white;
 
@@ -70,8 +70,10 @@ li {
     --my-accent-hover-color: #a53e02;
     --my-accent-text-color: white;
 
+    --my-body-bg-color: white;
     --my-grey-bg-color: #EDEDED;
     --my-grey-font-color: #616161;
+    --my-backdrop-color: #000000;
 
     --my-main-font-family: "Nunito";
     --my-body-font-family: "Nunito Sans";
@@ -80,21 +82,15 @@ li {
     --my-body-font-size: 1.1rem;
     --my-header-font-size: 1.3rem;
 
-}
+    --bs-body-font-weight: 300;
 
-@media (prefers-color-scheme: dark) {
-    :root {
-        --my-primary-color: #03a074;
-        --my-primary-hover-color: #6cf7cf;
-        --my-primary-text-color: black;
-        --my-grey-font-color: #c6c6c6;
-    }
 }
 
 body {
     color: var(--my-primary-color);
     font-family: var(--my-body-font-family);
     font-size: var(--my-body-font-size);
+    background-color: var(--my-body-bg-color);
 }
 
 svg {
@@ -102,6 +98,18 @@ svg {
     stroke: var(--my-primary-color);
 }
 
+@media (prefers-color-scheme: dark) {
+    :root {
+        --my-primary-color: #00946a;
+        --my-primary-hover-color: #6cf7cf;
+        /* --my-primary-text-color: black; */
+        --my-grey-font-color: #dfdfdf;
+        --my-body-bg-color: #292b2d;
+        --my-grey-bg-color: #707070;
+        --my-accent-color: #f6762c;
+        --my-accent-hover-color: #f8955b;
+    }
+}
 
 /* --------------- HEADER ------------- */
 
@@ -165,11 +173,15 @@ header {
 .offcanvas-body {
     width: var(--bs-offcanvas-width);
     padding: 0;
-    background-color: var(--my-primary-text-color);
+    background-color: var(--my-body-bg-color);
 }
 
 .offcanvas-backdrop {
-    background-color: #2c3a36;
+    background-color: var(--my-backdrop-color);
+}
+
+.offcanvas-backdrop.show {
+    opacity: .7;
 }
 
 .my-navbar {
@@ -229,7 +241,7 @@ button.navbar-toggler:focus {
 }
 
 #my-burger-icon:hover {
-    stroke: var(--my-primary-text-hover-color);
+    stroke: var(--my-primary-hover-color);
 }
 
 .my-logo {
@@ -269,8 +281,9 @@ button.navbar-toggler:focus {
 /* --------------- MAIN SECTON------------- */
 
 main {
-    background-color: bisque;
+    color: var(--my-grey-font-color);
 }
+
 
 /* Hero image  */
 
@@ -309,13 +322,85 @@ main {
 
 #my-adopt-btn {
     display: block;
-    /* width: 4.8rem; */
     background-color: var(--my-accent-color);
     border-radius: .7rem;
     text-align: center;
     padding: .3rem 1.2rem;
     margin: 1rem 0 0 0;
 }
+
+#my-adopt-btn:hover {
+    background-color: var(--my-accent-hover-color);
+    color: inherit;
+}
+
+/* Main text  */
+
+h1 {
+    font-family: var(--my-main-font-family);
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: var(--my-primary-color);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#my-mission-text {
+    background-color: var(--my-grey-bg-color);
+}
+
+#my-mission-text > p {
+    padding: 1.5rem;
+    font-family: var(--my-main-font-family);
+    
+}
+
+.my-article {
+    margin: 2rem 1.5rem;
+    border-top: 1px solid var(--my-grey-font-color);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.my-article > * {
+    padding-top: 1rem;
+}
+
+.my-article > hr {
+    border-top: 1px solid var(--my-grey-font-color);
+}
+
+.my-article > svg {
+    width: 4rem;
+    height: 5.5rem;
+    margin: 1.5rem;
+}
+
+.my-article > p {
+    text-align: left;
+}
+
+.my-article > p > span {
+    font-weight: bold;
+}
+
+.my-general-button {
+    padding: .3rem 1.2rem;
+    margin: 1.5rem;
+    color: var(--my-accent-color);
+    border: 1.5px solid var(--my-accent-color);
+    border-radius: .7rem;
+}
+
+.my-general-button:hover {
+    border-color: var(--my-accent-hover-color);
+    color: var(--my-accent-hover-color);
+}
+
+/* Main section media queries  */
 
 @media screen and (min-width: 415px) {
     
@@ -339,6 +424,14 @@ main {
     #my-hero-textbox > h2 {
         text-align: left;
     }
+
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    #my-mission-text > p {
+        font-size: 1.1rem;
+    }
 }
 
 @media screen and (min-width: 640px) {
@@ -360,12 +453,28 @@ main {
     #my-hero-textbox > h2 {
         text-align: center;
     }
+
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    #my-mission-text > p {
+        font-size: 1.2rem;
+    }
 }
 
 @media screen and (min-width: 860px) {
 
     #my-hero-callout-box {
        left: 6rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    #my-mission-text > p {
+        font-size: 1.3rem;
     }
 }
 
@@ -390,6 +499,14 @@ main {
         line-height: 2.3rem;
         
         letter-spacing: .1rem;
+    }
+
+    h1 {
+        font-size: 2.25rem;
+    }
+
+    #my-mission-text > p {
+        font-size: 1.5rem;
     }
 }
 
