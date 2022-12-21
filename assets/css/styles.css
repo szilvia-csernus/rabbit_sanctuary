@@ -31,7 +31,7 @@ svg {
     background: transparent;
     text-decoration: none;
     box-sizing: border-box;
-    text-align: left;
+    /* text-align: left; */
 }
 
 img {
@@ -102,12 +102,11 @@ svg {
     :root {
         --my-primary-color: #00946a;
         --my-primary-hover-color: #6cf7cf;
-        /* --my-primary-text-color: black; */
         --my-grey-font-color: #dfdfdf;
         --my-body-bg-color: #292b2d;
         --my-grey-bg-color: #707070;
         --my-accent-color: #f6762c;
-        --my-accent-hover-color: #f8955b;
+        --my-accent-hover-color: #cd4b00;
     }
 }
 
@@ -347,6 +346,7 @@ h1 {
 
 #my-mission-text {
     background-color: var(--my-grey-bg-color);
+    margin-bottom: 1.5rem;
 }
 
 #my-mission-text > p {
@@ -356,7 +356,8 @@ h1 {
 }
 
 .my-article {
-    margin: 2rem 1.5rem;
+    margin: 0 1.5rem;
+    padding: 2rem 0;
     border-top: 1px solid var(--my-grey-font-color);
     display: flex;
     flex-direction: column;
@@ -369,14 +370,14 @@ h1 {
     padding-top: 1rem;
 }
 
-.my-article > hr {
-    border-top: 1px solid var(--my-grey-font-color);
-}
-
-.my-article > svg {
+.my-article > div > svg {
     width: 4rem;
     height: 5.5rem;
-    margin: 1.5rem;
+    margin: 1.5rem 0;
+}
+
+.my-article > div > svg > use.my-rabbit-outline-right {
+    display: none;
 }
 
 .my-article > p {
@@ -387,17 +388,36 @@ h1 {
     font-weight: bold;
 }
 
+#my-rabbit-outline-icon {
+    stroke-width: 2;
+}
+
+#my-visit-us-icon {
+    stroke-width: 3;
+}
+
+#my-gift-icon {
+    stroke-width: .1;
+}
+
+#my-volunteer-icon {
+    stroke-width: .5;
+}
+
+.my-general-button-box {
+    margin: 2rem 0;
+}
+
 .my-general-button {
     padding: .3rem 1.2rem;
-    margin: 1.5rem;
     color: var(--my-accent-color);
     border: 1.5px solid var(--my-accent-color);
     border-radius: .7rem;
 }
 
 .my-general-button:hover {
-    border-color: var(--my-accent-hover-color);
-    color: var(--my-accent-hover-color);
+    background-color: var(--my-accent-color);
+    color: var(--my-accent-text-color);
 }
 
 /* Main section media queries  */
@@ -460,7 +480,10 @@ h1 {
 
     #my-mission-text > p {
         font-size: 1.2rem;
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
+
 }
 
 @media screen and (min-width: 860px) {
@@ -475,6 +498,67 @@ h1 {
 
     #my-mission-text > p {
         font-size: 1.3rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
+    }
+
+    .my-article {
+        margin: 0 3rem;
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .my-article > div > svg > use.my-rabbit-outline-left {
+        display: none;
+    }
+
+    .my-article > div > svg > use.my-rabbit-outline-right {
+        display: block;
+    }
+
+    .my-article > p,
+    .my-general-button {
+        font-size: 1.25rem;
+    }
+
+    .my-article-left {
+        display: grid;
+        grid-template-columns: 6rem 1fr;
+        grid-template-rows: 1fr 6rem;
+    }
+
+    .my-article-left > div:first-of-type {
+        grid-area: 1 / 1 / 2 / 2;
+        text-align: left;
+    }
+
+    .my-article-left > p {
+        grid-area: 1 / 2 / 2 / 3;
+    }
+
+    .my-article-left > .my-general-button-box {
+        grid-area: 2 / 2 / 3 / 3;
+        
+    }
+
+    .my-article-right {
+        display: grid;
+        grid-template-columns: 1fr 6rem;
+        grid-template-rows: 1fr 6rem;
+    }
+
+    .my-article-right > div:first-of-type {
+        grid-area: 1 / 2 / 2 / 3;
+        text-align: right;
+    }
+
+    .my-article-right > p {
+        grid-area: 1 / 1 / 2 / 2;
+    }
+
+    .my-article-right > .my-general-button-box {
+        grid-area: 2 / 1 / 3 / 2;
+        
     }
 }
 
@@ -506,7 +590,10 @@ h1 {
     }
 
     #my-mission-text > p {
-        font-size: 1.5rem;
+        font-size: 1.4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        text-align: center;
     }
 }
 
@@ -612,7 +699,7 @@ footer svg {
     stroke-width: 2;
     width: 30px;
     height: 30px;
-    margin-right: 7px;  
+    margin-right: 16px;  
 }
 
 #my-footer-letter-icon {
