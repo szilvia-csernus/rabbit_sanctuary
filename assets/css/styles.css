@@ -69,11 +69,14 @@ li {
     --my-accent-color: #cc4b00;
     --my-accent-hover-color: #a53e02;
     --my-accent-text-color: white;
+    --my-feature-btn-color: #cc4b00;
+    --my-feature-btn-hover-color: #a53e02;
 
     --my-body-bg-color: white;
     --my-grey-bg-color: #EDEDED;
     --my-grey-font-color: #616161;
     --my-backdrop-color: #000000;
+    --my-footer-bg-color: #11644d;
 
     --my-main-font-family: "Nunito";
     --my-body-font-family: "Nunito Sans";
@@ -100,12 +103,12 @@ svg {
 
 @media (prefers-color-scheme: dark) {
     :root {
-        --my-primary-color: #00946a;
+        --my-primary-color: #00bd87;
         --my-primary-hover-color: #6cf7cf;
         --my-grey-font-color: #dfdfdf;
         --my-body-bg-color: #292b2d;
-        --my-grey-bg-color: #707070;
-        --my-accent-color: #f6762c;
+        --my-grey-bg-color: #535353;
+        --my-accent-color: #f87021;
         --my-accent-hover-color: #cd4b00;
     }
 }
@@ -321,7 +324,7 @@ main {
 
 #my-adopt-btn {
     display: block;
-    background-color: var(--my-accent-color);
+    background-color: var(--my-feature-btn-color);
     border-radius: .7rem;
     text-align: center;
     padding: .3rem 1.2rem;
@@ -329,8 +332,17 @@ main {
 }
 
 #my-adopt-btn:hover {
-    background-color: var(--my-accent-hover-color);
+    background-color: var(--my-feature-btn-hover-color);
     color: inherit;
+}
+
+#my-adopt-img-box {
+    width: 100%;
+    height: 183px;
+    overflow: auto;
+    position: relative;
+
+    background: url('../images/adopting-picture-sm.webp') no-repeat center center;
 }
 
 /* Main text  */
@@ -366,14 +378,10 @@ h1 {
     
 }
 
-.my-article > * {
-    padding-top: 1rem;
-}
-
 .my-article > div > svg {
     width: 4rem;
     height: 5.5rem;
-    margin: 1.5rem 0;
+    margin: 0 0 1.5rem 0;
 }
 
 .my-article > div > svg > use.my-rabbit-outline-right {
@@ -429,6 +437,11 @@ h1 {
         height: 404px;
     }
 
+    #my-adopt-img-box {
+        background-image: url('../images/adopting-picture-md.webp');
+        height: 271px;
+    }
+    
     #my-hero-callout-box {
         width: 13rem;
         bottom: 4rem;
@@ -568,6 +581,12 @@ h1 {
         background-image: url('../images/hero-picture-lg.webp');
         height: 570px; 
     }
+
+    #my-adopt-img-box {
+        background-image: url('../images/adopting-picture-lg.webp');
+        height: 393px;
+    }
+
     #my-hero-callout-box {
         top: 5rem;
         left: 10rem;
@@ -604,7 +623,7 @@ footer.container-xxl {
     flex-direction: column;
     justify-content: space-between;
     padding-top: .5rem;
-    background-color: var(--my-primary-color);
+    background-color: var(--my-footer-bg-color);
     color: var(--my-primary-text-color);
     font-family: var(--my-body-font-family);
     font-size: .9rem;
@@ -693,6 +712,7 @@ footer svg {
     width: 40px;
     height: 40px;
     margin-right: 7px;
+    fill: var(--my-footer-bg-color);
 }
 
 #my-footer-phone-icon {
