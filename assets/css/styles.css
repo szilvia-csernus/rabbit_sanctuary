@@ -64,6 +64,10 @@ li {
     --my-primary-hover-color: #0a4031;
     --my-primary-text-hover-color: #002211;
     --my-static-bg-color: #11644d;
+    --my-extra-bg-color: #11644d;
+    --my-extra-bg-hover-color: #0a4031;
+    --my-contact-title-color: white;
+    --my-donate-text-color: white;
 
     --my-primary-text-color: white;
 
@@ -111,6 +115,10 @@ svg {
         --my-grey-bg-color: #535353;
         --my-accent-color: #f87021;
         --my-accent-hover-color: #cd4b00;
+        --my-extra-bg-color: #555555;
+        --my-extra-bg-hover-color: #6c6c6c;
+        --my-contact-title-color: #00bd87;
+        --my-donate-text-color: #00bd87;
     }
 }
 
@@ -209,12 +217,11 @@ header {
 }
 
 .my-donate {
-    background-color: var(--my-static-bg-color);
-    color: var(--my-primary-text-color);
-    font-weight: 400;
+    background-color: var(--my-extra-bg-color);
+    color: var(--my-donate-text-color);
     padding: .3rem 1rem;
     margin: .2rem 0;
-    border: 1px solid var(--my-static-bg-color);
+    border: 1px solid var(--my-extra-bg-color);
     border-radius: 10px;
 }
 
@@ -226,8 +233,8 @@ header {
 }
 
 .nav-item .nav-link.my-donate:hover {
-    background-color: var(--my-primary-hover-color);
-    color: var(--my-primary-text-color);
+    background-color: var(--my-extra-bg-hover-color);
+    color: var(--my-donate-text-color);
 }
 
 button.navbar-toggler {
@@ -319,7 +326,7 @@ main {
     align-items: center;
 }
 
-#my-hero-textbox > h2 {
+#my-hero-textbox > h3 {
     text-align: center;
     line-height: 2rem;
 }
@@ -352,6 +359,15 @@ main {
 h1 {
     font-family: var(--my-main-font-family);
     font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--my-primary-color);
+    text-align: center;
+    padding: 2rem 0;
+}
+
+h2 {
+    font-family: var(--my-main-font-family);
+    font-size: 1.3rem;
     font-weight: bold;
     color: var(--my-primary-color);
     text-align: center;
@@ -456,7 +472,7 @@ h1 {
         align-items: flex-start;
     }
 
-    #my-hero-textbox > h2 {
+    #my-hero-textbox > h3 {
         text-align: left;
     }
 
@@ -485,7 +501,7 @@ h1 {
         font-size: 1.3rem;
     }
 
-    #my-hero-textbox > h2 {
+    #my-hero-textbox > h3 {
         text-align: center;
     }
 
@@ -599,7 +615,7 @@ h1 {
         font-size: 1.5rem;
     }
 
-    #my-hero-textbox > h2 {
+    #my-hero-textbox > h3 {
         text-align: center;
         line-height: 2.3rem;
         
@@ -616,6 +632,59 @@ h1 {
         padding-right: 4rem;
         text-align: center;
     }
+}
+
+/* Contacts  */
+
+.my-contact-item {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+#my-contact-location-icon {
+    stroke-width: 1.5;
+    width: 40px;
+    height: 40px;
+    margin-right: 7px;
+}
+
+#my-contact-title-box {
+    background-color: var(--my-extra-bg-color);
+    margin-bottom: 1.5rem;
+}
+
+#my-contact-title {
+    color: var(--my-contact-title-color)
+}
+
+.my-contact-article {
+    padding-top: 0;
+}
+
+@media screen and (min-width: 640px) {
+    #my-contact-title-box {
+       padding-left: 2rem;
+       padding-right: 2rem;
+    }
+    
+}
+
+@media screen and (min-width: 860px) {
+    #my-contact-title-box {
+       padding-left: 3rem;
+       padding-right: 3rem;
+    }
+    
+}
+
+@media screen and (min-width: 992px) {
+    #my-contact-title-box {
+       padding-left: 4rem;
+       padding-right: 4rem;
+    }
+    
 }
 
 /* Gallery  */
@@ -642,7 +711,7 @@ h1 {
 
 }
 
-@media screen and (min-width: 860px) {
+@media screen and (min-width: 1200px) {
 
     #my-gallery {
         column-count: 4;
@@ -746,7 +815,6 @@ footer svg {
     width: 40px;
     height: 40px;
     margin-right: 7px;
-    fill: var(--my-static-bg-color);
 }
 
 #my-footer-phone-icon {
