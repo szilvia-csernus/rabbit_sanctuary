@@ -477,11 +477,13 @@ h2 {
 
 /* Main section media queries  */
 
+
 @media screen and (max-width: 342px) {
 
     #my-hero-img-box {
+        background-position: center bottom;
         background-size: cover;
-        height: 370px;
+        height: 395px;
     }
 
     #my-hero-callout-box {
