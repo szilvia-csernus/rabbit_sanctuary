@@ -259,7 +259,36 @@ button.navbar-toggler:focus {
     width: 15rem; 
 }
 
-/* small screen navigation styles  */
+
+ /* this media query caters for the unusually small screen sizes  */
+@media screen and (max-width: 342px) {
+    #my-logo-grid {
+        width: 12rem;
+        height: 4rem;
+        justify-content: flex-start;
+    }
+    
+    #my-logo-rabbit {
+        width: 3rem;
+        height: 4rem;
+    }
+    
+    #my-logo-hopper {
+        font-size: 1.6rem;
+    }
+    
+    #my-logo-rabbit-rescue {
+        font-size: 1rem;
+    }
+
+    #my-burger-icon {
+        width: 2.5rem;
+        height: 2.5rem;
+    }
+    
+}
+
+/* medium and large screen navigation adjustments  */
 
 @media screen and (min-width: 768px) {
     
@@ -447,6 +476,18 @@ h2 {
 }
 
 /* Main section media queries  */
+
+@media screen and (max-width: 342px) {
+
+    #my-hero-img-box {
+        background-size: cover;
+        height: 370px;
+    }
+
+    #my-hero-callout-box {
+        padding: .8rem;
+    }
+}
 
 @media screen and (min-width: 415px) {
     
