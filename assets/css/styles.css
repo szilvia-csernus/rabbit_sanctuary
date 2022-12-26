@@ -332,7 +332,7 @@ main {
     height: 497px;
     overflow: auto;
     position: relative;
-
+    background-color: var(--my-primary-color);
     background: url('../images/hero-picture-sm.webp') no-repeat center center;
 }
 
@@ -422,7 +422,6 @@ h2 {
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    
 }
 
 .my-article > div > svg {
@@ -552,6 +551,10 @@ h2 {
         font-size: 1.8rem;
     }
 
+    h2 {
+        font-size: 1.5rem;
+    }
+
     #my-mission-text > p {
         font-size: 1.2rem;
         padding-left: 2rem;
@@ -568,6 +571,10 @@ h2 {
 
     h1 {
         font-size: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
     }
 
     #my-mission-text > p {
@@ -702,16 +709,51 @@ h2 {
     color: var(--my-contact-title-color)
 }
 
-.my-contact-article {
+#my-contact-location {
     padding-top: 0;
+}
+
+#my-google-map {
+    width: 100%;
+    height: auto;
+}
+
+#my-google-map > iframe {
+    width: 100%;
+    height: 450px;
+}
+
+#my-contact-volunteer > #my-volunteer-icon-box {
+    order: 4;
+}
+
+#my-contact-volunteer > p {
+    text-align: center;
+    padding: 1rem 0;
+}
+
+#my-contact-questions > h2 {
+    margin-bottom: 1rem;
+}
+
+#my-contact-questions a:hover {
+    color: var(--my-primary-hover-color)
+}
+
+#my-contact-email svg:hover,
+#my-contact-phone svg:hover {
+    stroke: var(--my-primary-hover-color)
+}
+
+#my-contact-questions #my-rabbit-outline-icon {
+    margin-top: 1.5rem;
 }
 
 @media screen and (min-width: 640px) {
     #my-contact-title-box {
        padding-left: 2rem;
        padding-right: 2rem;
-    }
-    
+    } 
 }
 
 @media screen and (min-width: 860px) {
@@ -719,7 +761,29 @@ h2 {
        padding-left: 3rem;
        padding-right: 3rem;
     }
-    
+
+    #my-contact-location {
+        display: grid;
+        grid-template-rows: 7rem 1fr 9rem;
+        grid-template-columns: 30% 70%;
+        padding-top: 1rem;
+    }
+
+    #my-contact-location > h2 {
+        grid-area: 1 / 1 / 2 / 3;
+    }
+
+    #my-contact-location > .my-contact-item {
+        grid-area: 2 / 1 / 3 / 2;
+        align-self: flex-start;
+    }
+
+    #my-contact-location > #my-google-map {
+        grid-area: 2 / 2 / 3 / 3;
+    }
+    #my-contact-location > p {
+        grid-area: 3 / 1 / 4 / 3;
+    }
 }
 
 @media screen and (min-width: 992px) {
@@ -727,7 +791,6 @@ h2 {
        padding-left: 4rem;
        padding-right: 4rem;
     }
-    
 }
 
 /* Gallery  */
