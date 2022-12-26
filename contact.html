@@ -10,7 +10,7 @@
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
     <title>HOPPER Rabbit Rescue - About</title>
-    
+
 </head>
 
 <!-- BOOTSTRAP's conatiners are used for main sections  -->
@@ -67,12 +67,11 @@
     <main class="container-xxl">
         <section>
             <div id="my-contact-title-box">
-            <h1 id="my-contact-title">Contact Us</h1>
-        </div>
+                <h1 id="my-contact-title">Contact Us</h1>
+            </div>
         </section>
         <article class="container-xxl">
-            
-            <div class="my-article my-contact-article" >
+            <div class="my-article" id="my-contact-location">
                 <h2>How to find us?</h2>
                 <div class="my-contact-item">
                     <svg id="my-contact-location-icon">
@@ -82,15 +81,14 @@
                         Hopper Farm<br>Old Windsor, Berkshire<br>SL5 9YY<br>United Kingdom
                     </address>
                 </div>
-                <div>
-                    <iframe
-                        title="google map pointing to address"
-                        passive="true"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9552.951763419278!2d-0.5820508812475585!3d51.46192203662342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1671971986355!5m2!1sen!2suk" 
-                        width="600" height="450" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <div id="my-google-map">
+                    <iframe title="google map pointing to address" passive="true"
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9552.951763419278!2d-0.5820508812475585!3d51.46192203662342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1671971986355!5m2!1sen!2suk"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
-                <br><br>
                 <p>
+                    <br>
                     <span>We are open to prospective bunny parents on Saturdays from 10am
                         to 5pm.</span> Here, you have the chance to meet and play with our
                     rabbits and also learn about how to care for them.
@@ -100,12 +98,11 @@
                 </p>
             </div>
         </article>
-
         <article class="container-xxl">
-            <div class="my-article">
+            <div class="my-article" id="my-contact-volunteer">
                 <h2>Interested in volunteering?</h2>
-                <div>
-                    <svg id="my-volunteer-icon">
+                <div id="my-volunteer-icon-box">
+                    <svg>
                         <use href="./assets/icons/volunteer.svg#volunteer"></use>
                     </svg>
                 </div>
@@ -119,16 +116,18 @@
             </div>
         </article>
         <article class="container-xxl">
-            <div class="my-article">
+            <div class="my-article" id="my-contact-questions">
                 <h2>Got questions?</h2>
-                <div id="my-footer-contacts">
+                <div id="my-contact-phone">
                     <a href="tel:+441234567890" class="my-footer-item" aria-label="phone icon">
                         <svg id="my-footer-phone-icon">
                             <use href="./assets/icons/phone.svg#phone"></use>
                         </svg>
                         <p>+44 123 4567 890</p>
                     </a>
-                    <a href="mailto:getintouch@hopper.com" class="my-footer-item" aria-label="letter icon">
+                </div>
+                <div id="my-contact-email">
+                    <a href="mailto:getintouch@hopper.org.uk" class="my-footer-item" aria-label="letter icon">
                         <svg id="my-footer-letter-icon">
                             <use href="./assets/icons/letter.svg#letter"></use>
                         </svg>
@@ -166,7 +165,7 @@
                         </svg>
                         <p>+44 123 4567 890</p>
                     </a>
-                    <a href="mailto:getintouch@hopper.com" class="my-footer-item" aria-label="letter icon">
+                    <a href="mailto:getintouch@hopper.org.uk" class="my-footer-item" aria-label="letter icon">
                         <svg id="my-footer-letter-icon">
                             <use href="./assets/icons/letter.svg#letter"></use>
                         </svg>
