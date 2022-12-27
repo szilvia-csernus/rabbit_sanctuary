@@ -3,7 +3,7 @@
 
 
 /* Google Fonts  */
-@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito+Sans:wght@300;700&family=Nunito:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito+Sans:wght@300;400;700&family=Nunito:wght@400;700&display=swap');
 
 
 /* --------------- RESET ------------- */
@@ -54,7 +54,7 @@ li {
     width: auto;
 }
 
-/* --------------- DEFAULT COLORS AND FONTS ------------- */
+/* --------------- DEFAULTS ------------- */
 
 :root {
 
@@ -105,6 +105,32 @@ svg {
     fill: var(--my-primary-color);
     stroke: var(--my-primary-color);
 }
+
+.my-general-button {
+    padding: .3rem 1.2rem;
+    color: var(--my-accent-color);
+    border: 1.5px solid var(--my-accent-color);
+    border-radius: .7rem;
+}
+
+.my-general-button:hover {
+    background-color: var(--my-accent-color);
+    color: var(--my-accent-text-color);
+    cursor: pointer;
+}
+
+.my-cancel-button {
+    padding: .3rem 1.2rem;
+    color: var(--my-primary-color);
+    border: 1.5px solid var(--my-primary-color);
+    border-radius: .7rem;
+}
+
+.my-cancel-button:hover {
+    border-color: var(--my-primary-hover-color);
+    color: var(--my-primary-hover-color);
+}
+
 
 @media (prefers-color-scheme: dark) {
     :root {
@@ -175,7 +201,7 @@ header {
 
 .offcanvas {
     --bs-offcanvas-width: 10rem;
-    height: 14rem;
+    height: 16rem;
 }
 
 .offcanvas.offcanvas-end {
@@ -228,13 +254,14 @@ header {
 .nav-item {
     display: inline-block;
     align-self: center;
-    padding: .5rem 0;
+    padding: .8rem 0;
     margin: 0 0 0 1vw;
 }
 
 .nav-item .nav-link.my-donate:hover {
     background-color: var(--my-extra-bg-hover-color);
     color: var(--my-donate-text-color);
+    cursor: pointer;
 }
 
 button.navbar-toggler {
@@ -462,17 +489,6 @@ h2 {
     margin: 2rem 0;
 }
 
-.my-general-button {
-    padding: .3rem 1.2rem;
-    color: var(--my-accent-color);
-    border: 1.5px solid var(--my-accent-color);
-    border-radius: .7rem;
-}
-
-.my-general-button:hover {
-    background-color: var(--my-accent-color);
-    color: var(--my-accent-text-color);
-}
 
 /* Main section media queries  */
 
@@ -668,7 +684,6 @@ h2 {
     #my-hero-textbox > h3 {
         text-align: center;
         line-height: 2.3rem;
-        
         letter-spacing: .1rem;
     }
 
@@ -745,6 +760,7 @@ h2 {
     stroke: var(--my-primary-hover-color)
 }
 
+#my-contact-volunteer #my-volunteer-icon,
 #my-contact-questions #my-rabbit-outline-icon {
     margin-top: 1.5rem;
 }
@@ -797,24 +813,15 @@ h2 {
 
 #my-gallery {
     clear: both;
-    /* line-height: 2; */
     column-count: 2;
     column-gap: 0;
 }
-
-/* @media screen and (min-width: 415px) {
-    #my-gallery {
-        column-count: 3;
-    }
-
-} */
 
 @media screen and (min-width: 640px) {
 
     #my-gallery {
         column-count: 3;
     }
-
 }
 
 @media screen and (min-width: 1200px) {
@@ -822,7 +829,58 @@ h2 {
     #my-gallery {
         column-count: 4;
     }
+}
 
+/* Modals and Forms  */
+
+.modal-content {
+    background-color: var(--my-body-bg-color);
+}
+
+.modal-header {
+    padding-top: 0;
+    padding-bottom: 0;
+    border-color: var(--my-grey-font-color);
+}
+
+.modal-footer {
+    border-color: var(--my-grey-font-color);
+}
+
+.modal-header h1{
+    text-transform: uppercase;
+}
+
+button.btn-close {
+    opacity: .7;
+}
+
+.my-form {
+    font-weight: 400;
+}
+
+.my-form > input {
+    border: .8px solid var(--my-grey-font-color);
+    border-radius: 5px;
+    padding: .4rem;
+}
+
+.my-form > input:focus-visible {
+    outline-color: var(--my-primary-color);
+}
+
+.my-form > textarea {
+    width: 100%;
+}
+
+.my-form-button {
+    background-color: var(--my-body-bg-color);
+    font-size: var(--my-body-font-size);
+}
+
+#my-thank-you-modal .modal-header,
+#my-thank-you-modal .modal-footer {
+    border: none;
 }
 
 /* --------------- FOOTER ------------- */

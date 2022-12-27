@@ -267,6 +267,8 @@ Photo by <a href="https://unsplash.com/@jacobamson?utm_source=unsplash&utm_mediu
 
 Photo by <a href="https://unsplash.com/@pablomp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pablo Martinez</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+making svg icons responsive: https://css-tricks.com/cascading-svg-fill-color/
+
 
 
 👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)

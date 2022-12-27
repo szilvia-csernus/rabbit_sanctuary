@@ -42,16 +42,17 @@
                     <div class="offcanvas-body">
                         <ul class="my-navbar">
                             <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./about.html">About</a>
+                                <a class="nav-link active" aria-current="page" href="./index.html">About</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="./index.html">Adopt</a>
+                                <a class="nav-link" href="./adopt.html">Adopt</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="./contact.html">Contact Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link my-donate" href="./donate.html">Donate</a>
+                                <a class="nav-link my-donate" data-bs-toggle="modal"
+                                    data-bs-target="#my-donate-modal">Donate</a>
                             </li>
                         </ul>
 
@@ -87,7 +88,8 @@
                 <div>
                     <svg id="my-rabbit-outline-icon">
                         <use class="my-rabbit-outline-left" href="./assets/icons/rabbit-outline.svg#rabbit-left"></use>
-                        <use class="my-rabbit-outline-right" href="./assets/icons/rabbit-outline.svg#rabbit-right"></use>
+                        <use class="my-rabbit-outline-right" href="./assets/icons/rabbit-outline.svg#rabbit-right">
+                        </use>
                     </svg>
                 </div>
                 <p>
@@ -98,7 +100,7 @@
                     <span>Interested in adopting?</span>
                 </p>
                 <div class="my-general-button-box">
-                    <a class="my-general-button" href="./adopt">Find out more</a>
+                    <a class="my-general-button" href="./adopt.html">Find out more</a>
                 </div>
             </div>
         </article>
@@ -111,12 +113,13 @@
                 </div>
                 <p>
                     <span>We are open to prospective bunny parents on Saturdays from 10am to 5pm. </span>
-                    Here, you have the chance to meet and play with our current bunny residents and also learn about 
-                    how to care for them. <br><br>Our friendly volunteers will tell you everything you need to know about adoption. 
+                    Here, you have the chance to meet and play with our current bunny residents and also learn about
+                    how to care for them. <br><br>Our friendly volunteers will tell you everything you need to know
+                    about adoption.
                     Interested in adopting?
                 </p>
                 <div class="my-general-button-box">
-                    <a class="my-general-button" href="./contact">Visit Us</a>
+                    <a class="my-general-button" href="./contact.html">Visit Us</a>
                 </div>
             </div>
         </article>
@@ -128,21 +131,21 @@
                     </svg>
                 </div>
                 <p>
-                    All the work we do would not be possible without our <span>wonderful 
-                    volunteers</span> and the <span>generous support</span> we get through 
-                    public donations. All donations we receive help fund the welfare of our 
-                    furry friends, from vet bills and treatments to food, hay and bedding. 
+                    All the work we do would not be possible without our <span>wonderful
+                        volunteers</span> and the <span>generous support</span> we get through
+                    public donations. All donations we receive help fund the welfare of our
+                    furry friends, from vet bills and treatments to food, hay and bedding.
                     <br><br><span>Please consider supporting us.</span>
                 </p>
                 <div class="my-general-button-box">
-                    <a class="my-general-button" href="#">Donate</a>
+                    <button class="my-general-button" data-bs-toggle="modal" data-bs-target="#my-donate-modal">Donate</button>
                 </div>
             </div>
         </article>
         <article class="container-xxl">
             <div class="my-article my-article-right">
                 <div>
-                    <svg id="my-volunteer-icon">
+                    <svg>
                         <use href="./assets/icons/volunteer.svg#volunteer"></use>
                     </svg>
                 </div>
@@ -152,7 +155,7 @@
                     Please get in touch.
                 </p>
                 <div class="my-general-button-box">
-                    <a class="my-general-button" href="#">Volunteer</a>
+                    <button class="my-general-button" data-bs-toggle="modal" data-bs-target="#my-volunteer-modal">Volunteer</button>
                 </div>
             </div>
         </article>
@@ -179,7 +182,7 @@
                         </svg>
                         <p>+44 123 4567 890</p>
                     </a>
-                    <a href="mailto:getintouch@hopper.com" class="my-footer-item" aria-label="letter icon">
+                    <a href="mailto:getintouch@hopper.org.uk" class="my-footer-item" aria-label="letter icon">
                         <svg id="my-footer-letter-icon">
                             <use href="./assets/icons/letter.svg#letter"></use>
                         </svg>
@@ -218,6 +221,99 @@
         </div>
     </footer>
     <!-- end of FOOTER  -->
+
+    <!-- Donate form using BOOTSTRAP modal -->
+    <div class="modal fade" id="my-donate-modal" tabindex="-1" aria-labelledby="donate modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="donate-modal">donate</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    We are in the process of setting up automatic payment methods but for now,
+                    let us contact you the traditional ways. <br><br>
+                    Thank you for considering donating to us!
+                    <br><br>
+                    <form class="my-form" method="get" action="">
+                        <label for="my-donor-name">Name</label><br>
+                        <input id="my-donor-name" type="text" name="name" required>
+                        <br><br>
+                        <label for="my-donor-email">Email address</label><br>
+                        <input id="my-donor-email" type="email" name="email" required>
+                        <br><br>
+                        <label for="my-donor-phone">Phone number (optional)</label><br>
+                        <input id="my-donor-phone" type="phone" name="phone">
+                        <br><br>
+
+                        <div class="modal-footer">
+                            <button type="button" class="my-cancel-button" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="my-general-button my-form-button" data-bs-dismiss="modal"
+                                data-bs-toggle="modal" data-bs-target="#my-thank-you-modal">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Volunteer form using BOOTSTRAP modal -->
+    <div class="modal fade" id="my-volunteer-modal" tabindex="-1" aria-labelledby="volunteer modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="volunteer-modal">volunteer</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Thank you for considering volunteering with us!<br><br>
+                    <form class="my-form" method="get" action="">
+                        <label for="my-volunteer-name">Name</label><br>
+                        <input id="my-volunteer-name" type="text" name="name" required>
+                        <br><br>
+                        <label for="my-volunteer-email">Email address</label><br>
+                        <input id="my-volunteer-email" type="email" name="email" required>
+                        <br><br>
+                        <label for="my-volunteer-phone">Phone number (optional)</label><br>
+                        <input id="my-volunteer-phone" type="phone" name="phone">
+                        <br><br>
+                        <label for="my-volunteer-times">Please tell us how much time you'd like to volunteer</label><br>
+                        <select id="my-volunteer-times" aria-label="volunteering-times">
+                            <option selected value="3-6 hours per week">3-6 hours / week</option>
+                            <option value="2-3 days per week">2-4 days per week</option>
+                            <option value="full time">full time</option>
+                        </select>
+                        <br><br>
+                        <label for="my-form-message">Your Message</label><br>
+                        <textarea id="my-form-message" rows="8"
+                            placeholder="Short message about how you could help."></textarea>
+                        <div class="modal-footer">
+                            <button type="button" class="my-cancel-button" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="my-general-button my-form-button" data-bs-dismiss="modal"
+                                data-bs-toggle="modal" data-bs-target="#my-thank-you-modal">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thank You Modal using BOOTSTRAP -->
+    <div class="modal fade" id="my-thank-you-modal" tabindex="-1" aria-labelledby="thank you modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">thank you!</h1>
+                </div>
+                <div class="modal-body">
+                    We will be in touch soon.
+                </div>
+                <div class="modal-footer">
+                    <button class="my-cancel-button" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- BOOTSTRAP scripts  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
