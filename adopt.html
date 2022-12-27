@@ -51,7 +51,8 @@
                                 <a class="nav-link" href="./contact.html">Contact Us</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link my-donate" href="./donate.html">Donate</a>
+                                <a class="nav-link my-donate" data-bs-toggle="modal"
+                                    data-bs-target="#my-donate-modal">Donate</a>
                             </li>
                         </ul>
 
@@ -115,22 +116,22 @@
                 <br>
                 <p><span>Some of our most recent arrivals:</span></p><br><br>
                 <div id="my-gallery">
-                    <img src="assets/images/gallery/andriyko-podilnyk-unsplash.png">
-                    <img src="assets/images/gallery/chan-swan-unsplash.png">
-                    <img src="assets/images/gallery/daniel-mccarthy-themccarthy-unsplash.png">
-                    <img src="assets/images/gallery/gabriel-miklos-unsplash.png">
-                    <img src="assets/images/gallery/jackob-amson-unsplash.png">
-                    <img src="assets/images/gallery/janan-lagerwall-unsplash.png">
-                    <img src="assets/images/gallery/li-yan-unsplash.png">
-                    <img src="assets/images/gallery/matt-pike-unsplash.png">
-                    <img src="assets/images/gallery/misha-walker-unsplash.png">
-                    <img src="assets/images/gallery/pablo-martinez-unsplash.png">
-                    <img src="assets/images/gallery/pexels-Seyma-dalar.png">
-                    <img src="assets/images/gallery/pexels-tima-miroshnichenko.png">
-                    <img src="assets/images/gallery/pure-julia-unsplash.png">
-                    <img src="assets/images/gallery/rolf-neumann-agQyRtb4p30-unsplash.png">
-                    <img src="assets/images/gallery/sandy-millar-unsplash.png">
-                    <img src="assets/images/gallery/satyabratasm-unsplash.png">
+                    <img src="assets/images/gallery/andriyko-podilnyk-unsplash.png" alt="cute bunny nr1">
+                    <img src="assets/images/gallery/chan-swan-unsplash.png" alt="cute bunny nr2">
+                    <img src="assets/images/gallery/daniel-mccarthy-themccarthy-unsplash.png" alt="cute bunny nr3">
+                    <img src="assets/images/gallery/gabriel-miklos-unsplash.png" alt="cute bunny nr4">
+                    <img src="assets/images/gallery/jackob-amson-unsplash.png" alt="cute bunny nr5">
+                    <img src="assets/images/gallery/janan-lagerwall-unsplash.png" alt="cute bunny nr6">
+                    <img src="assets/images/gallery/li-yan-unsplash.png" alt="cute bunny nr7">
+                    <img src="assets/images/gallery/matt-pike-unsplash.png" alt="cute bunny nr8">
+                    <img src="assets/images/gallery/misha-walker-unsplash.png" alt="cute bunny nr9">
+                    <img src="assets/images/gallery/pablo-martinez-unsplash.png" alt="cute bunny nr10">
+                    <img src="assets/images/gallery/pexels-Seyma-dalar.png" alt="cute bunny nr11">
+                    <img src="assets/images/gallery/pexels-tima-miroshnichenko.png" alt="cute bunny nr12">
+                    <img src="assets/images/gallery/pure-julia-unsplash.png" alt="cute bunny nr13">
+                    <img src="assets/images/gallery/rolf-neumann-agQyRtb4p30-unsplash.png" alt="cute bunny nr14">
+                    <img src="assets/images/gallery/sandy-millar-unsplash.png" alt="cute bunny nr15">
+                    <img src="assets/images/gallery/satyabratasm-unsplash.png" alt="cute bunny nr16">
                 </div>
                 <br>
                 <div class="my-general-button-box">
@@ -147,6 +148,57 @@
         </article>
     </main>
 
+    <!-- Donate form using BOOTSTRAP modal -->
+    <div class="modal fade" id="my-donate-modal" tabindex="-1" aria-labelledby="donate modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="donate-modal">donate</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    We are in the process of setting up automatic payment methods but for now,
+                    let us contact you the traditional ways. <br><br>
+                    Thank you for considering donating to us!
+                    <br><br>
+                    <form class="my-form" method="get" action="">
+                        <label for="my-donor-name">Name</label><br>
+                        <input id="my-donor-name" type="text" name="name" required>
+                        <br><br>
+                        <label for="my-donor-email">Email address</label><br>
+                        <input id="my-donor-email" type="email" name="email" required>
+                        <br><br>
+                        <label for="my-donor-phone">Phone number (optional)</label><br>
+                        <input id="my-donor-phone" type="phone" name="phone">
+                        <br><br>
+
+                        <div class="modal-footer">
+                            <button type="button" class="my-cancel-button" data-bs-dismiss="modal">Cancel</button>
+                            <button type="button" class="my-general-button my-form-button" data-bs-dismiss="modal"
+                                data-bs-toggle="modal" data-bs-target="#my-thank-you-modal">Send</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Thank You Modal using BOOTSTRAP -->
+    <div class="modal fade" id="my-thank-you-modal" tabindex="-1" aria-labelledby="thank you modal" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">thank you!</h1>
+                </div>
+                <div class="modal-body">
+                    We will be in touch soon.
+                </div>
+                <div class="modal-footer">
+                    <button class="my-cancel-button" data-bs-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- FOOTER  -->
     <footer class="container-xxl">
@@ -168,7 +220,7 @@
                         </svg>
                         <p>+44 123 4567 890</p>
                     </a>
-                    <a href="mailto:getintouch@hopper.com" class="my-footer-item" aria-label="letter icon">
+                    <a href="mailto:getintouch@hopper.org.uk" class="my-footer-item" aria-label="letter icon">
                         <svg id="my-footer-letter-icon">
                             <use href="./assets/icons/letter.svg#letter"></use>
                         </svg>
