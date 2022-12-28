@@ -221,35 +221,21 @@ Gallery:
 
 Photo by Tima Miroshnichenko: https://www.pexels.com/photo/white-and-brown-rabbits-on-bed-6846043/
 
-Photo by Мария: https://www.pexels.com/photo/gray-and-brown-bunnies-8891763/
-
 Photo by Şeyma Dalar: https://www.pexels.com/photo/close-up-photo-of-rabbits-playing-11702024/
 
 Photo by <a href="https://unsplash.com/@purejulia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">pure julia</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@kiyoshi_jpg?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kiyoshi</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@lumiaa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">mohamad hajizade</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
-Photo by <a href="https://unsplash.com/@neonbrand?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Kenny Eliason</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@philspray1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Phil Wain</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
 Photo by <a href="https://unsplash.com/@andriyko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andriyko Podilnyk</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Photo by <a href="https://unsplash.com/@stuffinabox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Janan Lagerwall</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Photo by <a href="https://unsplash.com/@smpicturez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Satyabratasm</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@sandym10?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sandy Millar</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Photo by <a href="https://unsplash.com/@mjp_tw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matt Pike</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@danielmccarthy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel McCarthy @themccarthy</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@sandym10?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sandy Millar</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/@anyadiary?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Waranya Mooldee</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@misharose?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Misha Walker</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
@@ -258,8 +244,6 @@ Photo by <a href="https://unsplash.com/@junglerolf?utm_source=unsplash&utm_mediu
 Photo by <a href="https://unsplash.com/ja/@moyathebunny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chan Swan</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
 Photo by <a href="https://unsplash.com/@gebgramm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gabriel Miklós</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
-Photo by <a href="https://unsplash.com/@ajay_jana?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Ajay Kumar Jana</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
 Photo by <a href="https://unsplash.com/@yanli247?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Li Yan</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
 
