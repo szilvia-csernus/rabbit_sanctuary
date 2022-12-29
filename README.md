@@ -259,7 +259,7 @@ on how to use different images in html in different sizes for performance:
 https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
 https://ausi.github.io/respimagelint/docs.html
 
-
+to generate dark-mode responsive favicons https://realfavicongenerator.net/svg-favicon/
 
 👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
 
