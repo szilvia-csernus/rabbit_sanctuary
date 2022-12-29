@@ -251,7 +251,13 @@ Photo by <a href="https://unsplash.com/@jacobamson?utm_source=unsplash&utm_mediu
 
 Photo by <a href="https://unsplash.com/@pablomp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pablo Martinez</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
   
+Photo by Мария: https://www.pexels.com/photo/gray-and-brown-bunnies-8891763/
+
 making svg icons responsive: https://css-tricks.com/cascading-svg-fill-color/
+
+on how to use different images in html in different sizes for performance:
+https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
+https://ausi.github.io/respimagelint/docs.html
 
 
 
