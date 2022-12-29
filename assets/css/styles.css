@@ -699,6 +699,7 @@ h2 {
     }
 }
 
+
 /* Contacts  */
 
 .my-contact-item {
@@ -809,6 +810,7 @@ h2 {
     }
 }
 
+
 /* Gallery  */
 
 #my-gallery {
@@ -831,6 +833,7 @@ h2 {
     }
 }
 
+
 /* Modals and Forms  */
 
 .modal-content {
@@ -844,11 +847,13 @@ h2 {
 }
 
 .modal-footer {
-    border-color: var(--my-grey-font-color);
+    border: none;
+    /* border-color: var(--my-grey-font-color); */
 }
 
 .modal-header h1{
     text-transform: uppercase;
+    padding-bottom: 1.5rem;
 }
 
 button.btn-close {
@@ -859,14 +864,26 @@ button.btn-close {
     font-weight: 400;
 }
 
-.my-form > input {
+.modal-body > p {
+    margin-bottom: 1.5rem;
+}
+
+.my-form > input,
+.my-form > input.form-control,
+.my-form > textarea.form-control {
+    background-color: var(--my-body-bg-color);
+    color: var(--my-grey-font-color);
     border: .8px solid var(--my-grey-font-color);
     border-radius: 5px;
     padding: .4rem;
 }
 
+.my-form > input:focus {
+    box-shadow: 0 0 0 0.25rem var(--my-primary-color);
+}
+
 .my-form > input:focus-visible {
-    outline-color: var(--my-primary-color);
+    outline-color: none;
 }
 
 .my-form > textarea {
