@@ -233,32 +233,30 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    We are in the process of setting up automatic payment methods but for now,
-                    let us contact you the traditional ways. <br>
-                    Thank you for considering donating to us!
-                    <br><br>
+                    <p>We are in the process of setting up automatic payment methods but for now,
+                        let us contact you the traditional ways. </p>
+                    <p>Thank you for considering donating to us!</p>
                     <form class="my-form needs-validation" novalidate>
-                        <label for="my-donor-name" class="form-label">Name</label>
+                        <label for="my-donor-name" class="form-label">Name*</label>
                         <input id="my-donor-name" class="form-control" type="text" name="name" required>
                         <div class="invalid-feedback">
                             Please provide your name.
                         </div>
-                        <br><br>
-                        <label for="my-donor-email" class="form-label">Email address</label>
+                        <br>
+                        <label for="my-donor-email" class="form-label">Email address*</label>
                         <input id="my-donor-email" class="form-control" type="email" name="email" required>
                         <div class="invalid-feedback">
                             Please provide your email address.
                         </div>
-                        <br><br>
+                        <br>
                         <label for="my-donor-phone" class="form-label">Phone number (optional)</label><br>
-                        <input id="my-donor-phone" type="phone" name="phone">
-                        <br><br>
-
+                        <input id="my-donor-phone" class="form-control" type="phone" name="phone">
+                        <br>
                         <div class="modal-footer">
                             <button type="button" class="my-cancel-button" data-bs-dismiss="modal">Cancel</button>
                             <input type="submit" class="my-general-button my-form-button" value="Send"></input>
                         </div>
-                        
+
                     </form>
                 </div>
             </div>
@@ -274,29 +272,28 @@
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    Please fill in the form so we can contact you.
+                    <p>Please fill in the form so we can contact you.</p>
                     <form class="my-form needs-validation" id="my-volunteer-form" novalidate>
-                        <label for="my-volunteer-name" class="form-label">Name</label>
+                        <label for="my-volunteer-name" class="form-label">Name*</label>
                         <input id="my-volunteer-name" class="form-control" type="text" name="name" required>
                         <div class="invalid-feedback">
                             Please provide your name.
                         </div>
-                        <label for="my-volunteer-email" class="form-label">Email address</label>
+                        <br>
+                        <label for="my-volunteer-email" class="form-label">Email address*</label>
                         <input id="my-volunteer-email" class="form-control" type="email" name="email" required>
                         <div class="invalid-feedback">
                             Please provide your email address.
                         </div>
+                        <br>
                         <label for="my-volunteer-phone" class="form-label">Phone number (optional)</label>
                         <input id="my-volunteer-phone" class="form-control" type="phone" name="phone">
-
+                        <br>
                         <label for="my-form-message" class="form-label">In 1-2 sentences, please tell us about how you
                             would like to
                             support our work.</label>
-                        <div class="invalid-feedback">
-                            Please fill in this field.
-                        </div>
-                        <textarea id="my-form-message" class="form-control" rows="8" placeholder="Your message"
-                            required></textarea>
+                        <textarea id="my-form-message" class="form-control" rows="8" placeholder="Your message"></textarea>
+                        <br>
                         <div class="modal-footer">
                             <button type="button" class="my-cancel-button" data-bs-dismiss="modal">Cancel</button>
                             <input type="submit" class="my-general-button my-form-button" value="Send"></input>
