@@ -31,7 +31,6 @@ svg {
     background: transparent;
     text-decoration: none;
     box-sizing: border-box;
-    /* text-align: left; */
 }
 
 img {
@@ -85,7 +84,6 @@ li {
 
     --my-main-font-family: "Nunito";
     --my-body-font-family: "Nunito Sans";
-    --my-donate-form-font-family: "Roboto";
 
     --my-body-font-size: 1.1rem;
     --my-header-font-size: 1.3rem;
@@ -251,6 +249,10 @@ header {
     border-radius: 10px;
 }
 
+.my-donate:focus {
+    color: var(--my-donate-text-color);
+}
+
 .nav-item {
     display: inline-block;
     align-self: center;
@@ -287,7 +289,8 @@ button.navbar-toggler:focus {
 }
 
 
- /* this media query caters for the unusually small screen sizes  */
+/* this media query caters for the unusually small screen sizes 
+- esp. the one on amiresponsive.com's phone size  */
 @media screen and (max-width: 342px) {
     #my-logo-grid {
         width: 12rem;
