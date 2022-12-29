@@ -266,48 +266,6 @@
         </div>
     </div>
 
-    <!-- Volunteer form using BOOTSTRAP modal -->
-    <div class="modal fade" id="my-volunteer-modal" tabindex="-1" aria-labelledby="volunteer modal" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="volunteer-modal">volunteer</h1>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    Please fill in the form so we can contact you.
-                    <form class="my-form needs-validation" id="my-volunteer-form" novalidate>
-                        <label for="my-volunteer-name" class="form-label">Name</label>
-                        <input id="my-volunteer-name" class="form-control" type="text" name="name" required>
-                        <div class="invalid-feedback">
-                            Please provide your name.
-                        </div>
-                        <label for="my-volunteer-email" class="form-label">Email address</label>
-                        <input id="my-volunteer-email" class="form-control" type="email" name="email" required>
-                        <div class="invalid-feedback">
-                            Please provide your email address.
-                        </div>
-                        <label for="my-volunteer-phone" class="form-label">Phone number (optional)</label>
-                        <input id="my-volunteer-phone" class="form-control" type="phone" name="phone">
-
-                        <label for="my-form-message" class="form-label">In 1-2 sentences, please tell us about how you
-                            would like to
-                            support our work.</label>
-                        <div class="invalid-feedback">
-                            Please fill in this field.
-                        </div>
-                        <textarea id="my-form-message" class="form-control" rows="8" placeholder="Your message"
-                            required></textarea>
-                        <div class="modal-footer">
-                            <button type="button" class="my-cancel-button" data-bs-dismiss="modal">Cancel</button>
-                            <input type="submit" class="my-general-button my-form-button" value="Send"></input>
-                        </div>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </div>
-
     <!-- Thank You Modal using BOOTSTRAP -->
     <div class="modal fade" id="my-thank-you-modal" tabindex="-1" aria-labelledby="thank you modal" aria-hidden="true">
         <div class="modal-dialog">
@@ -325,61 +283,8 @@
         </div>
     </div>
 
-    <script>
-        // script by BOOTSTRAP to aid form validation
-
-        // Example starter JavaScript for disabling form submissions if there are invalid fields
-        (() => {
-            'use strict'
-
-            // Fetch all the forms we want to apply custom Bootstrap validation styles to
-            const forms = document.querySelectorAll('.needs-validation')
-
-            // Loop over them and prevent submission
-            Array.from(forms).forEach(form => {
-                form.addEventListener('submit', event => {
-                    if (!form.checkValidity()) {
-                        event.preventDefault()
-                        event.stopPropagation()
-                    }
-
-                    form.classList.add('was-validated')
-                }, false)
-            })
-
-
-            // script by me to trigger "my-thank-you-modal" after clicking 'Send' of either forms 
-
-            const myThankYouModal = document.getElementById("my-thank-you-modal");
-
-            // fetch all of my forms 
-            const myForms = document.querySelectorAll(".my-form");
-
-            // apply a new submit event listener
-            Array.from(myForms).forEach(form => {
-                form.addEventListener("submit", event => {
-                    // if none of the input fields are :invalid - meaning they all passed Bootstrap's
-                    // validations in the previous steps...
-                    let invalidInputs = form.querySelectorAll(":invalid");
-                    if (invalidInputs.length === 0) {
-                        // ...prevent the default submit event
-                        event.preventDefault();
-                        // ...apply data-bs-toggle and data-bs-target attributes to form so that the 
-                        // ...click event will trigger my-thank-you-modal to appear
-                        form.dataset.bsToggle = "modal";
-                        form.dataset.bsTarget = "#my-thank-you-modal";
-                        // ...inintiate the click() event
-                        form.click();
-                        // ...reset all fields and attributes so they don't linger for next time.
-                        form.classList.remove("was-validated");
-                        form.reset();
-                        form.removeAttribute("data-bs-toggle");
-                        form.removeAttribute("data-bs-target");
-                    }
-                })
-            })
-        })()
-    </script>
+    <!-- validation by BOOTSTRAP and triggering #my-thank-you-modal -->
+    <script src="./validation.js" defer></script>
 
     <!-- BOOTSTRAP scripts  -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
