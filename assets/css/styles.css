@@ -1000,14 +1000,14 @@ footer svg {
     margin-right: 7px;
 }
 
-#my-footer-phone-icon {
+#my-phone-icon {
     stroke-width: 2;
     width: 30px;
     height: 30px;
     margin-right: 16px;  
 }
 
-#my-footer-letter-icon {
+#my-letter-icon {
     stroke-width: 1.5;
     width: 40px;
     height: 30px;
@@ -1051,22 +1051,6 @@ footer svg {
         align-self: center;
         padding: 0 2rem;
         margin: 0;
-    }
-
-    #my-footer-location-img {
-        margin-right: .5rem;
-    }
-    
-    #my-footer-phone-img {
-        margin-right: .5rem;
-    }
-    
-    #my-footer-letter-img {
-        margin-right: .7rem;
-    }
-
-    #my-footer-social-img {
-        margin-top: .5rem;
     }
 
     #my-follow-us {
