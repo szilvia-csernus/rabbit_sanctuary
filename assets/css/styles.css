@@ -815,6 +815,10 @@ h2 {
 
 /* Gallery  */
 
+img {
+    display: inline
+}
+
 #my-gallery {
     clear: both;
     column-count: 2;
