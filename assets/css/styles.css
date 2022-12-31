@@ -1,7 +1,6 @@
 /* used my-* classes to distinguish from bootstrap classes */
 
 
-
 /* Google Fonts  */
 @import url('https://fonts.googleapis.com/css2?family=Bubblegum+Sans&family=Nunito+Sans:wght@300;400;700&family=Nunito:wght@400;700&display=swap');
 
@@ -300,7 +299,7 @@ button.navbar-toggler:focus {
     
     #my-logo-rabbit {
         width: 3rem;
-        height: auto;
+        height: 4rem;
     }
     
     #my-logo-hopper {
@@ -815,14 +814,29 @@ h2 {
 
 /* Gallery  */
 
-img {
-    display: inline
+#my-gallery img {
+    display: inline;
 }
 
 #my-gallery {
     clear: both;
     column-count: 2;
     column-gap: 0;
+}
+
+#my-gallery picture {
+    position: relative;
+}
+
+#my-gallery picture::before {
+    content: attr(data-name);
+    position: absolute;
+    border: 1px solid var(--my-static-bg-color);
+    border-radius: 0 .7rem .7rem 0;
+    background-color: var(--my-static-bg-color);
+    color: var(--my-accent-text-color);
+    padding: 0.2rem 0.5rem;
+    margin: .5rem .5rem .5rem 0;
 }
 
 @media screen and (min-width: 640px) {
