@@ -814,8 +814,10 @@ h2 {
 
 /* Gallery  */
 
-#my-gallery img {
-    display: inline;
+#my-gallery > .my-gallery-img-box {
+    display: inline-block;
+    width: 100%;
+    position: relative;
 }
 
 #my-gallery {
@@ -824,8 +826,8 @@ h2 {
     column-gap: 0;
 }
 
-#my-gallery picture {
-    position: relative;
+#my-gallery img {
+    display: inline;
 }
 
 #my-gallery picture::before {
