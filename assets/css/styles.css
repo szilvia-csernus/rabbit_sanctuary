@@ -239,7 +239,7 @@ header {
     color: var(--my-primary-hover-color);
 }
 
-.my-donate {
+#my-donate-btn {
     background-color: var(--my-extra-bg-color);
     color: var(--my-donate-text-color);
     padding: .3rem 1rem;
@@ -248,7 +248,7 @@ header {
     border-radius: 10px;
 }
 
-.my-donate:focus {
+#my-donate-btn:focus {
     color: var(--my-donate-text-color);
 }
 
@@ -259,7 +259,7 @@ header {
     margin: 0 0 0 1vw;
 }
 
-.nav-item .nav-link.my-donate:hover {
+.nav-item #my-donate-btn:hover {
     background-color: var(--my-extra-bg-hover-color);
     color: var(--my-donate-text-color);
     cursor: pointer;
