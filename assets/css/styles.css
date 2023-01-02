@@ -79,6 +79,7 @@ li {
     --my-grey-bg-color: #EDEDED;
     --my-grey-font-color: #616161;
     --my-backdrop-color: #000000;
+    --my-modal-bg-color: rgba(0, 0, 0, 0.6);
     
 
     --my-main-font-family: "Nunito";
@@ -343,6 +344,10 @@ button.navbar-toggler:focus {
 
     .nav-link {
         margin: 0 0 0 1.5rem;
+    }
+
+    #my-header-contact {
+        margin-right: .6rem;
     }
 
 }
@@ -636,7 +641,6 @@ h2 {
 
     .my-article-left > .my-general-button-box {
         grid-area: 2 / 2 / 3 / 3;
-        
     }
 
     .my-article-right {
@@ -656,10 +660,8 @@ h2 {
 
     .my-article-right > .my-general-button-box {
         grid-area: 2 / 1 / 3 / 2;
-        
     }
 }
-
 
 @media screen and (min-width: 992px) {
     #my-hero-img-box {
@@ -858,8 +860,17 @@ h2 {
 
 /* Modals and Forms  */
 
+.modal {
+    background-color: var(--my-modal-bg-color);
+}
+
+.modal-body {
+    color: var(--my-grey-font-color);
+}
+
 .modal-content {
     background-color: var(--my-body-bg-color);
+    border: 1px solid var(--my-grey-bg-color);
 }
 
 .modal-header {
@@ -878,16 +889,16 @@ h2 {
     padding-bottom: 1.5rem;
 }
 
+.modal-body > p {
+    margin-bottom: 1.5rem;
+}
+
 button.btn-close {
     opacity: .7;
 }
 
 .my-form {
     font-weight: 400;
-}
-
-.modal-body > p {
-    margin-bottom: 1.5rem;
 }
 
 .my-form > input,
@@ -901,11 +912,30 @@ button.btn-close {
 }
 
 .my-form > input:focus {
-    box-shadow: 0 0 0 0.25rem var(--my-primary-color);
+    box-shadow: 0 0 0 0.15rem var(--my-primary-color);
 }
 
 .my-form > input:focus-visible {
-    outline-color: none;
+    outline-color: (--my-primary-color);
+}
+
+.form-control.is-valid, .was-validated .form-control:valid {
+    border-color: var(--my-primary-color);
+    background-image: none;
+}
+
+.form-control.is-invalid, .was-validated .form-control:invalid {
+    border-color: var(--my-accent-color);
+    background-image: none;
+}
+
+.form-control.is-invalid:focus, .was-validated .form-control:invalid:focus {
+    border-color: var(--my-accent-color);
+    box-shadow: 0 0 0 0.25rem rgba(220, 114, 53, 0.25);
+}
+
+.invalid-feedback {
+    color: var(--my-accent-color);
 }
 
 .my-form > textarea {
