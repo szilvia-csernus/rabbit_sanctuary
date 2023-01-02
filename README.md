@@ -203,6 +203,8 @@ facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media
 
 Instagram icon MIT licence: (modified) https://www.svgrepo.com/svg/419930/instagram-socials-social-media-icon
 
+Twitter icon MIT licence: (modified) https://www.svgrepo.com/svg/389481/twitter 
+
 Location icon MIT licence: (modified) https://www.svgrepo.com/svg/309741/location
 
 Phone icon: (modified) https://www.svgrepo.com/svg/425344/phone-1
@@ -214,8 +216,7 @@ Images:
 
 Hero image: Photo by Ali Atakan Açıkbaş: https://www.pexels.com/photo/close-up-view-of-white-rabbit-10595503/
 
-Adopting page image: Photo by <a href="https://unsplash.com/@lorna_ladril?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lorna Ladril</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-  
+Adopting page image: Photo by <a href="https://unsplash.com/@lorna_ladril?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lorna Ladril</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
 
 Gallery:
 
@@ -253,19 +254,30 @@ Photo by <a href="https://unsplash.com/@pablomp?utm_source=unsplash&utm_medium=r
   
 Photo by Мария: https://www.pexels.com/photo/gray-and-brown-bunnies-8891763/
 
-making svg icons responsive: https://css-tricks.com/cascading-svg-fill-color/
-
-on how to use different images in html in different sizes for performance:
-https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
-https://ausi.github.io/respimagelint/docs.html
-
-to generate dark-mode responsive favicons https://realfavicongenerator.net/svg-favicon/
 
 👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
 
 The Credits section is where you can credit all the people and sources you used throughout your project.
 
 ### Code Used
+
+* BOOTSTRAP 5.2 was used to create the menu bar, the modals, the forms and the responsive layouts.
+
+In addition, I also used ideas from various online sources for:
+
+* making svg icons responsive: https://css-tricks.com/cascading-svg-fill-color/ by Chris Coyier https://css-tricks.com/author/chriscoyier/
+
+* generating dark-mode responsive favicons https://realfavicongenerator.net/svg-favicon/
+
+* using images in HTML in different sizes to improve performance:
+https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
+https://ausi.github.io/respimagelint/docs.html
+
+* adding backup image in .png format for older Safari users
+https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-browser
+
+
+
 
 If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
 
