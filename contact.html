@@ -78,17 +78,17 @@
             <div class="my-article" id="my-contact-location">
                 <h2>How to find us?</h2>
                 <div class="my-contact-item">
-                    <svg id="my-contact-location-icon">
-                        <use href="./assets/icons/location.svg#location" alt="location icon"></use>
+                    <svg id="my-contact-location-icon" aria-label="location icon">
+                        <use href="./assets/icons/location.svg#location"></use>
                     </svg>
                     <address>
                         Hopper Farm<br>Old Windsor, Berkshire<br>SL5 9YY<br>United Kingdom
                     </address>
                 </div>
                 <div id="my-google-map">
-                    <iframe title="google map pointing to address" passive="true"
+                    <iframe title="google map pointing to address"
                         src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d9552.951763419278!2d-0.5820508812475585!3d51.46192203662342!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2suk!4v1671971986355!5m2!1sen!2suk"
-                        width="600" height="450" allowfullscreen="" loading="lazy" allow="*"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
                 <p>
@@ -106,7 +106,7 @@
             <div class="my-article" id="my-contact-volunteer">
                 <h2>Interested in volunteering?</h2>
                 <div id="my-volunteer-icon-box">
-                    <svg id="my-volunteer-icon">
+                    <svg id="my-volunteer-icon" aria-label="volunteer icon">
                         <use href="./assets/icons/volunteer.svg#volunteer"></use>
                     </svg>
                 </div>
@@ -125,7 +125,7 @@
                 <h2>Got questions?</h2>
                 <div id="my-contact-phone">
                     <a href="tel:+441234567890" class="my-footer-item" aria-label="phone icon">
-                        <svg id="my-phone-icon">
+                        <svg class="my-phone-icon">
                             <use href="./assets/icons/phone.svg#phone"></use>
                         </svg>
                         <p>+44 123 4567 890</p>
@@ -133,7 +133,7 @@
                 </div>
                 <div id="my-contact-email">
                     <a href="mailto:getintouch@hopper.org.uk" class="my-footer-item" aria-label="letter icon">
-                        <svg id="my-letter-icon">
+                        <svg class="my-letter-icon">
                             <use href="./assets/icons/letter.svg#letter"></use>
                         </svg>
                         <p>getintouch@hopper.org.uk</p>
@@ -156,8 +156,8 @@
             <div id="my-footer-align-box">
                 <!-- Contact details  -->
                 <div class="my-footer-item">
-                    <svg id="my-footer-location-icon">
-                        <use href="./assets/icons/location.svg#location" alt="location icon"></use>
+                    <svg id="my-footer-location-icon" aria-label="location icon">
+                        <use href="./assets/icons/location.svg#location"></use>
                     </svg>
                     <address>
                         Hopper Farm<br>Old Windsor, Berkshire<br>SL5 9YY<br>United Kingdom
@@ -165,13 +165,13 @@
                 </div>
                 <div id="my-footer-contacts">
                     <a href="tel:+441234567890" class="my-footer-item" aria-label="phone icon">
-                        <svg id="my-phone-icon">
+                        <svg class="my-phone-icon">
                             <use href="./assets/icons/phone.svg#phone"></use>
                         </svg>
                         <p>+44 123 4567 890</p>
                     </a>
                     <a href="mailto:getintouch@hopper.org.uk" class="my-footer-item" aria-label="letter icon">
-                        <svg id="my-letter-icon">
+                        <svg class="my-letter-icon">
                             <use href="./assets/icons/letter.svg#letter"></use>
                         </svg>
                         <p>getintouch@hopper.org.uk</p>
@@ -211,11 +211,11 @@
     <!-- end of FOOTER  -->
 
     <!-- Donate form using BOOTSTRAP modal -->
-    <div class="modal fade" id="my-donate-modal" tabindex="-1" aria-labelledby="donate modal" aria-hidden="true">
+    <div class="modal fade" id="my-donate-modal" tabindex="-1" aria-labelledby="my-donate-modal-dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="donate-modal">donate</h1>
+                    <h2 class="modal-title fs-5" id="my-donate-modal-dialog">donate</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -236,11 +236,11 @@
                         </div>
                         <br>
                         <label for="my-donor-phone" class="form-label">Phone number (optional)</label><br>
-                        <input id="my-donor-phone" class="form-control" type="phone" name="phone">
+                        <input id="my-donor-phone" class="form-control" type="tel" name="phone">
                         <br>
                         <div class="modal-footer">
                             <button type="button" class="my-cancel-button" data-bs-dismiss="modal">Cancel</button>
-                            <input type="submit" class="my-general-button my-form-button" value="Send"></input>
+                            <input type="submit" class="my-general-button my-form-button" value="Send">
                         </div>
 
                     </form>
@@ -250,11 +250,11 @@
     </div>
 
     <!-- Volunteer form using BOOTSTRAP modal -->
-    <div class="modal fade" id="my-volunteer-modal" tabindex="-1" aria-labelledby="volunteer modal" aria-hidden="true">
+    <div class="modal fade" id="my-volunteer-modal" tabindex="-1" aria-labelledby="my-volunteer-modal-dialog" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="volunteer-modal">volunteer</h1>
+                    <h2 class="modal-title fs-5" id="my-volunteer-modal-dialog">volunteer</h2>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
@@ -273,7 +273,7 @@
                         </div>
                         <br>
                         <label for="my-volunteer-phone" class="form-label">Phone number (optional)</label>
-                        <input id="my-volunteer-phone" class="form-control" type="phone" name="phone">
+                        <input id="my-volunteer-phone" class="form-control" type="tel" name="phone">
                         <br>
                         <label for="my-form-message" class="form-label">In 1-2 sentences, please tell us about how you
                             would like to
@@ -283,7 +283,7 @@
                         <br>
                         <div class="modal-footer">
                             <button type="button" class="my-cancel-button" data-bs-dismiss="modal">Cancel</button>
-                            <input type="submit" class="my-general-button my-form-button" value="Send"></input>
+                            <input type="submit" class="my-general-button my-form-button" value="Send">
                         </div>
                     </form>
                 </div>
@@ -292,11 +292,11 @@
     </div>
 
     <!-- Thank You Modal using BOOTSTRAP -->
-    <div class="modal fade" id="my-thank-you-modal" tabindex="-1" aria-labelledby="thank you modal" aria-hidden="true">
+    <div class="modal fade" id="my-thank-you-modal" tabindex="-1" aria-labelledby="my-thank-you-modal-dialog" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered ">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h1 class="modal-title fs-5" id="exampleModalLabel">thank you!</h1>
+                    <h2 class="modal-title fs-5" id="my-thank-you-modal-dialog">thank you!</h2>
                 </div>
                 <div class="modal-body">
                     We will be in touch soon.
