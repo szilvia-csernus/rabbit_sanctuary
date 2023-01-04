@@ -430,7 +430,7 @@ h1 {
 
 h2 {
     font-family: var(--my-main-font-family);
-    font-size: 1.3rem;
+    font-size: 1.5rem;
     font-weight: bold;
     color: var(--my-primary-color);
     text-align: center;
@@ -470,6 +470,7 @@ h2 {
 
 .my-article h2 {
     font-size: inherit;
+    color: var(--my-grey-font-color);
 }
 
 .my-article h2,
@@ -734,6 +735,11 @@ h2 {
     color: var(--my-contact-title-color)
 }
 
+.my-article > h2.my-contact-article-title {
+    font-size: 1.5rem;
+    color: var(--my-primary-color);
+}
+
 #my-contact-location {
     padding-top: 0;
 }
@@ -822,6 +828,11 @@ h2 {
 
 
 /* Gallery  */
+
+#my-gallery-title {
+    font-size: 1.5rem;
+    color: var(--my-primary-color);
+}
 
 #my-gallery > .my-gallery-img-box {
     display: inline-block;
