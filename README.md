@@ -4,7 +4,7 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
 
 ----------
 
-live website: https://szilvia-csernus.github.io/rabbit_sanctuary
+Live website: https://szilvia-csernus.github.io/rabbit_sanctuary
 
 Hopper Farm Rabbit Rescue is a fictional non-profit organisation. The website is designed to support the charity's primary mission which is to help find new homes for rescued pet rabbits.
 
@@ -62,7 +62,7 @@ The website is fully responsive to any screen sizes as well as dark mode prefere
 * To help find potential donors and volunteers willing to contribute to the charity's work.
 * To help visitors to make contact with the organisation.
 * The website to have simple structure and clear 'call to action' messages.
-* The website to be responsive to all screen sizes as well as light- or dark mode preferences.
+* The website to be responsive to all screen sizes as well as light/dark mode preferences.
 ---
 ### Website visitors' Goals
 
@@ -89,7 +89,7 @@ Primary and accent colours were sampled from the hero image of the landing page,
 ### Typography
 
 Typography choice was made with the help of a font pairing website [Typ.io](https://typ.io/lists).
-Nunito and Nunito Sans were chosen from the [Google Fonts](https://fonts.google.com/) library for their simplicity, legibility and fairly informal feel. These fonts' conservative look increases trust towards the organisation. 
+[Nunito](https://fonts.google.com/specimen/Nunito) and [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) were selected from the [Google Fonts](https://fonts.google.com/) library for their simplicity, legibility and fairly informal feel. These fonts' conservative look increases trust towards the organisation. 
 
 ### Imagery
 
@@ -98,7 +98,7 @@ Feature rabbit icon was custom created by the author of the site, other icons we
 
 ### Wireframes - Low & High Fidelity Designs
 
-All design was created by the author of the site in [Figma](https://www.figma.com/).
+All design was created by the author of the site width [Figma](https://www.figma.com/).
 
 ![mobile-low-fidelity-design](assets/readme-images/mobile-low-fidelity-design.jpeg)
 ![desktop-low-fidelity-design](assets/readme-images/desktop-low-fidelity-design.jpeg)
@@ -122,31 +122,26 @@ I then like to add a screenshot of each page of the site here, i use [amirespons
 
 What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
 
-### Accessibility
+## Accessibility
 
+* All colours were tested to have sufficient contrast.
 * All relevant elements that have implied meanings are labelled with aria-labels to be accessible for screen readers. 
 
 * Fonts were chosen to be simple with clean contours to maximize legibility. 
 
-* As font-sizes, 'rem's were used throughout the site instead of 'px' to allow the text to scale according to the users' preferred default font-size.
+* For font-sizes, 'rem' were used throughout the site instead of 'px' to allow the text to scale according to the users' preferred default font-size.
 
-* All colours were tested to have suficient contrast. 
+All colors were tested for contrast with the help of [Color Palette Contrast Checker](https://color-contrast-checker.deque.com/)
+
+![light-mode-colors-nr1](assets/readme-images/light-mode-colors-nr1.jpeg)
+![light-mode-colors-nr2](assets/readme-images/light-mode-colors-nr2.jpeg)
+![dark-mode-colors-nr1](assets/readme-images/dark-mode-colors-nr1.jpeg)
+![dark-mode-colors-nr2](assets/readme-images/dark-mode-colors-nr2.jpeg)
 
 All pages on all screen sizes in both light and dark mode passed Lighthouse's accessibility test with 100%.
 
 ![Accessibility image](assets/readme-images/accessibility.jpeg)
 
-
-Colors were tested for accessibility and contrast with the help of material.io's COLOR TOOL
-
-Primary colour (green): hhttps://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=11644d
-
-Accent colour (orange): https://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=cc4b00
-
-Grey on white background (main text): https://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&primary.text.color=616161
-
-Dark grey text on light grey background (Home Page's mission statement):
-https://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=EDEDED&primary.text.color=616161
 
 ## Technologies Used
 
