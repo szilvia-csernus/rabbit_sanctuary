@@ -1,29 +1,27 @@
 // Script by BOOTSTRAP to aid form validation:
 // Example starter JavaScript for disabling form submissions if there are invalid fields
-(() => {
-    'use strict'
 
-    // Fetch all the forms we want to apply custom Bootstrap validation styles to
+// Fetch all the forms we want to apply custom Bootstrap validation styles to
     const forms = document.querySelectorAll('.needs-validation')
 
-    // Loop over them and prevent submission
-    Array.from(forms).forEach(form => {
-        form.addEventListener('submit', event => {
-            if (!form.checkValidity()) {
-                event.preventDefault()
-                event.stopPropagation()
-            }
+// Loop over them and prevent submission
+Array.from(forms).forEach(form => {
+    form.addEventListener('submit', event => {
+        if (!form.checkValidity()) {
+            event.preventDefault()
+            event.stopPropagation()
+        }
 
-            form.classList.add('was-validated')
-        }, false)
-    })
-})()
+        form.classList.add('was-validated')
+    }, false)
+})
 
-// custom script to trigger "my-thank-you-modal" after clicking 'Send' of either forms 
+
+// Custom script to trigger "my-thank-you-modal" after clicking 'Send' of either forms
 
 const myThankYouModal = document.getElementById("my-thank-you-modal")
 
-// fetch all of my forms 
+// fetch all of my forms - both for volunteering and donating.
 const myForms = document.querySelectorAll(".my-form")
 
 // apply a new submit event listener
@@ -51,8 +49,9 @@ Array.from(myForms).forEach(form => {
 })
 
 
-// custom script to close sidebar after clicking 'Donate' button - otherwise it would stay open after
-// we sent off the Donate form.
+// custom script to close sidebar after clicking 'Donate' button - otherwise it would stay open even
+// after we sent off the Donate form.
+
 const myDonateBtn = document.getElementById('my-donate-btn')
 myDonateBtn.addEventListener('click', () => {
     // when 'Donate' was reached from sidebar
