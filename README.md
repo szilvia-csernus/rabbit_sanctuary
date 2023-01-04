@@ -1,22 +1,27 @@
-# Website for a Fictional Rabbit Rescue Charity
+# Website for Hopper Farm Rabbit Rescue
 
-This responsive website was created as the 1st Milestone Project for Code Institute's web application development course using HTML5, CSS3 and BOOTSTRAP 5.
+This website was created as the 1st Milestone Project (User Centric Frontend Development Project) for Code Institute's web application development course.
 
-HOPPER Rabbit Rescue is a fictional non-profit organisation. The website is designed to aid the charity's mission which is to help find new homes for rescued rabbits as well as to help potential donors and volunteers to find the charity.
+----------
+
+live website: https://szilvia-csernus.github.io/rabbit_sanctuary
+
+Hopper Farm Rabbit Rescue is a fictional non-profit organisation. The website is designed to support the charity's primary mission which is to help find new homes for rescued pet rabbits.
+
+The website is fully responsive to any screen sizes as well as dark mode preferences.
+
+![Light mode](assets/readme-images/amiresponsive-light-mode.jpeg)
+
+![Dark mode](assets/readme-images/amiresponsive-dark-mode.jpeg)
+
+
 
 ---------
-
-Add an image of the finished site here. I like to use [amiresponsive](https://ui.dev/amiresponsive) to get an image of my site on all device sizes, and amiresponsive allows you to click links on the page and scroll, so each device can show a different element of your site.
-
-Add a link to the live site here, for Milestone 1 this will be the GitHub Pages Link from when you deployed the site.
-
-If you want to add optional [shields.io](https://shields.io) badges to your README, I like to add them to this section.
-
----
 
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
+  * [Webite Owner's Goals](#website-owners-goals)
   * [User Stories](#user-stories)
 
 * [Design](#design)
@@ -45,79 +50,61 @@ If you want to add optional [shields.io](https://shields.io) badges to your READ
 * [Credits](#credits)
   * [Code Used](#code-used)
   * [Content](#content)
-  * [Media](#media)
   * [Acknowledgments](#acknowledgments)
 
 ---
 
 ## User Experience (UX)
 
-
 ### Website Owner's Goals
 
-* To help local people find the organisation for the primary purpose of rehoming a rescued rabbit.
-* To aid potential donors and volunteers willing to contribute to the charity's work.
-* To allow visitors to make contact with the organisation.
-* The website to be responsive with simple structure and clear 'call to action' messages.
+* To help people find the organisation for the primary purpose of rehoming a rescued rabbit.
+* To help find potential donors and volunteers willing to contribute to the charity's work.
+* To help visitors to make contact with the organisation.
+* The website to have simple structure and clear 'call to action' messages.
+* The website to be responsive to all screen sizes as well as light- or dark mode preferences.
+---
+### Website visitors' Goals
 
-### First time visitors' Goals
-
-* To find the relevant information quickly, be it adoption, volunteering or donation info.
-* To be able to find the location quickly.
+* To find the relevant piece of information quickly, be it about rabbit adoption, volunteering or donation.
 * To be able to make contact with the charity for relevant requests effectively.
-
-### Returning visitors' Goals
-
-* Returning visitors' goals are the same as those of first time visitors, as the website is not designed to update frequently, returning visitors would come to the site for the same reasons as first time visitors.
-
+* To be able to find the location quickly.
+* To be able to access the website in any screen sizes.
+* To read the site comfortably when dark mode is preferrable.
+---
 ## Design
+
+All wireframes and design were created in [Figma](https://www.figma.com/).
 
 ### Colour Scheme
 
-Colour choice was made in line with industry norms and customer expectations, green being primarily chosen for animal charity organisations. Orange was chosen as an accent colour to emphasize the 'call to action' messages. In addition, various shades of greys were added to complement the two main colours.
+Colour choice was made in line with industry norms and customer expectations, green being the most frequent choice for for animal charity organisations. Orange was chosen as an accent colour to emphasize the 'call to action' messages. In addition, various shades of greys were added to complement the two main colours.
 
-The exact shades of green and orange were sampled from the hero image of the landing page.
+Primary and accent colours were sampled from the hero image of the landing page, then slightly modified to satisfy accessibility requirements.
 
-Colors were tested for accessibility and contrast with the help of material.io's COLOR TOOL
+![Light mode palette:](assets/readme-images/light-palette.png)
 
-Primary colour (green): hhttps://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=11644d
-
-Accent colour (orange): https://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=cc4b00
-
-Grey on white background (main text): https://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&primary.text.color=616161
-
-Dark grey text on light grey background (Home Page's mission statement):
-https://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=EDEDED&primary.text.color=616161
-
-
+![Dark mode palette:](assets/readme-images/dark-palette.png)
 
 ### Typography
 
-Typography choice was made with the help of a font pairing website https://typ.io.
-Nunito and Nunito Sans were chosen from the [Google Fonts](https://fonts.google.com/) library for their simplicity, legibility and fairly informal feel. These fonts' conservative look increases trust towards the organisation.
-
-
-If you've imported fonts to use in your project, add some information about them here. You can include information like:
-
-Why did you choose the font you have?
-Is this an accessibly friendly font?
-What weights have you included?
-
-I also like to include an image of the fonts chosen as a reference.
-
-[Google Fonts](https://fonts.google.com/) is a popular choice for importing fonts to use in your project, as it doesn't require you to download the fonts to use them.
+Typography choice was made with the help of a font pairing website [Typ.io](https://typ.io/lists).
+Nunito and Nunito Sans were chosen from the [Google Fonts](https://fonts.google.com/) library for their simplicity, legibility and fairly informal feel. These fonts' conservative look increases trust towards the organisation. 
 
 ### Imagery
 
-Free images were chosen from the Pexels and Unsplash websites.
+Free images were chosen from [Pexels](https://pexels.com/) and [Unsplash](https://unsplash.com/) websites.
+Feature rabbit icon was custom created by the author of the site, other icons were downloaded from [svgrepo](https://svgrepo.com/) and edited in [Figma](https://www.figma.com/).
 
-### Wireframes
+### Wireframes - Low & High Fidelity Designs
 
-Add the images or links for your wireframes here.
+All design was created by the author of the site in [Figma](https://www.figma.com/).
 
-There are lots of different options to create your wireframes - Code Institute students can access [Balsamiq](https://balsamiq.com/) as part of the course.
+![mobile-low-fidelity-design](assets/readme-images/mobile-low-fidelity-design.jpeg)
+![desktop-low-fidelity-design](assets/readme-images/desktop-low-fidelity-design.jpeg)
+![mobile-high-fidelity-design](assets/readme-images/mobile-high-fidelity-design.jpeg)
+![desktop-high-fidelity-design](assets/readme-images/desktop-high-fidelity-design.jpeg)
 
-Some other options include [Figma](https://www.figma.com/), [AdobeXD](https://www.adobe.com/products/xd.html), [Sketch](https://www.sketch.com/?utm_source=google&utm_medium=cpc&adgroup=uxui&device=c&matchtype=e&utm_campaign=ADDICTMOBILE_SKETCH_GAD_DG_UK_T1_ALWAYS-ON_S_TRF_PROS_BRAND&utm_term=sketch&utm_source=google&utm_medium=cpc&utm_content=TOF_BRND__generic&hsa_acc=8710913982&hsa_cam=16831089317&hsa_grp=134620695759&hsa_ad=592060065319&hsa_src=g&hsa_tgt=kwd-14921750&hsa_kw=sketch&hsa_mt=e&hsa_net=adwords&hsa_ver=3&gclid=Cj0KCQjwr4eYBhDrARIsANPywCjRIFn93DMezYnsyE5Fic_8l8kynJtut0GYMU01TiohHjwziFtlH0gaAhteEALw_wcB) and [Mockup](https://apps.apple.com/us/app/mockup-sketch-ui-ux/id1527554407) to name just a few! Or you can even go old school and get those wireframes completed using pen and paper. Just snap an image of the completed wireframes to add the images to the README.
 
 ## Features
 
@@ -137,15 +124,29 @@ What features would you like to implement in the future on your site? Would you 
 
 ### Accessibility
 
-Be an amazing developer and get used to thinking about accessibility in all of your projects!
+* All relevant elements that have implied meanings are labelled with aria-labels to be accessible for screen readers. 
 
-This is the place to make a note of anything you have done with accessibility in mind. Some examples include:
+* Fonts were chosen to be simple with clean contours to maximize legibility. 
 
-Have you used icons and added aria-labels to enable screen readers to understand these?
-Have you ensured your site meets the minimum contrast requirements?
-Have you chosen fonts that are dyslexia/accessible friendly?
+* As font-sizes, 'rem's were used throughout the site instead of 'px' to allow the text to scale according to the users' preferred default font-size.
 
-Code Institute have an amazing channel for all things accessibility (a11y-accessibility) I would highly recommend joining this channel as it contains a wealth of information about accessibility and what we can do as developers to be more inclusive.
+* All colours were tested to have suficient contrast. 
+
+All pages on all screen sizes in both light and dark mode passed Lighthouse's accessibility test with 100%.
+
+![Accessibility image](assets/readme-images/accessibility.jpeg)
+
+
+Colors were tested for accessibility and contrast with the help of material.io's COLOR TOOL
+
+Primary colour (green): hhttps://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=11644d
+
+Accent colour (orange): https://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=cc4b00
+
+Grey on white background (main text): https://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=ffffff&primary.text.color=616161
+
+Dark grey text on light grey background (Home Page's mission statement):
+https://m2.material.io/resources/color/#!/?view.left=1&view.right=1&primary.color=EDEDED&primary.text.color=616161
 
 ## Technologies Used
 
@@ -193,6 +194,8 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 
 ## Credits
 
+### Icons
+
 visitors icon: (modified) https://www.svgrepo.com/svg/18735/class-open-door
 
 gift icon: https://www.svgrepo.com/svg/61094/gift
@@ -212,13 +215,13 @@ Phone icon: (modified) https://www.svgrepo.com/svg/425344/phone-1
 Mail icon: https://www.svgrepo.com/svg/263869/email-mail
 
 
-Images:
+### Main images
 
 Hero image: Photo by Ali Atakan Açıkbaş: https://www.pexels.com/photo/close-up-view-of-white-rabbit-10595503/
 
 Adopting page image: Photo by <a href="https://unsplash.com/@lorna_ladril?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lorna Ladril</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
 
-Gallery:
+### Gallery images
 
 Photo by Tima Miroshnichenko: https://www.pexels.com/photo/white-and-brown-rabbits-on-bed-6846043/
 
@@ -272,22 +275,24 @@ In addition, I also used ideas from various online sources for:
 * using images in HTML in different sizes to improve performance:
 https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
 https://ausi.github.io/respimagelint/docs.html
+https://medium.com/@woutervanderzee/responsive-images-with-srcset-and-sizes-fc434845e948
 
 * adding backup image in .png format for older Safari users
 https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-browser
 
 
 
-
-If you have used some code in your project that you didn't write, this is the place to make note of it. Credit the author of the code and if possible a link to where you found the code. You could also add in a brief description of what the code does, or what you are using it for here.
-
 ### Content
 
-Who wrote the content for the website? Was it yourself - or have you made the site for someone and they specified what the site was to say? This is the best place to put this information.
+Content was all written by the author of the site, however, inspiration was drawn from the following sites:
 
-###  Media
+[The Littlest Lives Rescue](https://thelittlestlivesrescue.org.uk)
 
-If you have used any media on your site (images, audio, video etc) you can credit them here. I like to link back to the source where I found the media, and include where on the site the image is used.
+[South Coast Rabbit Rescue](https://www.southcoastrabbitrescue.co.uk)
+
+[Essex Guinie Pig, Rat and Rabbit Rescue](https://www.egprr.org)
+
+
   
 ###  Acknowledgments
 
