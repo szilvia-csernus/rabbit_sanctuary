@@ -10,6 +10,8 @@ Hopper Farm Rabbit Rescue is a fictional non-profit organisation. The website is
 
 The website is fully responsive to any screen sizes as well as dark mode preferences.
 
+Site visuals were created with [amiresponsive](https://ui.dev/amiresponsive).
+
 ![Light mode](assets/readme-images/amiresponsive-light-mode.jpeg)
 
 ![Dark mode](assets/readme-images/amiresponsive-dark-mode.jpeg)
@@ -78,7 +80,7 @@ All wireframes and design were created in [Figma](https://www.figma.com/).
 
 ### Colour Scheme
 
-Colour choice was made in line with industry norms and customer expectations, green being the most frequent choice for for animal charity organisations. Orange was chosen as an accent colour to emphasize the 'call to action' messages. In addition, various shades of greys were added to complement the two main colours.
+Colour choice was made in line with industry norms and customer expectations, green being the most frequent choice for for animal charity organisations. Orange was chosen as an accent colour to emphasize 'call to action' messages. In addition, various shades of greys were added to complement the two main colours.
 
 Primary and accent colours were sampled from the hero image of the landing page, then slightly modified to satisfy accessibility requirements.
 
@@ -89,7 +91,7 @@ Primary and accent colours were sampled from the hero image of the landing page,
 ### Typography
 
 Typography choice was made with the help of a font pairing website [Typ.io](https://typ.io/lists).
-[Nunito](https://fonts.google.com/specimen/Nunito) and [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) were selected from the [Google Fonts](https://fonts.google.com/) library for their simplicity, legibility and fairly informal feel. These fonts' conservative look increases trust towards the organisation. 
+[Nunito](https://fonts.google.com/specimen/Nunito) and [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) were selected from the [Google Fonts](https://fonts.google.com/) library for their simplicity, legibility yet fairly informal feel. 
 
 ### Imagery
 
@@ -98,7 +100,7 @@ Feature rabbit icon was custom created by the author of the site, other icons we
 
 ### Wireframes - Low & High Fidelity Designs
 
-All design was created by the author of the site width [Figma](https://www.figma.com/).
+All design was created by the author of the site with [Figma](https://www.figma.com/).
 
 ![mobile-low-fidelity-design](assets/readme-images/mobile-low-fidelity-design.jpeg)
 ![desktop-low-fidelity-design](assets/readme-images/desktop-low-fidelity-design.jpeg)
@@ -190,78 +192,75 @@ Use this part of the README to link to your TESTING.md file - you can view the e
 ## Credits
 
 ### Icons
+All icons have been edited.
 
-visitors icon: (modified) https://www.svgrepo.com/svg/18735/class-open-door
+Original Icons:
 
-gift icon: https://www.svgrepo.com/svg/61094/gift
+Visitors icon: https://www.svgrepo.com/svg/18735/class-open-door
 
-helping hands icon: https://www.svgrepo.com/svg/76123/voluntary-service
+Gift icon: https://www.svgrepo.com/svg/61094/gift
 
-facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media
+Helping hands icon: https://www.svgrepo.com/svg/76123/voluntary-service
 
-Instagram icon MIT licence: (modified) https://www.svgrepo.com/svg/419930/instagram-socials-social-media-icon
+Facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media
 
-Twitter icon MIT licence: (modified) https://www.svgrepo.com/svg/389481/twitter 
+Instagram icon: https://www.svgrepo.com/svg/419930/instagram-socials-social-media-icon (MIT licence)
 
-Location icon MIT licence: (modified) https://www.svgrepo.com/svg/309741/location
+Twitter icon: https://www.svgrepo.com/svg/389481/twitter (MIT licence)
 
-Phone icon: (modified) https://www.svgrepo.com/svg/425344/phone-1
+Location icon: https://www.svgrepo.com/svg/309741/location (MIT licence)
+
+Phone icon: https://www.svgrepo.com/svg/425344/phone-1
 
 Mail icon: https://www.svgrepo.com/svg/263869/email-mail
 
 
 ### Main images
 
-Hero image: Photo by Ali Atakan Açıkbaş: https://www.pexels.com/photo/close-up-view-of-white-rabbit-10595503/
+[Hero image](https://www.pexels.com/photo/close-up-view-of-white-rabbit-10595503/): Photo by Ali Atakan Açıkbaş on [Pexels](https://pexels.com/)
 
-Adopting page image: Photo by <a href="https://unsplash.com/@lorna_ladril?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Lorna Ladril</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a> 
+Adopting page image: Photo by [Lorna Ladril](https://unsplash.com/@lorna_ladril?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
 
 ### Gallery images
 
-Photo by Tima Miroshnichenko: https://www.pexels.com/photo/white-and-brown-rabbits-on-bed-6846043/
+["Fluff & Bunbun photo](https://www.pexels.com/photo/white-and-brown-rabbits-on-bed-6846043/) by Tima Miroshnichenko on [Pexels](https://pexels.com/)
 
-Photo by Şeyma Dalar: https://www.pexels.com/photo/close-up-photo-of-rabbits-playing-11702024/
+["Jack & Jill" photo](https://www.pexels.com/photo/close-up-photo-of-rabbits-playing-11702024/) by Şeyma Dalar on [Pexels](https://pexels.com/) 
 
-Photo by <a href="https://unsplash.com/@purejulia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">pure julia</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Fish & Chips" photo by [Pure Julia](https://unsplash.com/@purejulia?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
-Photo by <a href="https://unsplash.com/@andriyko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Andriyko Podilnyk</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Miffy & Olive" photo by [Andriyko Podilnyk](https://unsplash.com/@andriyko?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
-Photo by <a href="https://unsplash.com/@stuffinabox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Janan Lagerwall</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Holly" photo by [Janan Lagerwall](https://unsplash.com/@stuffinabox?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
-Photo by <a href="https://unsplash.com/@smpicturez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Satyabratasm</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Teddy" photo by [Satyabratasm](https://unsplash.com/@smpicturez?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
-Photo by <a href="https://unsplash.com/@mjp_tw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Matt Pike</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Lola" photo by [Matt Pike](https://unsplash.com/@mjp_tw?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-Photo by <a href="https://unsplash.com/@danielmccarthy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel McCarthy @themccarthy</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Cinnabun" photo by [Daniel McCarthy @themccarthy](https://unsplash.com/@danielmccarthy?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-Photo by <a href="https://unsplash.com/@sandym10?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Sandy Millar</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Hopper" photo by [Sandy Millar](https://unsplash.com/@sandym10?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-Photo by <a href="https://unsplash.com/@misharose?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Misha Walker</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Chester" photo by [Misha Walker](https://unsplash.com/@misharose?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-Photo by <a href="https://unsplash.com/@junglerolf?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">rolf neumann</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
-
-Photo by <a href="https://unsplash.com/ja/@moyathebunny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Chan Swan</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Thumper" photo by [Chan Swan](https://unsplash.com/ja/@moyathebunny?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
-Photo by <a href="https://unsplash.com/@gebgramm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Gabriel Miklós</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Daisy" photo by [Gabriel Miklós](https://unsplash.com/@gebgramm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-Photo by <a href="https://unsplash.com/@yanli247?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Li Yan</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Oreo" photo by [Li Yan](https://unsplash.com/@yanli247?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-Photo by <a href="https://unsplash.com/@jacobamson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jacob Amson</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Oliver" photo by [Jacob Amson](https://unsplash.com/@jacobamson?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
 
-Photo by <a href="https://unsplash.com/@pablomp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Pablo Martinez</a> on <a href="https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+"Snowball" photo by [Pablo Martinez](https://unsplash.com/@pablomp?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText)
   
-Photo by Мария: https://www.pexels.com/photo/gray-and-brown-bunnies-8891763/
+["Bruno and Tom" photo](https://www.pexels.com/photo/gray-and-brown-bunnies-8891763/) by Мария on [Pexels](https://www.pexels.com) 
 
-
-👩🏻‍💻 View an example of a completed Credits section [here](https://github.com/kera-cudmore/BookWorm#Credits)
-
-The Credits section is where you can credit all the people and sources you used throughout your project.
 
 ### Code Used
 
 * BOOTSTRAP 5.2 was used to create the menu bar, the modals, the forms and the responsive layouts.
 
-In addition, I also used ideas from various online sources for:
+In addition, ideas from various online sources were also incorporated for:
 
 * making svg icons responsive: https://css-tricks.com/cascading-svg-fill-color/ by Chris Coyier https://css-tricks.com/author/chriscoyier/
 
