@@ -627,7 +627,8 @@ h2 {
         display: block;
     }
 
-    .my-article > p,
+    .my-article p,
+    .my-article h2,
     .my-general-button {
         font-size: 1.25rem;
     }
