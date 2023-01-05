@@ -10,8 +10,6 @@ Hopper Farm Rabbit Rescue is a fictional non-profit organisation. The website is
 
 The website is fully responsive to any screen sizes as well as dark mode preferences.
 
-Site visuals were created with [amiresponsive](https://ui.dev/amiresponsive).
-
 ![Light mode](assets/readme-images/amiresponsive-light-mode.jpeg)
 
 ![Dark mode](assets/readme-images/amiresponsive-dark-mode.jpeg)
@@ -50,8 +48,10 @@ Site visuals were created with [amiresponsive](https://ui.dev/amiresponsive).
 * [Testing](#testing)
 
 * [Credits](#credits)
-  * [Code Used](#code-used)
-  * [Content](#content)
+  * [Icons](#icons)
+  * [Main Images](#main-images)
+  * [Gallery Images](#gallery-images)
+  * [Other Credits](#other-credits---incorporated-ideas-and-solutions)
   * [Acknowledgments](#acknowledgments)
 
 ---
@@ -116,7 +116,48 @@ This section can be used to explain what pages your site is made up of.
 
 ### General features on each page
 
-If there is a feature that appears on all pages of your site, include it here. Examples of what to include would the the navigation, a footer and a favicon.
+Header on large screens:
+![header-desktop-light-mode](assets/readme-images/header-desktop-light-mode.jpeg)
+![header-desktop-dark-mode](assets/readme-images/header-desktop-dark-mode.jpeg)
+
+
+Header on small screens:
+
+![header-mobile-light-mode](assets/readme-images/header-mobile-light-mode.jpeg)
+![header-mobile-dark-mode](assets/readme-images/header-mobile-dark-mode.jpeg)
+
+Side bars opening from burger menu:
+
+![sidebar-light-mode](assets/readme-images/sidebar-light-mode.jpeg)
+![sidebar-dark-mode](assets/readme-images/sidebar-dark-mode.jpeg)
+
+Footer:
+
+![footer-desktop](assets/readme-images/footer-desktop.jpeg)
+![footer-mobile](assets/readme-images/footer-mobile.jpeg)
+
+Volunteer form:
+
+![volunteer-form-light-mode](assets/readme-images/volunteer-form-light-mode.jpeg)
+![volunteer-form-dark-mode](assets/readme-images/volunteer-form-dark-mode.jpeg)
+
+Donate form:
+
+![donate-form-light-mode](assets/readme-images/donate-form-light-mode.jpeg)
+![donate-form-dark-mode](assets/readme-images/donate-form-dark-mode.jpeg)
+
+Thank you modal:
+
+![thank-you-modal-light-mode](assets/readme-images/thank-you-modal-light-mode.jpeg)
+![thank-you-modal-dark-mode](assets/readme-images/thank-you-modal-dark-mode.jpeg)
+
+Favicons in light and dark mode:
+
+![favicon-light-mode](assets/readme-images/favicon-light-mode.svg)
+![favicon-dark-mode](assets/readme-images/favicon-dark-mode.svg)
+
+Home page:
+
 
 I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
 
@@ -147,19 +188,28 @@ All pages on all screen sizes in both light and dark mode passed Lighthouse's ac
 
 ## Technologies Used
 
-👩🏻‍💻 View an example of a completed Technologies Used section [here](https://github.com/kera-cudmore/Bully-Book-Club#Technologies-Used)
-
 ### Languages Used
 
-Make a note here of all the languages used in creating your project. For the first project this will most likely just be HTML & CSS.
+The site was mainly built with HTML and CSS, although few lines of code in JavaScript was also added to customise Bootstrap's behaviour.
 
 ### Frameworks, Libraries & Programs Used
 
-Add any frameworks, libraries or programs used while creating your project.
+* [Figma](https://www.figma.com/) - to create design.
 
-Make sure to include things like git, GitHub, the program used to make your wireframes, any programs used to compress your images, did you use a CSS framework like Bootstrap? If so add it here (add the version used).
+* [Git](https://git-scm.com/) & [Github](https://github.com/) for version control, safe storage and deployment.
 
-A great tip for this section is to include them as you use them, that way you won't forget what you ended up using when you get to the end of your project.
+* [Bootstrap Version 5.2](https://getbootstrap.com/docs/5.2/getting-started/introduction/) - for main frames, code for navigation bar, modals, forms and form validation.
+
+* [Google Fonts](https://fonts.google.com/) - to import fonts into the stylesheet.
+
+
+* [Google Dev Tools](https://developer.chrome.com/docs/devtools/) - for testing and troubleshooting.
+
+* [CloudConvert](https://cloudconvert.com/jpg-converter) - to convert images to .webp format.
+
+* [RealFaviconGenerator](https://realfavicongenerator.net/svg-favicon/) - to generate dark mode responsive favicons.
+
+* [amiresponsive](https://ui.dev/amiresponsive) - to create site visuals for responsive design.
 
 ## Deployment & Local Development
 
@@ -196,23 +246,23 @@ All icons have been edited.
 
 Original Icons:
 
-Visitors icon: https://www.svgrepo.com/svg/18735/class-open-door
+Visitors icon: https://www.svgrepo.com/svg/18735/class-open-door (No Copyright)
 
-Gift icon: https://www.svgrepo.com/svg/61094/gift
+Gift icon: https://www.svgrepo.com/svg/61094/gift (No Copyright)
 
-Helping hands icon: https://www.svgrepo.com/svg/76123/voluntary-service
+Helping hands icon: https://www.svgrepo.com/svg/76123/voluntary-service (No Copyright)
 
-Facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media
+Facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media (No Copyright)
 
-Instagram icon: https://www.svgrepo.com/svg/419930/instagram-socials-social-media-icon (MIT licence)
+Instagram icon: https://www.svgrepo.com/svg/445823/instagram (Open Soruce MIT licence)
 
-Twitter icon: https://www.svgrepo.com/svg/389481/twitter (MIT licence)
+Twitter icon: https://www.svgrepo.com/svg/389481/twitter (Open Soruce MIT licence)
 
-Location icon: https://www.svgrepo.com/svg/309741/location (MIT licence)
+Location icon: https://www.svgrepo.com/svg/309741/location (Open Soruce MIT licence)
 
-Phone icon: https://www.svgrepo.com/svg/425344/phone-1
+Phone icon: https://www.svgrepo.com/svg/425344/phone-1 (No Copyright)
 
-Mail icon: https://www.svgrepo.com/svg/263869/email-mail
+Mail icon: https://www.svgrepo.com/svg/263869/email-mail (No Copyright)
 
 
 ### Main images
@@ -256,15 +306,9 @@ Adopting page image: Photo by [Lorna Ladril](https://unsplash.com/@lorna_ladril?
 ["Bruno and Tom" photo](https://www.pexels.com/photo/gray-and-brown-bunnies-8891763/) by Мария on [Pexels](https://www.pexels.com) 
 
 
-### Code Used
-
-* BOOTSTRAP 5.2 was used to create the menu bar, the modals, the forms and the responsive layouts.
-
-In addition, ideas from various online sources were also incorporated for:
+### Other credits - incorporated ideas and solutions
 
 * making svg icons responsive: https://css-tricks.com/cascading-svg-fill-color/ by Chris Coyier https://css-tricks.com/author/chriscoyier/
-
-* generating dark-mode responsive favicons https://realfavicongenerator.net/svg-favicon/
 
 * using images in HTML in different sizes to improve performance:
 https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
@@ -274,7 +318,7 @@ https://medium.com/@woutervanderzee/responsive-images-with-srcset-and-sizes-fc43
 * adding backup image in .png format for older Safari users
 https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-browser
 
-
+* improving accessibility: https://web.dev/how-to-review/
 
 ### Content
 
