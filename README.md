@@ -8,13 +8,7 @@ Live website: https://szilvia-csernus.github.io/rabbit_sanctuary
 
 Hopper Farm Rabbit Rescue is a fictional non-profit organisation. The website is designed to support the charity's primary mission which is to help find new homes for rescued pet rabbits.
 
-The website is fully responsive to any screen sizes as well as dark mode preferences.
-
 ![Light mode](assets/readme-images/amiresponsive-light-mode.jpeg)
-
-![Dark mode](assets/readme-images/amiresponsive-dark-mode.jpeg)
-
-
 
 ---------
 
@@ -96,11 +90,11 @@ Typography choice was made with the help of a font pairing website [Typ.io](http
 ### Imagery
 
 Free images were chosen from [Pexels](https://pexels.com/) and [Unsplash](https://unsplash.com/) websites.
-Feature rabbit icon was custom created by the author of the site, other icons were downloaded from [svgrepo](https://svgrepo.com/) and edited in [Figma](https://www.figma.com/).
+Feature rabbit icon was custom created by the author, other icons were downloaded from [svgrepo](https://svgrepo.com/) and edited in [Figma](https://www.figma.com/).
 
 ### Wireframes - Low & High Fidelity Designs
 
-All design was created by the author of the site with [Figma](https://www.figma.com/).
+All design was created by the author with the design tool [Figma](https://www.figma.com/).
 
 ![mobile-low-fidelity-design](assets/readme-images/mobile-low-fidelity-design.jpeg)
 ![desktop-low-fidelity-design](assets/readme-images/desktop-low-fidelity-design.jpeg)
@@ -110,9 +104,7 @@ All design was created by the author of the site with [Figma](https://www.figma.
 
 ## Features
 
-👩🏻‍💻 View an example of a completed user experience section [here](https://github.com/kera-cudmore/TheQuizArms#Features)
-
-This section can be used to explain what pages your site is made up of.
+The website comprises of three pages: Home/About page, Adopt page and Contact Us page. In addition, there are two forms for 'volunteering' and 'donation' as well as a 'thank you' modal appearing after a successful form submission.
 
 ### General features on each page
 
@@ -158,22 +150,34 @@ Favicons in light and dark mode:
 
 Home page:
 
+![home-light-mode](assets/readme-images/home-light-mode.jpeg)
+![home-dark-mode](assets/readme-images/home-dark-mode.jpeg)
 
-I then like to add a screenshot of each page of the site here, i use [amiresponsive](https://ui.dev/amiresponsive) which allows me to grab an image of the site as it would be displayed on mobile, tablet and desktop, this helps to show the responsiveness of the site.
+Adopt page:
+
+![adopt-light-mode](assets/readme-images/adopt-light-mode.jpeg)
+![adopt-dark-mode](assets/readme-images/adopt-dark-mode.jpeg)
+
+Contact Us page:
+
+![contact-light-mode](assets/readme-images/contact-light-mode.jpeg)
+![contact-dark-mode](assets/readme-images/contact-dark-mode.jpeg)
 
 ### Future Implementations
 
-What features would you like to implement in the future on your site? Would you like to add more pages, or create login functionality? Add these plans here.
+Further development could be a new page dedicated entirely to provide more details about each rabbit. It would be implemented with a comprehensive database and backend server.
 
 ## Accessibility
 
-* All colours were tested to have sufficient contrast.
-* All relevant elements that have implied meanings are labelled with aria-labels to be accessible for screen readers. 
+* All images have descriptive 'alt' attributes and all other elements that have implied meanings are labelled with aria-labels to be accessible for screen readers.
+
+* Current pages and modals are all labelled with the appropriate aria properties to aid screen readers.
 
 * Fonts were chosen to be simple with clean contours to maximize legibility. 
 
-* For font-sizes, 'rem' were used throughout the site instead of 'px' to allow the text to scale according to the users' preferred default font-size.
+* For font-sizes, 'rem' were used throughout the site to allow the text to scale according to the users' preferred default font-size.
 
+* All colours were tested to have sufficient contrast.
 All colors were tested for contrast with the help of [Color Palette Contrast Checker](https://color-contrast-checker.deque.com/)
 
 ![light-mode-colors-nr1](assets/readme-images/light-mode-colors-nr1.jpeg)
@@ -273,7 +277,7 @@ Adopting page image: Photo by [Lorna Ladril](https://unsplash.com/@lorna_ladril?
 
 ### Gallery images
 
-["Fluff & Bunbun photo](https://www.pexels.com/photo/white-and-brown-rabbits-on-bed-6846043/) by Tima Miroshnichenko on [Pexels](https://pexels.com/)
+["Fluff & Bunbun" photo](https://www.pexels.com/photo/white-and-brown-rabbits-on-bed-6846043/) by Tima Miroshnichenko on [Pexels](https://pexels.com/)
 
 ["Jack & Jill" photo](https://www.pexels.com/photo/close-up-photo-of-rabbits-playing-11702024/) by Şeyma Dalar on [Pexels](https://pexels.com/) 
 
