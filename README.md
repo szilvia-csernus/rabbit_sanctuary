@@ -236,11 +236,20 @@ Every further commits pushed to the repository would be automatically deployed o
 
 ## Testing
 
-Start as you mean to go on - and get used to writing a TESTING.md file from the very first project!
+* Code validation
 
-Testing requirements aren't massive for your first project, however if you start using a TESTING.md file from your first project you will thank yourself later when completing your later projects, which will contain much more information.
-  
-Use this part of the README to link to your TESTING.md file - you can view the example TESTING.md file [here](milestone1-testing.md)
+1. [Home page validation](assets/readme-images//home-validation.jpeg) - Passed, no error found.
+
+2. [Adopt page validation](assets/readme-images//adopt-validation.jpeg) - Passed, no error found.
+
+3. [Contact Us page validation](assets/readme-images//contact-validation.jpeg) - Passed, no error found.
+
+4. [CSS validation](assets/readme-images//css-validation.pdf) - Passed, no error found.
+
+5. [JS validation](assets/readme-images/js-validation.pdf) - Passed, no error found.
+
+
+
 
 ## Credits
 
