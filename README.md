@@ -177,8 +177,7 @@ Further development could be a new page dedicated entirely to provide more detai
 
 * For font-sizes, 'rem' were used throughout the site to allow the text to scale according to the users' preferred default font-size.
 
-* All colours were tested to have sufficient contrast.
-All colors were tested for contrast with the help of [Color Palette Contrast Checker](https://color-contrast-checker.deque.com/)
+* All colours were tested to have sufficient contrast with the help of [Color Palette Contrast Checker](https://color-contrast-checker.deque.com/)
 
 ![light-mode-colors-nr1](assets/readme-images/light-mode-colors-nr1.jpeg)
 ![light-mode-colors-nr2](assets/readme-images/light-mode-colors-nr2.jpeg)
@@ -194,7 +193,7 @@ All pages on all screen sizes in both light and dark mode passed Lighthouse's ac
 
 ### Languages Used
 
-The site was mainly built with HTML and CSS, although few lines of code in JavaScript was also added to customise Bootstrap's behaviour.
+The site was mainly built with [HTML5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/CSS), although few lines of code in [JavaScript](https://en.wikipedia.org/wiki/JavaScript) was also added to customise Bootstrap's behaviour.
 
 ### Frameworks, Libraries & Programs Used
 
@@ -217,23 +216,23 @@ The site was mainly built with HTML and CSS, although few lines of code in JavaS
 
 ## Deployment & Local Development
 
-👩🏻‍💻 View an example of a completed Deployment & Local Development section [here](https://github.com/kera-cudmore/TheQuizArms#Deployment)
-
 ### Deployment
 
-Include instructions here on how to deploy your project. For your first project you will most likely be using GitHub Pages.
+This project was deployed on Github Pages. It was done through [the project's Github repo - current page](https://github.com/szilvia-csernus/rabbit_sanctuary) / Settings / Pages / Deploy from branch - main.
+Every further commits pushed to the repository would be automatically deployed on this site.
 
 ### Local Development
 
-The local development section gives instructions on how someone else could make a copy of your project to play with on their local machine. This section will get more complex in the later projects, and can be a great reference to yourself if you forget how to do this.
-
 #### How to Fork
 
-Place instructions on how to fork your project here.
+* To fork this repository, go to the top of [this current](https://github.com/szilvia-csernus/rabbit_sanctuary) page and 
+* locate and click the 'Fork' button.
+* by forking this repo you would be able to contribute to this project through merge requests.
 
 #### How to Clone
 
-Place instructions on how to clone your project here.
+* Open your local terminal and navigate to the directory where you want to place the clone, then
+* copy-paste: "git clone https://github.com/szilvia-csernus/rabbit_sanctuary.git" in your terminal.
 
 ## Testing
 
@@ -326,7 +325,7 @@ https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-b
 
 ### Content
 
-Content was all written by the author of the site, however, inspiration was drawn from the following sites:
+Content was all written by the author, however, inspiration was drawn from the following sites:
 
 [The Littlest Lives Rescue](https://thelittlestlivesrescue.org.uk)
 
@@ -338,5 +337,5 @@ Content was all written by the author of the site, however, inspiration was draw
   
 ###  Acknowledgments
 
-If someone helped you out during your project, you can acknowledge them here! For example someone may have taken the time to help you on slack with a problem. Pop a little thank you here with a note of what they helped you with (I like to try and link back to their GitHub or Linked In account too). This is also a great place to thank your mentor and tutor support if you used them.
+I would like to thank [Elaine Broche](https://github.com/elainebroche-dev) and Pasquale Fasulo for the helpful feedback I was given throughout the development and testing process.
 
