@@ -66,6 +66,7 @@ li {
     --my-extra-bg-hover-color: #0a4031;
     --my-contact-title-color: white;
     --my-donate-text-color: white;
+    --my-donate-text-hover-color: white;
 
     --my-primary-text-color: white;
 
@@ -146,6 +147,7 @@ svg {
         --my-extra-bg-hover-color: #6c6c6c;
         --my-contact-title-color: #00bd87;
         --my-donate-text-color: #00bd87;
+        --my-donate-text-hover-color: #6cf7cf;
     }
 }
 
@@ -246,6 +248,7 @@ header {
 #my-donate-btn {
     background-color: var(--my-extra-bg-color);
     color: var(--my-donate-text-color);
+    font-weight: var(--my-header-font-weight);
     padding: .3rem 1rem;
     margin: .2rem 0;
     border: 1px solid var(--my-extra-bg-color);
@@ -253,7 +256,7 @@ header {
 }
 
 #my-donate-btn:focus {
-    color: var(--my-donate-text-color);
+    color: var(--my-donate-text-hover-color);
 }
 
 .nav-item {
@@ -265,7 +268,7 @@ header {
 
 .nav-item #my-donate-btn:hover {
     background-color: var(--my-extra-bg-hover-color);
-    color: var(--my-donate-text-color);
+    color: var(--my-donate-text-hover-color);
     cursor: pointer;
 }
 
@@ -594,6 +597,12 @@ h2 {
         padding-right: 2rem;
     }
 
+    .my-article p,
+    .my-article h2,
+    .my-general-button {
+        font-size: 1.25rem;
+    }
+
 }
 
 @media screen and (min-width: 860px) {
@@ -612,14 +621,14 @@ h2 {
 
     #my-mission-text > p {
         font-size: 1.3rem;
-        padding-left: 3rem;
-        padding-right: 3rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
     }
 
     .my-article {
-        margin: 0 3rem;
-        padding-left: 1rem;
-        padding-right: 1rem;
+        margin: 0 1rem;
+        padding-left: 3rem;
+        padding-right: 3rem;
     }
 
     .my-article > div > svg > use.my-rabbit-outline-left {
@@ -628,12 +637,6 @@ h2 {
 
     .my-article > div > svg > use.my-rabbit-outline-right {
         display: block;
-    }
-
-    .my-article p,
-    .my-article h2,
-    .my-general-button {
-        font-size: 1.25rem;
     }
 
     .my-article-left {
@@ -742,6 +745,7 @@ h2 {
 .my-article > h2.my-contact-article-title {
     font-size: 1.5rem;
     color: var(--my-primary-color);
+    text-align: center;
 }
 
 #my-contact-location {
