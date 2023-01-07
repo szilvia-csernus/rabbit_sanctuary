@@ -716,6 +716,17 @@ h2 {
     }
 }
 
+@media screen and (min-width: 1400px) {
+    .my-article {
+        margin: 0;
+    }
+    
+    footer.container-xxl {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
+
 
 /* Contacts  */
 
