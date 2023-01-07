@@ -638,7 +638,7 @@ h2 {
 
     .my-article-left {
         display: grid;
-        grid-template-columns: 6rem 1fr;
+        grid-template-columns: 7rem 1fr;
         grid-template-rows: 1fr 6rem;
     }
 
