@@ -2,21 +2,24 @@
 
 This website was created as the 1st Milestone Project (User Centric Frontend Development Project) for Code Institute's web application development course.
 
-----------
+---
 
-Live website: https://szilvia-csernus.github.io/rabbit_sanctuary
+### [View the live project here](https://szilvia-csernus.github.io/rabbit_sanctuary)
+
+---
 
 Hopper Farm Rabbit Rescue is a fictional non-profit organisation. The website is designed to support the charity's primary mission which is to help find new homes for rescued pet rabbits.
+<br><br>
 
 ![Light mode](assets/readme-images/amiresponsive-light-mode.jpeg)
 
----------
+---
 
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
   * [Webite Owner's Goals](#website-owners-goals)
-  * [User Stories](#user-stories)
+  * [Website Visitors' Goals](#website-visitors-goals)
 
 * [Design](#design)
   * [Colour Scheme](#colour-scheme)
@@ -56,11 +59,11 @@ Hopper Farm Rabbit Rescue is a fictional non-profit organisation. The website is
 
 * To help people find the organisation for the primary purpose of rehoming a rescued rabbit.
 * To help find potential donors and volunteers willing to contribute to the charity's work.
-* To help visitors to make contact with the organisation.
+* To help visitors to make contact with the organisation through various channels.
 * The website to have simple structure and clear 'call to action' messages.
 * The website to be responsive to all screen sizes as well as light/dark mode preferences.
 ---
-### Website visitors' Goals
+### Website Visitors' Goals
 
 * To find the relevant piece of information quickly, be it about rabbit adoption, volunteering or donation.
 * To be able to make contact with the charity for relevant requests effectively.
@@ -74,27 +77,28 @@ All wireframes and design were created in [Figma](https://www.figma.com/).
 
 ### Colour Scheme
 
-Colour choice was made in line with industry norms and customer expectations, green being the most frequent choice for for animal charity organisations. Orange was chosen as an accent colour to emphasize 'call to action' messages. In addition, various shades of greys were added to complement the two main colours.
+Animal charities most frequently use green as their primary colour and I kept my site in line with this customer expectation. I chose orange as an accent colour to emphasize the 'call to action' messages. In addition, I used various shades of greys to complement the two main colours.
 
-Primary and accent colours were sampled from the hero image of the landing page, then slightly modified to satisfy accessibility requirements.
+I sampled the primary and the accent colours from the hero image of the landing page, then I slightly modified them later to satisfy accessibility requirements. 
 
-![Light mode palette:](assets/readme-images/light-palette.png)
+![Light mode palette:](assets/readme-images/colour-palette-light.svg)
 
-![Dark mode palette:](assets/readme-images/dark-palette.png)
+![Dark mode palette:](assets/readme-images/colour-palette-dark.svg)
 
 ### Typography
 
-Typography choice was made with the help of a font pairing website [Typ.io](https://typ.io/lists).
-[Nunito](https://fonts.google.com/specimen/Nunito) and [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) were selected from the [Google Fonts](https://fonts.google.com/) library for their simplicity, legibility yet fairly informal feel. 
+A font pairing website [Typ.io](https://typ.io/lists) helped me make typograpy choice.
+I selected [Nunito](https://fonts.google.com/specimen/Nunito) and [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) from the [Google Fonts](https://fonts.google.com/) library for their simplicity and legibility yet fairly informal feel. 
 
 ### Imagery
 
-Free images were chosen from [Pexels](https://pexels.com/) and [Unsplash](https://unsplash.com/) websites.
-Feature rabbit icon was custom created by the author, other icons were downloaded from [svgrepo](https://svgrepo.com/) and edited in [Figma](https://www.figma.com/).
+All the images appearing on the site are unlicenced, sourced from [Pexels](https://pexels.com/) and [Unsplash](https://unsplash.com/) websites.
+
+The icons which I did not drew myself were downloaded from [svgrepo](https://svgrepo.com/) then edited to be uniform in design as well as responsive to colour changes. These original icons are either unlicenced or open-source icons. All references to the images and icons can be found in the [credits](#credits) section.
 
 ### Wireframes - Low & High Fidelity Designs
 
-All design was created by the author with the design tool [Figma](https://www.figma.com/).
+I created all designs in [Figma](https://www.figma.com/).
 
 ![mobile-low-fidelity-design](assets/readme-images/mobile-low-fidelity-design.jpeg)
 ![desktop-low-fidelity-design](assets/readme-images/desktop-low-fidelity-design.jpeg)
@@ -104,12 +108,15 @@ All design was created by the author with the design tool [Figma](https://www.fi
 
 ## Features
 
-The website comprises of three pages: Home/About page, Adopt page and Contact Us page. In addition, there are two forms for 'volunteering' and 'donation' as well as a 'thank you' modal appearing after a successful form submission.
+The website comprises of three pages: Home/About page, Adopt page and a Contact Us page. In addition, I added two overlay modals with forms for 'volunteering' and 'donation' as well as a 'thank you' modal to appear after a successful form submission.
 
 ### General features on each page
 
-Header on large screens:
+The header is responsive to screen sizes. On large screens, it expands horizontally, while on mobile and narrower screens the menu bar is replaced with a burger icon. Clicking this icon would make the menu appear as a side bar.
+
+
 ![header-desktop-light-mode](assets/readme-images/header-desktop-light-mode.jpeg)
+[![Image from Gyazo](https://i.gyazo.com/373081881d1df8d868909cb8f61be732.gif)](https://gyazo.com/373081881d1df8d868909cb8f61be732)
 ![header-desktop-dark-mode](assets/readme-images/header-desktop-dark-mode.jpeg)
 
 
@@ -126,7 +133,7 @@ Side bars opening from burger menu:
 Footer:
 
 ![footer-desktop](assets/readme-images/footer-desktop.jpeg)
-![footer-mobile](assets/readme-images/footer-mobile.jpeg)
+<h2 align="center" ><img src="assets/readme-images/footer-mobile.jpeg"></h2>
 
 Volunteer form:
 
@@ -165,7 +172,9 @@ Contact Us page:
 
 ### Future Implementations
 
-Further development could be a new page dedicated entirely to provide more details about each rabbit. It would be implemented with a comprehensive database and backend server.
+Further development could be a new page dedicated entirely to listing rabbits waiting for adoption. It would be implemented with a comprehensive database and backend server.
+
+Frontend could be improved by re-developing it using ReactJS framework to bring the site in line with current industry standards.
 
 ## Accessibility
 
@@ -214,25 +223,51 @@ The site was mainly built with [HTML5](https://en.wikipedia.org/wiki/HTML5) and 
 
 * [amiresponsive](https://ui.dev/amiresponsive) - to create site visuals for responsive design.
 
-## Deployment & Local Development
 
-### Deployment
+## Deployment
 
-This project was deployed on Github Pages. It was done through [the project's Github repo - current page](https://github.com/szilvia-csernus/rabbit_sanctuary) / Settings / Pages / Deploy from branch - main.
-Every further commits pushed to the repository would be automatically deployed on this site.
+### GitHub Pages
 
-### Local Development
+The project was deployed to GitHub Pages using the following steps...
 
-#### How to Fork
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
+3. Scroll down the Settings page until you locate the "Pages" Section.
+4. Under "Source", click the dropdown called "None" and select "Main Branch".
+5. The page will automatically refresh.
+6. Once the deployment process completed the published site's link will appear after the main title.
 
-* To fork this repository, go to the top of [this current](https://github.com/szilvia-csernus/rabbit_sanctuary) page and 
-* locate and click the 'Fork' button.
-* by forking this repo you would be able to contribute to this project through merge requests.
+### Forking the GitHub Repository
 
-#### How to Clone
+By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-* Open your local terminal and navigate to the directory where you want to place the clone, then
-* copy-paste: "git clone https://github.com/szilvia-csernus/rabbit_sanctuary.git" in your terminal.
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
+3. You should now have a copy of the original repository in your GitHub account.
+
+### Making a Local Clone
+
+1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+2. Under the repository name, click "Clone or download".
+3. To clone the repository using HTTPS, under "Clone with HTTPS", copy the link.
+4. Open Git Bash
+5. Change the current working directory to the location where you want the cloned directory to be made.
+6. Type `git clone`, and then paste the URL you copied in Step 3.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+```
+
+7. Press Enter. Your local clone will be created.
+
+```
+$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
+> Cloning into `CI-Clone`...
+> remote: Counting objects: 10, done.
+> remote: Compressing objects: 100% (8/8), done.
+> remove: Total 10 (delta 1), reused 10 (delta 1)
+> Unpacking objects: 100% (10/10), done.
+```
 
 ## Testing
 
@@ -254,27 +289,23 @@ Every further commits pushed to the repository would be automatically deployed o
 ## Credits
 
 ### Icons
-All icons have been edited.
+All downloaded icons have been edited.
 
 Original Icons:
 
-Visitors icon: https://www.svgrepo.com/svg/18735/class-open-door (No Copyright)
+Visitors icon: https://www.svgrepo.com/svg/18735/class-open-door (Unlicenced)
 
-Gift icon: https://www.svgrepo.com/svg/61094/gift (No Copyright)
+Gift icon: https://www.svgrepo.com/svg/61094/gift (Unlicenced)
 
-Helping hands icon: https://www.svgrepo.com/svg/76123/voluntary-service (No Copyright)
+Helping hands icon: https://www.svgrepo.com/svg/76123/voluntary-service (Unlicenced)
 
-Facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media (No Copyright)
-
-Instagram icon: https://www.svgrepo.com/svg/445823/instagram (Open Soruce MIT licence)
+Facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media (Unlicenced)
 
 Twitter icon: https://www.svgrepo.com/svg/389481/twitter (Open Soruce MIT licence)
 
 Location icon: https://www.svgrepo.com/svg/309741/location (Open Soruce MIT licence)
 
-Phone icon: https://www.svgrepo.com/svg/425344/phone-1 (No Copyright)
-
-Mail icon: https://www.svgrepo.com/svg/263869/email-mail (No Copyright)
+Phone icon: https://www.svgrepo.com/svg/425344/phone-1 (Unlicenced)
 
 
 ### Main images
@@ -334,15 +365,15 @@ https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-b
 
 ### Content
 
-Content was all written by the author, however, inspiration was drawn from the following sites:
+* Content of the website was all written by the author, however, inspiration was drawn from the following sites:
 
-[The Littlest Lives Rescue](https://thelittlestlivesrescue.org.uk)
+  [The Littlest Lives Rescue](https://thelittlestlivesrescue.org.uk)
 
-[South Coast Rabbit Rescue](https://www.southcoastrabbitrescue.co.uk)
+  [South Coast Rabbit Rescue](https://www.southcoastrabbitrescue.co.uk)
 
-[Essex Guinie Pig, Rat and Rabbit Rescue](https://www.egprr.org)
+  [Essex Guinie Pig, Rat and Rabbit Rescue](https://www.egprr.org)
 
-
+* Content for Deployment and Development of this README file was was written using [Code Institute's sample README file](https://raw.githubusercontent.com/Code-Institute-Solutions/SampleREADME/master/README.md).
   
 ###  Acknowledgments
 
