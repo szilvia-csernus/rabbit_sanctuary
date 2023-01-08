@@ -112,12 +112,12 @@ The website comprises of three pages: Home/About page, Adopt page and a Contact 
 
 ### General features on each page
 
-The header is responsive to screen sizes. On large screens, it expands horizontally, while on mobile and narrower screens the menu bar is replaced with a burger icon. Clicking this icon would make the menu appear as a side bar.
+The header is responsive to all screen sizes. On large screens, it expands horizontally, while on mobile and narrower screens the menu bar is replaced with a burger icon. Clicking this icon would make the menu appear as a side bar.
+A hover effect guides the user through menu choices.
 
 
-![header-desktop-light-mode](assets/readme-images/header-desktop-light-mode.jpeg)
-[![Image from Gyazo](https://i.gyazo.com/373081881d1df8d868909cb8f61be732.gif)](https://gyazo.com/373081881d1df8d868909cb8f61be732)
-![header-desktop-dark-mode](assets/readme-images/header-desktop-dark-mode.jpeg)
+![header-desktop-light-mode](assets/readme-images/header-desktop-light-mode2.jpeg)
+![header-desktop-dark-mode](assets/readme-images/header-dark-mode.gif)
 
 
 Header on small screens:
@@ -125,15 +125,17 @@ Header on small screens:
 ![header-mobile-light-mode](assets/readme-images/header-mobile-light-mode.jpeg)
 ![header-mobile-dark-mode](assets/readme-images/header-mobile-dark-mode.jpeg)
 
-Side bars opening from burger menu:
+Side bars opening from burger menu icon:
 
 ![sidebar-light-mode](assets/readme-images/sidebar-light-mode.jpeg)
 ![sidebar-dark-mode](assets/readme-images/sidebar-dark-mode.jpeg)
 
-Footer:
+The footer features all contact information as well as links to social media pages. Calls and Emails can be directly initiated by clicking on the links.
 
 ![footer-desktop](assets/readme-images/footer-desktop.jpeg)
 <h2 align="center" ><img src="assets/readme-images/footer-mobile.jpeg"></h2>
+
+The 'Volunteer' and the 'Donate' form pop-ups can be triggered from more pages. In the case when the 'Donate' form is reached from the mobile sidebar, a custom script makes sure that the sidebar closes after clicking the 'Donate' button. This script can be found in scripts.js.
 
 Volunteer form:
 
@@ -145,36 +147,40 @@ Donate form:
 ![donate-form-light-mode](assets/readme-images/donate-form-light-mode.jpeg)
 ![donate-form-dark-mode](assets/readme-images/donate-form-dark-mode.jpeg)
 
-Thank you modal:
+The forms are validated by a script provided by Bootstrap. After passing all validations and submission of either of the forms, a thank you modal is triggered to appear. I achieved this behaviour by writing a short custom script in the scripts.js file.
 
 ![thank-you-modal-light-mode](assets/readme-images/thank-you-modal-light-mode.jpeg)
 ![thank-you-modal-dark-mode](assets/readme-images/thank-you-modal-dark-mode.jpeg)
 
-Favicons in light and dark mode:
+Favicons are also responsive to light or dark mode preferences:
 
 ![favicon-light-mode](assets/readme-images/favicon-light-mode.svg)
 ![favicon-dark-mode](assets/readme-images/favicon-dark-mode.svg)
 
-Home page:
+Home page is the place where all important information and links can be found. Decorative icons help the user find the desired information effectively.
 
 ![home-light-mode](assets/readme-images/home-light-mode.jpeg)
 ![home-dark-mode](assets/readme-images/home-dark-mode.jpeg)
 
-Adopt page:
+The Adopt page provides essential information about rabbit re-homing. Its aim is to encourage the user to make the next step in the adoption process and visit the centre. To support this goal, I included a rabbit gallery as well as 'Visit Us' buttons leading to the 'Contact Us' page. 
 
 ![adopt-light-mode](assets/readme-images/adopt-light-mode.jpeg)
 ![adopt-dark-mode](assets/readme-images/adopt-dark-mode.jpeg)
 
-Contact Us page:
+On the 'Contact Us' page, I included all the contact information the organisation can be reached from. Alongside the address, a live Google Maps frame helps with orientation. Please note, that as it is a fictitious address, no 'Pin' could be provided by Google.
+
+The submission of a 'Volunteer' form is another way of contacting the charity, so it features on this page as well.
+
+Lastly, active links are provided for both calling and emailing the organisation.
 
 ![contact-light-mode](assets/readme-images/contact-light-mode.jpeg)
 ![contact-dark-mode](assets/readme-images/contact-dark-mode.jpeg)
 
 ### Future Implementations
 
-Further development could be a new page dedicated entirely to listing rabbits waiting for adoption. It would be implemented with a comprehensive database and backend server.
+* Further development could be a new page dedicated entirely to listing individual rabbits waiting for adoption. It would be implemented with a comprehensive database and backend server.
 
-Frontend could be improved by re-developing it using ReactJS framework to bring the site in line with current industry standards.
+* The project could be transformed into a single-page application using ReactJS framework to bring the site in line with current industry standards.
 
 ## Accessibility
 
