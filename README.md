@@ -77,9 +77,9 @@ All wireframes and design were created in [Figma](https://www.figma.com/).
 
 ### Colour Scheme
 
-Animal charities most frequently use green as their primary colour and I kept my site in line with this customer expectation. I chose orange as an accent colour to emphasize the 'call to action' messages. In addition, I used various shades of greys to complement the two main colours.
+Animal charities most frequently use green as their primary colour and I kept the site in line with this customer expectation. I chose orange as an accent colour to emphasize the 'call to action' messages. In addition, I used various shades of greys to complement the two main colours.
 
-I sampled the primary and the accent colours from the hero image of the landing page, then I slightly modified them later to satisfy accessibility requirements. 
+I sampled the primary and the accent colours from the hero image of the landing page, then I slightly modified them to satisfy accessibility requirements. 
 
 ![Light mode palette:](assets/images/readme-images/colour-palette-light.svg)
 
@@ -116,9 +116,11 @@ The website comprises of three pages: `Home/About` page, `Adopt` page and a `Con
 
 The `header` is responsive to all screen sizes. On large screens, it expands horizontally, while on mobile and narrower screens the menu bar is replaced with a `burger` icon. Clicking this icon would make the menu appear as a side bar.
 
+All types of the menu bar have Bootstrap codebase. I styled them in css to achieve the desired look. 
+
 A hover effect gives the user feedback about the menu choices. The logo can be clicked from any pages to take the user back to the home page.
 
-Dark mode is implemented throughout all pages of the to satisfy the website owner's UX requirement.
+Dark mode is implemented throughout all pages to satisfy the website owner's UX requirement.
 
 
 ![header-desktop-light-mode](assets/images/readme-images/header-desktop-light-mode2.jpeg)
@@ -139,6 +141,8 @@ The `footer` features all contact information as well as links to social media p
 
 ![footer-desktop](assets/images/readme-images/footer-desktop.jpeg)
 <h2 align="center" ><img src="assets/images/readme-images/footer-mobile.jpeg"></h2>
+
+All modals and forms are Bootstrap features. I custom-styled them in css to look similar to the main design. 
 
 The `Volunteer` and the `Donate form` pop-ups can be triggered from more pages. In the case when the `Donate form` is reached from the mobile sidebar, a custom script makes sure that the sidebar closes after clicking the `Donate button`. This script can be found in scripts.js.
 
@@ -167,7 +171,7 @@ Favicons are also responsive to light / dark mode preferences. They were generat
 ![home-light-mode](assets/images/readme-images/home-light-mode.jpeg)
 ![home-dark-mode](assets/images/readme-images/home-dark-mode.jpeg)
 
-The `Adopt page` provides essential information about rabbit re-homing. Its aim is to encourage the user to make the next step in the adoption process and visit the centre. To support this goal, I included a rabbit gallery as well as `Visit Us buttons` leading to the `Contact Us page`. 
+The `Adopt page` provides essential information about rabbit re-homing. Its aim is to encourage the user to make the next step in the adoption process and visit the centre. To support this goal, I included a rabbit gallery as well as `Visit Us buttons` to lead the user to the `Contact Us page`. 
 
 ![adopt-light-mode](assets/images/readme-images/adopt-light-mode.jpeg)
 ![adopt-dark-mode](assets/images/readme-images/adopt-dark-mode.jpeg)
@@ -200,7 +204,7 @@ Lastly, active links are provided for both calling and emailing the organisation
 
 * For font-sizes, `rem` were used throughout the site to allow the text to scale according to the users' preferred default font-size.
 
-* All colours were tested beforehand to have sufficient contrast with the help of [Color Palette Contrast Checker](https://color-contrast-checker.deque.com/)
+* All colours were tested beforehand to have sufficient contrast with the help of [Color Palette Contrast Checker](https://color-contrast-checker.deque.com/).
 
 
 ## Technologies Used
@@ -382,11 +386,11 @@ https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-b
 
   [Essex Guinie Pig, Rat and Rabbit Rescue](https://www.egprr.org)
 
-* Content for Deployment and Development of this README file was was written using [Code Institute's sample README file](https://raw.githubusercontent.com/Code-Institute-Solutions/SampleREADME/master/README.md).
+* Content for Deployment and Development of this README file was written using [Code Institute's sample README file](https://raw.githubusercontent.com/Code-Institute-Solutions/SampleREADME/master/README.md).
   
 ###  Acknowledgments
 
-* My mentor [Elaine Broche](https://github.com/elainebroche-dev) for her helpful feedback I was given throughout the development and testing process.
+* My mentor [Elaine Broche](https://github.com/elainebroche-dev) for her helpful feedback she gave me throughout the development and testing process.
 
 * Kera Cudmore for her advice on [how to write README files](https://github.com/kera-cudmore/readme-examples).
 
