@@ -773,6 +773,12 @@ h2 {
     height: 450px;
 }
 
+@media (prefers-color-scheme: dark) {
+    #my-google-map > iframe {
+        filter: hue-rotate(180deg) invert(100%) contrast(80%);
+    }
+}
+
 #my-contact-volunteer > #my-volunteer-icon-box {
     order: 4;
 }
