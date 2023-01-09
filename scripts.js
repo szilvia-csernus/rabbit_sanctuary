@@ -21,8 +21,6 @@ Array.from(forms).forEach(function (form) {
 // Custom script to trigger "my-thank-you-modal" after clicking "Send" of
 // either forms
 
-const myThankYouModal = document.getElementById("my-thank-you-modal");
-
 // fetch all of my forms - both for volunteering and donating.
 const myForms = document.querySelectorAll(".my-form");
 
