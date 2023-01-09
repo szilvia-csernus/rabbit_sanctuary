@@ -373,7 +373,7 @@ main {
     overflow: auto;
     position: relative;
     background-color: var(--my-primary-color);
-    background: url('../images/hero-picture-sm.webp') no-repeat center center;
+    background: url('../images/main-images/hero-picture-sm.webp') no-repeat center center;
 }
 
 #my-hero-callout-box {
@@ -420,7 +420,7 @@ main {
     overflow: auto;
     position: relative;
 
-    background: url('../images/adopting-picture-sm.webp') no-repeat center center;
+    background: url('../images/main-images/adopting-picture-sm.webp') no-repeat center center;
 }
 
 /* Main text  */
@@ -529,12 +529,12 @@ h2 {
 @media screen and (min-width: 415px) {
     
     #my-hero-img-box {
-        background-image: url('../images/hero-picture-md.webp');
+        background-image: url('../images/main-images/hero-picture-md.webp');
         height: 404px;
     }
 
     #my-adopt-img-box {
-        background-image: url('../images/adopting-picture-md.webp');
+        background-image: url('../images/main-images/adopting-picture-md.webp');
         height: 271px;
     }
     
@@ -679,12 +679,12 @@ h2 {
 
 @media screen and (min-width: 992px) {
     #my-hero-img-box {
-        background-image: url('../images/hero-picture-lg.webp');
+        background-image: url('../images/main-images/hero-picture-lg.webp');
         height: 570px; 
     }
 
     #my-adopt-img-box {
-        background-image: url('../images/adopting-picture-lg.webp');
+        background-image: url('../images/main-images/adopting-picture-lg.webp');
         height: 393px;
     }
 
