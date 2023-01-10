@@ -26,9 +26,13 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
   * [Typography](#typography)
   * [Imagery](#imagery)
   * [Wireframes](#wireframes)
+  * [High Fidelity Prototype](#high-fidelity-prototype)
 
 * [Features](#features)
-  * [General Features on Each Page](#general-features-on-each-page)
+  * [General Features](#general-features)
+  * [About Page](#about-page)
+  * [Adopt Page](#adopt-page)
+  * [Contact Us Page](#contact-us-page)
   * [Future Implementations](#future-implementations)
   * [Accessibility](#accessibility)
 
@@ -36,34 +40,33 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-* [Deployment & Local Development](#deployment--local-development)
+* [Deployment & Local Development](#deployment-&-local-development)
   * [Deployment](#deployment)
-  * [Local Development](#local-development)
-    * [How to Fork](#how-to-fork)
-    * [How to Clone](#how-to-clone)
+  * [Forking the GitHub Repository](#forking-the-github-repository)
+  * [Making a Local Clone](#making-a-local-clone)
 
 * [Testing](#testing)
 
 * [Credits](#credits)
-  * [Icons](#icons)
   * [Main Images](#main-images)
   * [Gallery Images](#gallery-images)
+  * [Icons](#icons)
   * [Other Credits](#other-credits---incorporated-ideas-and-solutions)
   * [Acknowledgments](#acknowledgments)
 
 ---
 
-## User Experience (UX)
+# User Experience (UX)
 
-### Website Owner's Goals
+## Website Owner's Goals
 
 * To help people find the organisation for the primary purpose of rehoming a rescued rabbit.
 * To help find potential donors and volunteers willing to contribute to the charity's work.
 * To help visitors to make contact with the organisation through various channels.
 * The website to have simple structure and clear 'call to action' messages.
 * The website to be responsive to all screen sizes as well as light/dark mode preferences.
----
-### Website Visitors' Goals
+
+## Website Visitors' Goals
 
 * To find the relevant piece of information quickly, be it about rabbit adoption, volunteering or donation.
 * To be able to make contact with the charity for relevant requests effectively.
@@ -71,11 +74,11 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
 * To be able to access the website in any screen sizes.
 * To read the site comfortably when dark mode is preferrable.
 ---
-## Design
+# Design
 
 All wireframes and design were created in [Figma](https://www.figma.com/).
 
-### Colour Scheme
+## Colour Scheme
 
 Animal charities most frequently use green as their primary colour and I kept the site in line with this customer expectation. I chose orange as an accent colour to emphasize the 'call to action' messages. In addition, I used various shades of greys to complement the two main colours.
 
@@ -85,12 +88,12 @@ I sampled the primary and the accent colours from the hero image of the landing 
 
 ![Dark mode palette:](assets/images/readme-images/colour-palette-dark.svg)
 
-### Typography
+## Typography
 
 A font pairing website [Typ.io](https://typ.io/lists) helped me make typograpy choice.
 I selected [Nunito](https://fonts.google.com/specimen/Nunito) and [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) from the [Google Fonts](https://fonts.google.com/) library for their simplicity and legibility yet fairly informal feel. 
 
-### Imagery
+## Imagery
 
 All the images appearing on the site are unlicenced, sourced from [Pexels](https://pexels.com/) and [Unsplash](https://unsplash.com/). All images have been converted to .webp format to reduce file size and as such, reduce loading time. To further increase performance, more image sizes are available for the browser to load the most appropriate one for any screen sizes. 
 
@@ -98,30 +101,37 @@ All icons are in .svg format that is lightweight in size, scales perfectly and c
 
 All references to the images and icons that have been sourced from other sites can be found in the [credits](#credits) section.
 
-### Wireframes - Low & High Fidelity Designs
+## Wireframes
 
-I created all designs in [Figma](https://www.figma.com/).
+Wireframes were created in [Figma](https://www.figma.com/).
 
 ![mobile-low-fidelity-design](assets/images/readme-images/mobile-low-fidelity-design.jpeg)
 ![desktop-low-fidelity-design](assets/images/readme-images/desktop-low-fidelity-design.jpeg)
+
+## High Fidelity Prototype
+
+I created high fidelity prototypes for both mobile and desktop screens. 
+
 ![mobile-high-fidelity-design](assets/images/readme-images/mobile-high-fidelity-design.jpeg)
 ![desktop-high-fidelity-design](assets/images/readme-images/desktop-high-fidelity-design.jpeg)
 
+---
+# Features
 
-## Features
+The website comprises of three pages: `About` page, `Adopt` page and a `Contact Us` page. In addition, I added two overlay modals with forms for `volunteering` and `donation` as well as a `thank you` modal to appear after a successful form submission.
 
-The website comprises of three pages: `Home/About` page, `Adopt` page and a `Contact Us` page. In addition, I added two overlay modals with forms for `volunteering` and `donation` as well as a `thank you` modal to appear after a successful form submission.
+Dark mode is implemented throughout all pages to satisfy the website owner's UX requirement.
 
-### General features on each page
+
+## General features
+
+### Header
 
 The `header` is responsive to all screen sizes. On large screens, it expands horizontally, while on mobile and narrower screens the menu bar is replaced with a `burger` icon. Clicking this icon would make the menu appear as a side bar.
 
 All types of the menu bar have Bootstrap codebase. I styled them in css to achieve the desired look. 
 
 A hover effect gives the user feedback about the menu choices. The logo can be clicked from any pages to take the user back to the home page.
-
-Dark mode is implemented throughout all pages to satisfy the website owner's UX requirement.
-
 
 ![header-desktop-light-mode](assets/images/readme-images/header-desktop-light-mode2.jpeg)
 ![header-desktop-dark-mode](assets/images/readme-images/header-dark-mode.gif)
@@ -137,10 +147,14 @@ Side bars are opening from the burger menu icon:
 ![sidebar-light-mode](assets/images/readme-images/sidebar-light-mode.jpeg)
 ![sidebar-dark-mode](assets/images/readme-images/sidebar-dark-mode.jpeg)
 
+### Footer
+
 The `footer` features all contact information as well as links to social media pages. Calls and Emails can be directly initiated by clicking on the links.
 
 ![footer-desktop](assets/images/readme-images/footer-desktop.jpeg)
 <h2 align="center" ><img src="assets/images/readme-images/footer-mobile.jpeg"></h2>
+
+### Modals and Forms
 
 All modals and forms are Bootstrap features. I custom-styled them in css to look similar to the main design. 
 
@@ -166,15 +180,21 @@ Favicons are also responsive to light / dark mode preferences. They were generat
 ![favicon-light-mode](assets/images/readme-images/favicon-light-mode.svg)
 ![favicon-dark-mode](assets/images/readme-images/favicon-dark-mode.svg)
 
-`Home page` is the place where all important information and links can be found. Decorative icons help the user find the desired information effectively.
+## About Page
+
+The `About page` is the place where all important information and links can be found. Decorative icons help the user find the desired information effectively.
 
 ![home-light-mode](assets/images/readme-images/home-light-mode.jpeg)
 ![home-dark-mode](assets/images/readme-images/home-dark-mode.jpeg)
+
+## Adopt Page
 
 The `Adopt page` provides essential information about rabbit re-homing. Its aim is to encourage the user to make the next step in the adoption process and visit the centre. To support this goal, I included a rabbit gallery as well as `Visit Us buttons` to lead the user to the `Contact Us page`. 
 
 ![adopt-light-mode](assets/images/readme-images/adopt-light-mode.jpeg)
 ![adopt-dark-mode](assets/images/readme-images/adopt-dark-mode.jpeg)
+
+## Contact Us Page
 
 On the `Contact Us page`, I included all the contact information the organisation can be reached from. Alongside the address, a live Google Maps frame helps with orientation.
 
@@ -185,7 +205,7 @@ Lastly, active links are provided for both calling and emailing the organisation
 ![contact-light-mode](assets/images/readme-images/contact-light-mode.jpeg)
 ![contact-dark-mode](assets/images/readme-images/contact-dark-mode.jpeg)
 
-### Future Implementations
+## Future Implementations
 
 * Further development could be a new page dedicated entirely to listing individual rabbits waiting for adoption. It would be implemented with a comprehensive database and backend server.
 
@@ -206,14 +226,14 @@ Lastly, active links are provided for both calling and emailing the organisation
 
 * All colours were tested beforehand to have sufficient contrast with the help of [Color Palette Contrast Checker](https://color-contrast-checker.deque.com/).
 
+---
+# Technologies Used
 
-## Technologies Used
-
-### Languages Used
+## Languages Used
 
 The site was mainly built with [HTML5](https://en.wikipedia.org/wiki/HTML5) and [CSS3](https://en.wikipedia.org/wiki/CSS), although I added a few lines of code in [JavaScript](https://en.wikipedia.org/wiki/JavaScript) to customise some of Bootstrap's features.
 
-### Frameworks, Libraries & Programs Used
+## Frameworks, Libraries & Programs Used
 
 * [Figma](https://www.figma.com/) 
   - to create the design.
@@ -248,10 +268,10 @@ The site was mainly built with [HTML5](https://en.wikipedia.org/wiki/HTML5) and 
 * [Gyazo](https://gyazo.com) 
   - for adding .gif file to this README
 
+---
+# Deployment & Local Development
 
 ## Deployment
-
-### GitHub Pages
 
 The project was deployed to GitHub Pages using the following steps...
 
@@ -262,7 +282,7 @@ The project was deployed to GitHub Pages using the following steps...
 5. The page will automatically refresh.
 6. Once the deployment process completed the published site's link will appear after the main title.
 
-### Forking the GitHub Repository
+## Forking the GitHub Repository
 
 By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
@@ -270,7 +290,7 @@ By forking the GitHub Repository we make a copy of the original repository on ou
 2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
 3. You should now have a copy of the original repository in your GitHub account.
 
-### Making a Local Clone
+## Making a Local Clone
 
 1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
 2. Under the repository name, click "Clone or download".
@@ -293,39 +313,22 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
+---
+# Testing
 
-## Testing
+Please view [TESTING.md](TESTING.md) for more information on testing.
 
- Please view [TESTING.md](TESTING.md) for more information on testing.
+---
 
-## Credits
+# Credits
 
-### Icons
-
-All downloaded icons have been edited.
-
-* Visitors icon: https://www.svgrepo.com/svg/18735/class-open-door (Unlicenced)
-
-* Gift icon: https://www.svgrepo.com/svg/61094/gift (Unlicenced)
-
-* Helping hands icon: https://www.svgrepo.com/svg/76123/voluntary-service (Unlicenced)
-
-* Facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media (Unlicenced)
-
-* Twitter icon: https://www.svgrepo.com/svg/389481/twitter (Open Soruce MIT licence)
-
-* Location icon: https://www.svgrepo.com/svg/309741/location (Open Soruce MIT licence)
-
-* Phone icon: https://www.svgrepo.com/svg/425344/phone-1 (Unlicenced)
-
-
-### Main images
+## Main images
 
 * [Hero image](https://www.pexels.com/photo/close-up-view-of-white-rabbit-10595503/): Photo by Ali Atakan Açıkbaş on [Pexels](https://pexels.com/)
 
 * Adopting page image: Photo by [Lorna Ladril](https://unsplash.com/@lorna_ladril?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) on [Unsplash](https://unsplash.com/s/photos/rabbits?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText) 
 
-### Gallery images
+## Gallery images
 
 * ["Fluff & Bunbun" photo](https://www.pexels.com/photo/white-and-brown-rabbits-on-bed-6846043/) by Tima Miroshnichenko on [Pexels](https://pexels.com/)
 
@@ -359,12 +362,30 @@ All downloaded icons have been edited.
   
 * ["Bruno and Tom" photo](https://www.pexels.com/photo/gray-and-brown-bunnies-8891763/) by Мария on [Pexels](https://www.pexels.com) 
 
+## Icons
 
-### Other credits - incorporated ideas and solutions
+All downloaded icons have been edited.
+
+* Visitors icon: https://www.svgrepo.com/svg/18735/class-open-door (Unlicenced)
+
+* Gift icon: https://www.svgrepo.com/svg/61094/gift (Unlicenced)
+
+* Helping hands icon: https://www.svgrepo.com/svg/76123/voluntary-service (Unlicenced)
+
+* Facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media (Unlicenced)
+
+* Twitter icon: https://www.svgrepo.com/svg/389481/twitter (Open Soruce MIT licence)
+
+* Location icon: https://www.svgrepo.com/svg/309741/location (Open Soruce MIT licence)
+
+* Phone icon: https://www.svgrepo.com/svg/425344/phone-1 (Unlicenced)
+
+
+## Other credits - incorporated ideas and solutions
 
 * making svg icons responsive: https://css-tricks.com/cascading-svg-fill-color/ by Chris Coyier https://css-tricks.com/author/chriscoyier/
 
-* making Google Maps iframe responsive to dark mode: https://codepen.io/kuranopen/pen/oNjMqGN
+* making Google Maps iframes responsive to dark mode: https://codepen.io/kuranopen/pen/oNjMqGN
 
 * using images in HTML in different sizes to improve performance:
 https://css-tricks.com/responsive-images-youre-just-changing-resolutions-use-srcset/
@@ -376,9 +397,12 @@ https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-b
 
 * improving accessibility: https://web.dev/how-to-review/
 
-### Content
+* on [how to write README files](https://github.com/kera-cudmore/readme-examples) by Kera Cudmore
 
-* Content of the website was all written by the author, however, inspiration was drawn from the following sites:
+
+## Content
+
+* I wrote all content myself, however, I drew inspiration from the following sites:
 
   [The Littlest Lives Rescue](https://thelittlestlivesrescue.org.uk)
 
@@ -388,10 +412,12 @@ https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-b
 
 * Content for Deployment and Development of this README file was written using [Code Institute's sample README file](https://raw.githubusercontent.com/Code-Institute-Solutions/SampleREADME/master/README.md).
   
-###  Acknowledgments
+##  Acknowledgments
+
+* [Code Institute](https://codeinstitute.net/) for their excellent curriculum
 
 * My mentor [Elaine Broche](https://github.com/elainebroche-dev) for her helpful feedback she gave me throughout the development and testing process.
 
-* Kera Cudmore for her advice on [how to write README files](https://github.com/kera-cudmore/readme-examples).
+* My friends who took the time to test my site.
 
-* My friends in the Slack Community for testing and continuous support.
+* The Slack Community for testing and continuous support.
