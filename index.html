@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Szilvia Csernus">
-    <meta name="description" content="HOPPER Rabbit Rescue is a fictional rabbit rescue centre.">
+    <meta name="description" content="Hopper Farm Rabbit Rescue is a fictional rabbit rescue centre.">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <link rel="stylesheet" href="./assets/css/styles.css">
@@ -69,6 +69,27 @@
     <!-- MAIN  -->
     <main class="container-xxl">
         <section id="my-hero-img-box">
+            <!-- the source tag together width srcset allows the browser to pick the best size image for the given 
+            screen size & resolution. Width and height are needed here so that the browser can calculate the 
+            picture aspect ratio in order to allocate the space on first render and optimise performance. An extra,
+            higher resolution image was needed in the small picture for modern mobiles. The last
+            source tag was needed for older browsers that don't recognise .webp format -->
+        <picture >
+            <source type="image/webp" media="(max-width: 414px)"
+                srcset="assets/images/main-images/hero-picture-sm.webp 414w, assets/images/main-images/hero-picture-sm-higher-res.webp 720w"
+                sizes="(max-width: 414px) 414px, 720px" width="414" height="497">
+            <source type="image/webp" media="(max-width: 991px)"
+                srcset="assets/images/main-images/hero-picture-md.webp 992w" sizes="992px" width="992" height="405">
+            <source type="image/webp" media="(min-width: 992px)"
+                srcset="assets/images/main-images/hero-picture-lg.webp" width="1400" height="571">
+            <source type="image/png" 
+                srcset="assets/images/main-images/hero-picture-sm.png 500w,
+                    assets/images/main-images/hero-picture-md.png 992w, 
+                    assets/images/main-images/hero-picture-lg.png 1400w"
+                sizes="(max-width: 414px) 500px, (max-width: 992px) 992px, 1400px">
+            <img src="assets/images/main-images/hero-picture-lg.png" width="1400" height="571" loading="lazy"
+                alt="cute bunny">
+        </picture>
             <div id="my-hero-callout-box">
                 <div id="my-hero-textbox">
                     <h3>Could you offer one of our rabbits a loving home?</h3>
@@ -226,7 +247,7 @@
         </div>
         <!-- Copyright and small print  -->
         <div id="my-footer-small-print">
-            <p>HOPPER Rabbit Rescue is a registered charity in England and Wales.</p>
+            <p>Hopper Farm Rabbit Rescue is a registered charity in England and Wales.</p>
             <p>Charity Registration Number: xxxx xxx xxx</p>
             <br>
             <p><span>&copy;</span> 2023. All Rights Reserved.</p>

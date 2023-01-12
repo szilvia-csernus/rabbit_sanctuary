@@ -56,8 +56,6 @@ li {
 
 :root {
 
-    color-scheme: light dark;
-
     --my-primary-color: #11644d;
     --my-primary-hover-color: #0a4031;
     --my-primary-text-hover-color: #002211;
@@ -91,8 +89,6 @@ li {
 
     --my-body-font-size: 1.1rem;
     --my-header-font-size: 1.3rem;
-
-
 }
 
 body {
@@ -153,7 +149,7 @@ svg {
 
 /* --------------- HEADER ------------- */
 
-/* navigation base was created with BOOTSTRAP styles */
+/* navigation codebase was created with BOOTSTRAP */
 
 header {
     padding: 1rem;
@@ -295,7 +291,7 @@ button.navbar-toggler:focus {
 }
 
 
-/* this media query caters for the unusually small screen sizes 
+/* this media query caters for the fairly small screen sizes 
 - esp. the one on amiresponsive.com's phone size  */
 @media screen and (max-width: 342px) {
     #my-logo-grid {
@@ -368,12 +364,13 @@ main {
 /* Hero image  */
 
 #my-hero-img-box {
+    position: relative;
+}
+
+#my-hero-img-box img {
     width: 100%;
     height: 497px;
-    overflow: auto;
-    position: relative;
-    background-color: var(--my-primary-color);
-    background: url('../images/main-images/hero-picture-sm.webp') no-repeat center center;
+    object-fit: none;
 }
 
 #my-hero-callout-box {
@@ -414,13 +411,10 @@ main {
     color: inherit;
 }
 
-#my-adopt-img-box {
+#my-adopt-img-box > img {
     width: 100%;
     height: 183px;
-    overflow: auto;
-    position: relative;
-
-    background: url('../images/main-images/adopting-picture-sm.webp') no-repeat center center;
+    object-fit: none;
 }
 
 /* Main text  */
@@ -515,9 +509,7 @@ h2 {
 
 @media screen and (max-width: 342px) {
 
-    #my-hero-img-box {
-        background-position: center bottom;
-        background-size: cover;
+    #my-hero-img-box img {
         height: 376px;
     }
 
@@ -528,13 +520,11 @@ h2 {
 
 @media screen and (min-width: 415px) {
     
-    #my-hero-img-box {
-        background-image: url('../images/main-images/hero-picture-md.webp');
+    #my-hero-img-box img {
         height: 404px;
     }
 
-    #my-adopt-img-box {
-        background-image: url('../images/main-images/adopting-picture-md.webp');
+    #my-adopt-img-box > img {
         height: 271px;
     }
     
@@ -678,13 +668,11 @@ h2 {
 }
 
 @media screen and (min-width: 992px) {
-    #my-hero-img-box {
-        background-image: url('../images/main-images/hero-picture-lg.webp');
+    #my-hero-img-box img {
         height: 570px; 
     }
 
-    #my-adopt-img-box {
-        background-image: url('../images/main-images/adopting-picture-lg.webp');
+    #my-adopt-img-box > img {
         height: 393px;
     }
 
@@ -719,11 +707,6 @@ h2 {
 @media screen and (min-width: 1400px) {
     .my-article {
         margin: 0;
-    }
-    
-    footer.container-xxl {
-        padding-left: 2rem;
-        padding-right: 2rem;
     }
 }
 
@@ -857,6 +840,7 @@ h2 {
 #my-gallery-title {
     font-size: 1.5rem;
     color: var(--my-primary-color);
+    text-align: center;
 }
 
 #my-gallery > .my-gallery-img-box {
@@ -884,12 +868,17 @@ h2 {
     color: var(--my-accent-text-color);
     padding: 0.2rem 0.5rem;
     margin: .5rem .5rem .5rem 0;
+    font-size: 1rem;
 }
 
 @media screen and (min-width: 640px) {
 
     #my-gallery {
         column-count: 3;
+    }
+
+    #my-gallery picture::before {
+        font-size: var(--my-body-font-size);
     }
 }
 
@@ -924,7 +913,6 @@ h2 {
 
 .modal-footer {
     border: none;
-    /* border-color: var(--my-grey-font-color); */
 }
 
 .modal-title {
@@ -1154,5 +1142,12 @@ footer svg {
         display: block;
         align-self: center;
         margin-bottom: 8px;
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    footer.container-xxl {
+        padding-left: 2rem;
+        padding-right: 2rem;
     }
 }
