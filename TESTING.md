@@ -10,7 +10,10 @@
 4. [CSS validation](assets/images/testing-images//css-validation.pdf) - Passed, no error found.
 
 5. [JS validation](assets/images/testing-images/js-validation.pdf) - Passed, no error found.
----
+
+<hr style="border-bottom: 0.2px solid grey">
+<br><br>
+
 
 # Testing User Stories
 
@@ -31,6 +34,8 @@
     * All 'call to action' messages are featured as a button, either in the menu bar or on the page in accent colour. They all convey unambigous messages to the user.
 * The website to be responsive to all screen sizes as well as light/dark mode preferences.
     * Responsiveness testing was carried out with many browsers and screen sizes, please [see details below](#responsiveness-testing).
+<hr style="border-bottom: 0.2px solid grey">
+<br><br>
 
 ## Website Visitors' Goals
 
@@ -48,10 +53,11 @@
     * Dark mode is implemented throughout the website, this includes the changing of colours of all texts, buttons, icons, forms, modals as well as the embedded Google Maps `<iframe>`.
     * Dark mode automatically responds to the computer's set preference.
 
----
+<hr style="border-bottom: 0.2px solid grey">
+<br><br>
+
 # Browser Tests
 
-## Desktop Browsers
 
 | Browser | Version | Page / Form | Expected Look | Expected Behaviour |
 | :---: | :---: | :---: | :---: | :---: |
@@ -61,36 +67,13 @@
 |  |  | Volunteer form | &check; | &check; |
 |  |  | Donate form | &check; | &check; |
 |  |  | Thank you modal | &check; | &check; |
-| Safari | in progress... | About  |||
-|  |  | Adopt  |||
-|  |  | Contact Us  |||
-|  |  | Volunteer form  |||
-|  |  | Thank you modal  |||
-| Firefox | in progress...  |||
-|  |  | Adopt  |||
-|  |  | Contact Us  |||
-|  |  | Volunteer form  |||
-|  |  | Donate form  |||
-|  |  | Thank you modal  |||
-| Edge | in progress...  |||
-|  |  | Adopt  |||
-|  |  | Contact Us  |||
-|  |  | Volunteer form  |||
-|  |  | Donate form  |||
-|  |  | Thank you modal  |||
-| Opera | in progress... | About  |||
-|  |  | Adopt |||
-|  |  | Contact Us |||
-|  |  | Volunteer form  |||
-|  |  | Donate form |||
-|  |  | Thank you modal  |||
-
-## Mobile Browsers
-Tests were carried out on an iPhone XR
-
-| Browser | Version | Page / Form | Expected Look | Expected Behaviour |
-| :---: | :---: | :---: | :---: | :---: |
 | Chrome | 109.0.5414.83 | About |&check; |  &check; |
+|  |  | Adopt | &check; | &check; |
+|  |  | Contact Us | &check; | &check; |
+|  |  | Volunteer form | &check; | &check; |
+|  |  | Donate form | &check; | &check; |
+|  |  | Thank you modal | &check; | &check; |
+| Safari | 15.6.1 | About |&check; |  &check; |
 |  |  | Adopt | &check; | &check; |
 |  |  | Contact Us | &check; | &check; |
 |  |  | Volunteer form | &check; | &check; |
@@ -115,11 +98,13 @@ Tests were carried out on an iPhone XR
 |  |  | Donate form | &check; | &check; |
 |  |  | Thank you modal | &check; | &check; |
 
----
+<hr style="border-bottom: 0.2px solid grey">
+<br><br>
 
 # Responsiveness Testing
 
 Responsiveness was tested using [Google Dev Tools](https://developer.chrome.com/docs/devtools/).
+<br><br>
 
 | Device | Page / Form | Expected Look | 
 | :---: | :---: | :---: | 
@@ -183,12 +168,12 @@ Responsiveness was tested using [Google Dev Tools](https://developer.chrome.com/
 |  | Volunteer form | &check; |
 |  | Donate form | &check; |
 |  | Thank you modal | &check; |
-| Galaxy Fold | About | It's recommended to use the site with open device as screen is too narrow for the closed device. |
-|  | Adopt | It's recommended to use the site with open device as screen is too narrow for the closed device. |
-|  | Contact Us | It's recommended to use the site with open device as screen is too narrow for the closed device. |
-|  | Volunteer form | It's recommended to use the site with open device as screen is too narrow for the closed device. |
-|  | Donate form | It's recommended to use the site with open device as screen is too narrow for the closed device. |
-|  | Thank you modal | It's recommended to use the site with open device as screen is too narrow for the closed device. |
+| Galaxy Fold | About | It's recommended to use the site with open device as screen is too narrow in closed position. |
+|  | Adopt | It's recommended to use the site with open device as screen is too narrow in closed position. |
+|  | Contact Us | It's recommended to use the site with open device as screen is too narrow in closed position. |
+|  | Volunteer form | It's recommended to use the site with open device as screen is too narrow in closed position. |
+|  | Donate form | It's recommended to use the site with open device as screen is too narrow in closed position. |
+|  | Thank you modal | It's recommended to use the site with open device as screen is too narrow in closed position. |
 | Samsung Galaxy A51/71 | About |&check; |
 |  | Adopt | &check; | 
 |  | Contact Us | &check; |
@@ -208,7 +193,9 @@ Responsiveness was tested using [Google Dev Tools](https://developer.chrome.com/
 |  | Donate form | &check; |
 |  | Thank you modal | &check; |
 
----
+<hr style="border-bottom: 0.2px solid grey">
+<br><br>
+
 
 # Accessibility tests
 
@@ -221,11 +208,20 @@ Responsiveness was tested using [Google Dev Tools](https://developer.chrome.com/
     * [Adopt Page Contrast Check Result](assets/images/testing-images/a11y-contrast-adopt.pdf)
     * [Contact Us Page Contrast Check Result](assets/images/testing-images/a11y-contrast-adopt.pdf)
 * Further accessibility tests were done with Chrome Dev Tool's Lighthouse testing, [please see below](#lighthouse-tests).
----
+<hr style="border-bottom: 0.2px solid grey">
+<br><br>
+
 # Lighthouse tests
+
+<hr style="border-bottom: 0.2px solid grey">
+<br><br>
 
 # Peer Review
 
+<hr style="border-bottom: 0.2px solid grey">
+<br><br>
+
+# Bugs
 
 ## Resolved Bugs
 
@@ -235,9 +231,14 @@ Responsiveness was tested using [Google Dev Tools](https://developer.chrome.com/
     * Solution: aria-current was corrected.
 * Google Map's `<iframe>` was not changing colour in dark mode.
     * Solution: Properly customising the google maps iframe in dark mode would require an API_KEY which can not be safely embedded into HTML files, so dark-mode colours are achieved by just filtering the maps' colours in css. The `hue-rotate`, `invert` and `contrast` properties were set to achieve darker colours.
+* Peer review flagged the issue that main pictures on `About` and `Adopt` pages do not load in an older version (15.6.1 or earlier) of Safari. That was because I converted these images in `.webp` format to achieve significantly better performance score in Lighthouse. While `.webp` format is now widely accepted by all modern browsers, Safari was indeed the last one to implement this option from its version 16.0 in September 2022. Since this latest update is fairly recent, I decided not to ignore this issue but to add to all images an extra version in `.png` format as a backup. I elaborated on this solution in the [Imagery](./README.md#imagery) section of the [README.md](./README.md) file.
+
+<hr style="border-bottom: 0.2px solid grey">
+<br><br>
 
 ## Known Bugs
 
-* When the screen reader is reading the `Adopt Page`'s main text, the reading stops before every highlighted text. I googled the issue, looked at local forums and asked advice on a specified slack channel, but found no solution. While this issue is an inconvenience, it is not a major problem as it does not hinder the availability of the content to the user.
+* When the screen reader is reading the `Adopt Page`'s main text, the reading stops before every highlighted text. I googled the issue, looked at local forums and asked advice on a specified slack channel, but found no solution. It is possible that the issue lies with the screen reader. While this issue is an inconvenience, it does not hinder the availability of the content to the user.
 
-* Peer review flagged the issue that main pictures on `About` and `Adopt` pages do not load in an older version (15.6.1) of Safari. That is because I converted all these images in `.webp` format to achieve significantly better performance score in Lighthouse. While `.webp` format is now widely accepted by all modern browsers, Safari was indeed the last one to implement this option from its version 16.0 in September 2022. Accorning to the popular [Can I Use?](https://caniuse.com/?search=.webp) website, about 2.32% of users would use this older version of Safari and face this issue today and this number would further decrease in the future so I decided not to invest time in resolving this issue.
+
+
