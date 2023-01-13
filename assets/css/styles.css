@@ -847,12 +847,13 @@ h2 {
     display: inline-block;
     width: 100%;
     position: relative;
+    margin-bottom: .3rem;
 }
 
 #my-gallery {
     clear: both;
     column-count: 2;
-    column-gap: 0;
+    column-gap: .3rem;
 }
 
 #my-gallery img {
