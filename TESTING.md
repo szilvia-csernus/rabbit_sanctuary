@@ -11,7 +11,7 @@
 
 5. [JS validation](assets/images/testing-images/js-validation.pdf) - Passed, no error found.
 
-<hr style="border-bottom: 0.2px solid grey">
+- - -
 <br><br>
 
 
@@ -34,7 +34,7 @@
     * All 'call to action' messages are featured as a button, either in the menu bar or on the page in accent colour. They all convey unambigous messages to the user.
 * The website to be responsive to all screen sizes as well as light/dark mode preferences.
     * Responsiveness testing was carried out with many browsers and screen sizes, please [see details below](#responsiveness-testing).
-<hr style="border-bottom: 0.2px solid grey">
+- - -
 <br><br>
 
 ## Website Visitors' Goals
@@ -53,7 +53,7 @@
     * Dark mode is implemented throughout the website, this includes the changing of colours of all texts, buttons, icons, forms, modals as well as the embedded Google Maps `<iframe>`.
     * Dark mode automatically responds to the computer's set preference.
 
-<hr style="border-bottom: 0.2px solid grey">
+- - -
 <br><br>
 
 # Browser Tests
@@ -98,7 +98,7 @@
 |  |  | Donate form | &check; | &check; |
 |  |  | Thank you modal | &check; | &check; |
 
-<hr style="border-bottom: 0.2px solid grey">
+- - -
 <br><br>
 
 # Responsiveness Testing
@@ -193,7 +193,7 @@ Responsiveness was tested using [Google Dev Tools](https://developer.chrome.com/
 |  | Donate form | &check; |
 |  | Thank you modal | &check; |
 
-<hr style="border-bottom: 0.2px solid grey">
+- - -
 <br><br>
 
 
@@ -208,17 +208,41 @@ Responsiveness was tested using [Google Dev Tools](https://developer.chrome.com/
     * [Adopt Page Contrast Check Result](assets/images/testing-images/a11y-contrast-adopt.pdf)
     * [Contact Us Page Contrast Check Result](assets/images/testing-images/a11y-contrast-adopt.pdf)
 * Further accessibility tests were done with Chrome Dev Tool's Lighthouse testing, [please see below](#lighthouse-tests).
-<hr style="border-bottom: 0.2px solid grey">
+- - -
 <br><br>
 
 # Lighthouse tests
 
-<hr style="border-bottom: 0.2px solid grey">
+Performance, Accessibility, Best Practices and SEO tests were carried out with [Google Dev Tools](https://developer.chrome.com/docs/devtools/)' **Lighthouse** tool in `Incognito` mode. Results are not 100% consistent, there is always a few percent variation at each performed test.
+
+Results:
+
+| Device | Page | Mode | Result | 
+| :---: | :---: | :---: | :---: |
+| Mobile | About | light mode | ![Result-about-light-mobile](assets/images/testing-images/lighthouse-about-light-mode-mobile.jpeg)|
+| Mobile | About | dark mode | ![Result-about-dark-mobile](assets/images/testing-images/lighthouse-about-dark-mode-mobile.jpeg)|
+| Desktop | About | light mode | ![Result-about-light-desktop](assets/images/testing-images/lighthouse-about-light-mode-desktop.jpeg)|
+| Desktop | About | dark mode | ![Result-about-dark-desktop](assets/images/testing-images/lighthouse-about-dark-mode-desktop.jpeg)|
+| Mobile | Adopt | light mode | ![Result-adopt-light-mobile](assets/images/testing-images/lighthouse-adopt-light-mode-mobile.jpeg)|
+| Mobile | Adopt | dark mode | ![Result-adopt-dark-mobile](assets/images/testing-images/lighthouse-adopt-dark-mode-mobile.jpeg)|
+| Desktop | Adopt | light mode | ![Result-adopt-light-desktop](assets/images/testing-images/lighthouse-adopt-light-mode-desktop.jpeg)|
+| Desktop | Adopt | dark mode | ![Result-adopt-dark-desktop](assets/images/testing-images/lighthouse-about-dark-mode-desktop.jpeg)|
+| Mobile | Contact Us | light mode | ![Result-contact-light-mobile](assets/images/testing-images/lighthouse-contact-light-mode-mobile.jpeg)|
+| Mobile | Contact Us | dark mode | ![Result-contact-dark-mobile](assets/images/testing-images/lighthouse-contact-dark-mode-mobile.jpeg)|
+| Desktop | Contact Us | light mode | ![Result-contact-light-desktop](assets/images/testing-images/lighthouse-contact-light-mode-desktop.jpeg)|
+| Desktop | Contact Us | dark mode | ![Result-contact-dark-desktop](assets/images/testing-images/lighthouse-about-dark-mode-desktop.jpeg)|
+
+The lower performance scores were mainly caused by the way Bootstrap loads before the first render:
+
+![bootstrap-performance-issue](assets/images/testing-images/bootstrap-issue.jpeg)
+- - -
 <br><br>
 
 # Peer Review
 
-<hr style="border-bottom: 0.2px solid grey">
+In our dedicated Peer Code Review channel, one feedback I received was that my rabbit pictures in the gallery section are not clearly distinguishable from each other, as there was no border or gaps between the pictures. I rectified this by adding `0.3rem` wide gaps around the pictures.
+
+- - -
 <br><br>
 
 # Bugs
@@ -231,14 +255,14 @@ Responsiveness was tested using [Google Dev Tools](https://developer.chrome.com/
     * Solution: aria-current was corrected.
 * Google Map's `<iframe>` was not changing colour in dark mode.
     * Solution: Properly customising the google maps iframe in dark mode would require an API_KEY which can not be safely embedded into HTML files, so dark-mode colours are achieved by just filtering the maps' colours in css. The `hue-rotate`, `invert` and `contrast` properties were set to achieve darker colours.
-* Peer review flagged the issue that main pictures on `About` and `Adopt` pages do not load in an older version (15.6.1 or earlier) of Safari. That was because I converted these images in `.webp` format to achieve significantly better performance score in Lighthouse. While `.webp` format is now widely accepted by all modern browsers, Safari was indeed the last one to implement this option from its version 16.0 in September 2022. Since this latest update is fairly recent, I decided not to ignore this issue but to add to all images an extra version in `.png` format as a backup. I elaborated on this solution in the [Imagery](./README.md#imagery) section of the [README.md](./README.md) file.
+* A friend of mine flagged the issue that main pictures on `About` and `Adopt` pages do not load in an older version (15.6.1 or earlier) of Safari. That was because I converted these images in `.webp` format to achieve significantly better performance score in Lighthouse. While `.webp` format is now widely accepted by all modern browsers, Safari was indeed the last one to implement this option from its version 16.0 in September 2022. Since this latest update is fairly recent, I decided not to ignore this issue but to add to all images an extra version in `.png` format as a backup. I elaborated on this solution in the [Imagery](./README.md#imagery) section of the [README.md](./README.md) file.
 
-<hr style="border-bottom: 0.2px solid grey">
+- - -
 <br><br>
 
 ## Known Bugs
 
-* When the screen reader is reading the `Adopt Page`'s main text, the reading stops before every highlighted text. I googled the issue, looked at local forums and asked advice on a specified slack channel, but found no solution. It is possible that the issue lies with the screen reader. While this issue is an inconvenience, it does not hinder the availability of the content to the user.
+* When the screen reader is reading the `Adopt Page`'s main text, the reading stops before every highlighted text. I googled the issue, looked at local forums and asked advice on a specified slack channel, but found no solution. While this issue is an inconvenience, it does not block the availability of the content to the user.
 
 
 
