@@ -219,7 +219,7 @@ The forms are validated by a script provided by Bootstrap. After passing all val
 ![thank-you-modal-dark-mode](assets/images/readme-images/thank-you-modal-dark-mode.jpeg)
 <br><br>
 
-**Favicons** are also responsive to light / dark mode preferences. I drew the light mode icon myself in Figma, but I used [RealFaviconGenerator](https://realfavicongenerator.net/svg-favicon/) to transform it into dark mode sensitive favicons.
+**Favicons** are also responsive to light / dark mode preferences. I drew the light mode icon myself, but used [RealFaviconGenerator](https://realfavicongenerator.net/svg-favicon/) to transform it into dark mode sensitive favicons.
 <br><br>
 
 ![favicon-light-mode](assets/images/readme-images/favicon-light-mode.svg)
@@ -321,6 +321,9 @@ The site was mainly built with [HTML5](https://en.wikipedia.org/wiki/HTML5) and 
 * [Google Fonts](https://fonts.google.com/) 
   - to import fonts into the stylesheet.
 
+* [Typ.io](https://typ.io/lists)
+  - to make typography choice.
+
 * [Google Map Generator](https://google-map-generator.com/) 
   - to generate Google Map iframe to address.
 
@@ -394,8 +397,9 @@ $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
 > remove: Total 10 (delta 1), reused 10 (delta 1)
 > Unpacking objects: 100% (10/10), done.
 ```
-<br><br>
 ---
+<br><br>
+
 # Testing
 
 Please view [TESTING.md](TESTING.md) for more information on testing.
@@ -514,6 +518,8 @@ https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-b
 <br>
 
 * My mentor [Elaine Broche](https://github.com/elainebroche-dev) for her helpful feedback she gave me throughout the development and testing process.
+
+* Kera Cudmore for her [advice on how to write a Readme](https://github.com/kera-cudmore/readme-examples).
 
 * My friends who took the time to test my site.
 
