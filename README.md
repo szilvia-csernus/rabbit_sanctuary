@@ -521,9 +521,11 @@ https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-b
 
 * Kera Cudmore for her [advice on how to write a Readme](https://github.com/kera-cudmore/readme-examples).
 
+* Jakob Brennan and Edmir Demaj who reviewed my project in Code Institute's dedicated Slack channel. 
+
 * My friends who took the time to test my site.
 
-* The Slack Community for testing and continuous support.
+* The Slack Community for continuous support.
 
 <br><br>
 
