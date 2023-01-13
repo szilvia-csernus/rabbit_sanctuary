@@ -1061,7 +1061,7 @@ footer svg {
     font-size: .8rem;
 }
 
-#my-footer-small-print p:first-of-type {
+#my-footer-small-print p {
     text-align: center;
 }
 
@@ -1095,6 +1095,14 @@ footer svg {
     margin-right: 9px;
 }
 
+.my-footer-item svg {
+    display: none;
+}
+
+#my-footer-address address {
+        text-align: center;
+    }
+
 .my-footer-social-icon {
     stroke-width: 1.5;
     width: 40px;
@@ -1120,8 +1128,16 @@ footer svg {
         align-items: flex-start;
     }
 
+    .my-footer-item svg {
+        display: inline-block;
+}
+
     #my-footer-address {
         justify-content: flex-start;
+    }
+
+    #my-footer-address address {
+        text-align: start;
     }
 
     #my-footer-contacts {
