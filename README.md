@@ -530,8 +530,8 @@ https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-b
 ##  Disclaimer
 <br>
 
-This project was created for Code Institute's web application development course as the first Milestone Project for assessment. 
+This project was created for Code Institute's web application development course as the first Milestone Project - User Centric Frontend Development Project - for assessment purposes. 
 <br>
-Not for public consumption. Educational purposes only. 
+Not for public consumption.
 <br>
 Szilvia Csernusne Berczes, Jan 2023.
