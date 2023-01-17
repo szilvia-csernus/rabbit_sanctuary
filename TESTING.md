@@ -240,7 +240,7 @@ The lower performance scores were mainly caused by the way Bootstrap loads befor
 
 # Peer Review
 
-In our dedicated Peer Code Review channel, one feedback I received was that my rabbit pictures in the gallery section are not clearly distinguishable from each other, as there was no border or gaps between the pictures. I rectified this by adding `0.3rem` wide gaps around the pictures.
+In our dedicated Peer Code Review channel, five people reviewed my site and gave mainly positive feedback. I incorporated one suggestion regarding my rabbit gallery section. It was noted that the pictures are not clearly distinguishable from each other as there were no border or gaps between the pictures. I rectified this by adding small gaps around the pictures.
 
 - - -
 <br><br>

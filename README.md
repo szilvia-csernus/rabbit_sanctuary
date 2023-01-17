@@ -517,11 +517,11 @@ https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-b
 ##  Acknowledgements
 <br>
 
-* My mentor [Elaine Broche](https://github.com/elainebroche-dev) for her helpful feedback she gave me throughout the development and testing process.
+* My mentor [Elaine Broche](https://github.com/elainebroche-dev) for giving useful feedback throughout the development and testing process.
 
 * Kera Cudmore for her [advice on how to write a Readme](https://github.com/kera-cudmore/readme-examples).
 
-* Edmir Demaj and Sirinya Richardson who reviewed my project in Code Institute's dedicated Slack channel. 
+* Jakob Brennen, Edmir Demaj, Sirinya Richardson and Karolis Petrauskas who reviewed my project in Code Institute's dedicated Slack channel. 
 
 * My friends who took the time to test my site.
 
