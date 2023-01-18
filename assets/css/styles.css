@@ -518,7 +518,7 @@ h2 {
     }
 }
 
-@media screen and (min-width: 415px) {
+@media screen and (min-width: 414px) {
     
     #my-hero-img-box img {
         height: 404px;
