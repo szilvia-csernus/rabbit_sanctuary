@@ -21,7 +21,7 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
 ## CONTENTS
 
 * [User Experience](#user-experience-ux)
-  * [Webite Owner's Goals](#website-owners-goals)
+  * [Website Owner's Goals](#website-owners-goals)
   * [Website Visitors' Goals](#website-visitors-goals)
 
 * [Design](#design)
@@ -55,7 +55,7 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
   * [Gallery Images](#gallery-images)
   * [Icons](#icons)
   * [Other Credits](#other-credits---incorporated-ideas-and-solutions)
-  * [Acknowledgments](#acknowledgments)
+  * [Acknowledgements](#acknowledgements)
 <br><br>
 ---
 <br>
@@ -67,7 +67,7 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
 * To help people find the organisation for the primary purpose of rehoming a rescued rabbit.
 * To help find potential donors and volunteers willing to contribute to the charity's work.
 * To help visitors to make contact with the organisation through various channels.
-* The website to have simple structure and clear 'call to action' messages.
+* The website to have simple structure and clear "call to action" messages.
 * The website to be responsive to all screen sizes as well as light/dark mode preferences.
 
 ## Website Visitors' Goals
@@ -75,19 +75,19 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
 * To find the relevant piece of information quickly, be it about rabbit adoption, volunteering or donation.
 * To be able to make contact with the charity for relevant requests effectively.
 * To be able to find the location quickly.
-* To be able to access the website in any screen sizes.
-* To read the site comfortably when dark mode is preferrable.
+* To be able to access the website in any screen size.
+* To read the site comfortably when dark mode is preferable.
 ---
 <br>
 
 # Design
 
-All wireframes and design were created in [Figma](https://www.figma.com/).
+Wireframes and designs were created in [Figma](https://www.figma.com/).
 <br><br>
 
 ## Colour Scheme
 
-Animal charities most frequently use green as their primary colour and I kept the site in line with this customer expectation. I chose orange as an accent colour to emphasize the 'call to action' messages. In addition, I used various shades of greys to complement the two main colours.
+Animal charities most frequently use green as their primary colour and I kept the site in line with this customer expectation. I chose orange as an accent colour to emphasize the "call to action" messages. In addition, I used various shades of greys to complement the two main colours.
 
 I sampled the primary and the accent colours from the hero image of the landing page, then I slightly modified them to satisfy accessibility requirements. 
 
@@ -98,15 +98,15 @@ I sampled the primary and the accent colours from the hero image of the landing 
 
 ## Typography
 
-A font pairing website [Typ.io](https://typ.io/lists) helped me make typograpy choice.
+A font pairing website [Typ.io](https://typ.io/lists) helped me make typography choices.
 I selected [Nunito](https://fonts.google.com/specimen/Nunito) and [Nunito Sans](https://fonts.google.com/specimen/Nunito+Sans) from the [Google Fonts](https://fonts.google.com/) library for their simplicity and legibility yet fairly informal feel. To complement these simple styled main fonts, for the feature logo I chose a more decorative typeface, [Bubblegum Sans](https://fonts.google.com/specimen/Bubblegum+Sans).
 <br><br>
 
 ## Imagery
 
-All the **images** appearing on the site are unlicenced, sourced from [Pexels](https://pexels.com/) and [Unsplash](https://unsplash.com/). All pictures have been converted to `.webp` format to reduce file size and as such, reduce loading time. To further increase performance, more image sizes are available for the browser to load the most appropriate one for any screen resolutions. For older browsers that don't recognise `.webp` format, `.png` images were added as backups. This method makes sure that for every device, the best size and resolution will be chosen to achieve the best possible performance.
+All the **images** appearing on the site are sourced from [Pexels](https://pexels.com/) or [Unsplash](https://unsplash.com/). All pictures have been converted to `.webp` format to reduce file size and as such, reduce loading time. To further increase performance, more image sizes are available for the browser to load the most appropriate one for any screen resolution. For older browsers that don't recognise `.webp` format, `.png` images were added as backups. This method makes sure that for every device, the best size and resolution will be chosen to achieve the best possible performance.
 
-All **icons** are in .svg format that is lightweight in size, scales perfectly and certain properties can be set programatically. I needed these properties to make them capable to respond to dark-mode preferences. Some of the icons I drew myself in Figma, the others I downloaded from [svgrepo](https://svgrepo.com/). These latter icons are either unlicenced or open-source. All icons were drawn or edited to be uniform in design as well as responsive to dark mode or - as in the case of the rabbit icon - to screen size changes. All icons' colour is set programatically width css.
+All **icons** are in .svg format that is lightweight in size, scales perfectly and certain properties can be set programmatically. I needed these properties to make them capable to respond to dark-mode preferences. Some of the icons I drew myself in Figma, others I downloaded from [svgrepo](https://svgrepo.com/). These latter icons are either unlicensed or open-source. All icons were drawn or edited to be uniform in design as well as responsive to dark mode or - as in the case of the rabbit icon - to screen size changes. All icons' colour is set programmatically with CSS.
 
 All references to the images and icons that have been sourced from other sites can be found in the [credits](#credits) section.
 <br><br>
@@ -129,7 +129,7 @@ Wireframes were created in [Figma](https://www.figma.com/).
 
 ## High Fidelity Prototype
 
-I created high fidelity prototypes for both mobile and desktop screens. 
+I created high-fidelity prototypes for both mobile and desktop screens. 
 
 [Live link to HiFi Prototype for mobile](https://www.figma.com/proto/wQoFSgRQCECwxqL7hL9q3C/Rabbit_rescue_design?page-id=329%3A63&node-id=352%3A881&viewport=534%2C46%2C0.28&scaling=min-zoom&starting-point-node-id=352%3A881)
 <br>
@@ -147,12 +147,12 @@ I created high fidelity prototypes for both mobile and desktop screens.
 
 # Features
 
-The website comprises of three pages: `About` page, `Adopt` page and a `Contact Us` page. In addition, I added two overlay modals with forms for `volunteering` and `donation` as well as a `thank you` modal to appear after a successful form submission.
+The website is comprised of three pages: `About` page, `Adopt` page and a `Contact Us` page. In addition, I added two overlay modals with forms for `volunteering` and `donation` as well as a `thank you` modal to appear after a successful form submission.
 
 Dark mode is implemented throughout all pages to satisfy the website owner's UX requirement.
 <br><br>
 
-## General features
+## General Features
 <br>
 
 ### Header
@@ -175,7 +175,7 @@ A hover effect gives the user feedback about the menu choices. The logo can be c
 ![header-mobile-dark-mode](assets/images/readme-images/header-mobile-dark-mode.jpeg)
 <br><br>
 
-**Side bars are opening from the burger menu icon:**
+**Side bars open from the burger menu icon:**
 <br>
 
 ![sidebar-light-mode](assets/images/readme-images/sidebar-light-mode.jpeg)
@@ -193,7 +193,7 @@ The **footer** features all contact information as well as links to social media
 ### Modals and Forms
 <br>
 
-All modals and forms are `Bootstrap` features. I custom-styled them in css to look similar to the main design. I also wrote two short scripts in `JavaScript` to control how these features appear and disappear.
+All modals and forms are `Bootstrap` features. I custom-styled them in CSS to look similar to the main design. I also wrote two short scripts in `JavaScript` to control how these features appear and disappear.
 
 The **Volunteer** and the **Donate form** pop-ups can be triggered from more pages. In the case when the `Donate form` is reached from the mobile sidebar, a custom script makes sure that the sidebar closes after clicking the `Donate button`. This script can be found in scripts.js.
 <br><br>
@@ -219,7 +219,7 @@ The forms are validated by a script provided by Bootstrap. After passing all val
 ![thank-you-modal-dark-mode](assets/images/readme-images/thank-you-modal-dark-mode.jpeg)
 <br><br>
 
-**Favicons** are also responsive to light / dark mode preferences. I drew the light mode icon myself, but used [RealFaviconGenerator](https://realfavicongenerator.net/svg-favicon/) to transform it into dark mode sensitive favicons.
+**Favicons** are also responsive to light / dark mode preferences. I drew the light mode icon myself but used [RealFaviconGenerator](https://realfavicongenerator.net/svg-favicon/) to transform it into a dark-mode-sensitive favicon.
 <br><br>
 
 ![favicon-light-mode](assets/images/readme-images/favicon-light-mode.svg)
@@ -243,7 +243,7 @@ The `About page` is the place where all important information and links can be f
 ## Adopt Page
 <br>
 
-The `Adopt page` provides essential information about rabbit re-homing. Its aim is to encourage the user to make the next step in the adoption process and visit the centre. To support this goal, I included a rabbit gallery as well as `Visit Us buttons` to lead the user to the `Contact Us page`. 
+The `Adopt page` provides essential information about rabbit re-homing. It aims to encourage the user to make the next step in the adoption process and visit the centre. To support this goal, I included a rabbit gallery as well as `Visit Us buttons` to lead the user to the `Contact Us page`. 
 <br>
 
 ![adopt-light-mode](assets/images/readme-images/adopt-light-mode.jpeg)
@@ -269,7 +269,7 @@ Lastly, active links are provided for both calling and emailing the organisation
 ## Future Implementations
 <br>
 
-* Further development could be a new page dedicated entirely to listing individual rabbits waiting for adoption. It would be implemented with a comprehensive database and backend server. The backend server could be accepting and processing the data coming from any contact channels.
+* Further development could be a new page dedicated entirely to listing individual rabbits waiting for adoption. It would be implemented with a comprehensive database and backend server. The backend server could accept and process data from any contact channel.
 
 * The project could be transformed into a single-page application using ReactJS framework to bring the site in line with current industry standards.
 <br><br>
@@ -279,15 +279,15 @@ Lastly, active links are provided for both calling and emailing the organisation
 <br>
 
 * To aid screen readers: 
-  * `Semantic HTML` were used throughout all pages.
+  * `Semantic HTML` was used throughout all pages.
 
-  * All images have descriptive `alt` attributes and all other elements that have implied meanings are labelled with `aria-labels` .
+  * All images have descriptive `alt` attributes and all other elements that have implied meanings are labelled with `aria-labels`.
 
   * Current pages and modals are also labelled with the appropriate `aria properties` to help navigation.
 
 * Fonts were chosen to be simple with clean contours to maximize legibility. 
 
-* For font-sizes, `rem` were used throughout the site to allow the text to scale according to the users' preferred default font-size.
+* For font sizes, `rem` was used throughout the site to allow the text to scale according to the users' preferred default font-size.
 
 * All colours were tested beforehand to have sufficient contrast with the help of [Color Palette Contrast Checker](https://color-contrast-checker.deque.com/).
 <br><br>
@@ -322,7 +322,7 @@ The site was mainly built with [HTML5](https://en.wikipedia.org/wiki/HTML5) and 
   - to import fonts into the stylesheet.
 
 * [Typ.io](https://typ.io/lists)
-  - to make typography choice.
+  - to make typography choices.
 
 * [Google Map Generator](https://google-map-generator.com/) 
   - to generate Google Map iframe to address.
@@ -459,28 +459,28 @@ Please view [TESTING.md](TESTING.md) for more information on testing.
 
 All downloaded icons have been edited.
 
-* Visitors icon: https://www.svgrepo.com/svg/18735/class-open-door (Unlicenced)
+* Visitors icon: https://www.svgrepo.com/svg/18735/class-open-door (Unlicensed)
 
-* Gift icon: https://www.svgrepo.com/svg/61094/gift (Unlicenced)
+* Gift icon: https://www.svgrepo.com/svg/61094/gift (Unlicensed)
 
-* Helping hands icon: https://www.svgrepo.com/svg/76123/voluntary-service (Unlicenced)
+* Helping hands icon: https://www.svgrepo.com/svg/76123/voluntary-service (Unlicensed)
 
-* Facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media (Unlicenced)
+* Facebook icon: https://www.svgrepo.com/svg/176882/facebook-social-media (Unlicensed)
 
-* Twitter icon: https://www.svgrepo.com/svg/389481/twitter (Open Soruce MIT licence)
+* Twitter icon: https://www.svgrepo.com/svg/389481/twitter (Open Source MIT licence)
 
-* Location icon: https://www.svgrepo.com/svg/309741/location (Open Soruce MIT licence)
+* Location icon: https://www.svgrepo.com/svg/309741/location (Open Source MIT licence)
 
-* Phone icon: https://www.svgrepo.com/svg/425344/phone-1 (Unlicenced)
+* Phone icon: https://www.svgrepo.com/svg/425344/phone-1 (Unlicensed)
 
 <br><br>
 
 ## Other credits - incorporated ideas and solutions
 <br>
 
-* masonry style gallery design: [Code Institute]((https://codeinstitute.net/))'s Love Runnning Project
+* masonry style gallery design: [Code Institute]((https://codeinstitute.net/))'s Love Running Project
 
-* making svg icons responsive: https://css-tricks.com/cascading-svg-fill-color/ by Chris Coyier https://css-tricks.com/author/chriscoyier/
+* making SVG icons responsive: https://css-tricks.com/cascading-svg-fill-color/ by Chris Coyier https://css-tricks.com/author/chriscoyier/
 
 * making Google Maps iframes responsive to dark mode: https://codepen.io/kuranopen/pen/oNjMqGN
 
@@ -509,21 +509,22 @@ https://stackoverflow.com/questions/58487035/how-to-add-webp-support-in-safari-b
 
   [South Coast Rabbit Rescue](https://www.southcoastrabbitrescue.co.uk)
 
-  [Essex Guinie Pig, Rat and Rabbit Rescue](https://www.egprr.org)
+  [Essex Guinea Pig, Rat and Rabbit Rescue](https://www.egprr.org)
 
 * Content for Deployment and Development of this README file was written using [Code Institute's sample README file](https://raw.githubusercontent.com/Code-Institute-Solutions/SampleREADME/master/README.md).
 <br><br>
 
 ##  Acknowledgements
 <br>
+I would like to thank the following contributors:
 
 * My mentor [Elaine Broche](https://github.com/elainebroche-dev) for giving useful feedback throughout the development and testing process.
 
 * Kera Cudmore for her [advice on how to write a Readme](https://github.com/kera-cudmore/readme-examples).
 
-* Jakob Brennen, Edmir Demaj, Sirinya Richardson and Karolis Petrauskas who reviewed my project in Code Institute's dedicated Slack channel. 
+* Jakob Brennen, Edmir Demaj, Sirinya Richardson and Karolis Petrauskas for reviewing my project in Code Institute's dedicated Slack channel. 
 
-* My friends who took the time to test my site.
+* My friends for taking the time to test my site.
 
 * The Slack Community for continuous support.
 
