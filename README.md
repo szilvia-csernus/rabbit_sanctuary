@@ -43,7 +43,7 @@ This website was created as the 1st Milestone Project (User Centric Frontend Dev
   * [Languages Used](#languages-used)
   * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
 
-* [Deployment & Local Development](#deployment-&-local-development)
+* [Deployment and Local Development](#deployment-and-local-development)
   * [Deployment](#deployment)
   * [Forking the GitHub Repository](#forking-the-github-repository)
   * [Making a Local Clone](#making-a-local-clone)
@@ -347,7 +347,7 @@ The site was mainly built with [HTML5](https://en.wikipedia.org/wiki/HTML5) and 
 <br><br>
 ---
 
-# Deployment & Local Development
+# Deployment and Local Development
 <br>
 
 ## Deployment
